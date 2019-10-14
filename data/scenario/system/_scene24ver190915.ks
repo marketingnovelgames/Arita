@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/room2_ketalight.jpg"  ]
+[preload  storage="./data/bgimage/Screen_Shot_2019-09-16_at_0.08.52.png"  ]
+[preload  storage="./data/bgimage/DSC03401.jpg"  ]
+[preload  storage="./data/bgimage/bicycle_ketaLight.jpg"  ]
+[return]
