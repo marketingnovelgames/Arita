@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/DSC03609.jpg"  ]
+[preload  storage="./data/bgimage/DSC03592.jpg"  ]
+[preload  storage="./data/bgimage/DSC04101.jpg"  ]
+[preload  storage="./data/fgimage/chara/4/stand2_keta.png"  ]
+[preload  storage="./data/fgimage/chara/4/fight2R_keta.png"  ]
+[preload  storage="./data/fgimage/chara/6/stand2_mate2.png"  ]
+[preload  storage="./data/fgimage/chara/5/standR_mate1.png"  ]
+[return]

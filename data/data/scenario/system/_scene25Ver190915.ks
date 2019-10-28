@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/DSC03403.jpg"  ]
+[preload  storage="./data/bgimage/arita_store2.png"  ]
+[preload  storage="./data/bgimage/DSC03696.jpg"  ]
+[preload  storage="./data/bgimage/DSC03695_2.jpg"  ]
+[preload  storage="./data/bgimage/DSC03459.jpg"  ]
+[preload  storage="./data/bgimage/DSC03818.jpg"  ]
+[preload  storage="./data/bgimage/space_fes.png"  ]
+[return]

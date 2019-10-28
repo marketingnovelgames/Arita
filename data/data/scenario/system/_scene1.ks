@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/DSC03777.jpg"  ]
+[preload  storage="./data/bgimage/space_fes2.jpg"  ]
+[preload  storage="./data/bgimage/DSC03454.jpg"  ]
+[preload  storage="./data/bgimage/DSC03947.jpg"  ]
+[return]
