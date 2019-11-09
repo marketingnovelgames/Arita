@@ -8,7 +8,7 @@
 @showmenubutton
 
 ;メッセージウィンドウの設定
-[position layer="message0" left=20 top=400 width=920 height=200 page=fore visible=true]
+[position layer="message0" left=20 top=600 width=600 height=300 page=fore visible=true]
 
 ;文字が表示される領域を調整
 [position layer=message0 page=fore margint="45" marginl="50" marginr="70" marginb="60"]
@@ -17,7 +17,7 @@
 @layopt layer=message0 visible=true
 
 ;キャラクターの名前が表示される文字領域
-[ptext name="chara_name_area" layer="message0" color="white" size=24 x=50 y=410]
+[ptext name="chara_name_area" layer="message0" color="white" size=24 x=50 y=630]
 
 ;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 [chara_config ptext="chara_name_area"]
@@ -32,7 +32,6 @@
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [bg  storage="DSC03777.jpg" ]
 
-
 20**年。[p]
 
 
@@ -40,7 +39,6 @@
 
 
 私は今、この町で人生最大の危機を迎えている・・・。[p]
-
 
 おっと、自己紹介が遅れてしまった。[p]
 
