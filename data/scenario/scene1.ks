@@ -43,6 +43,9 @@
 ;表情差分
 [chara_face name="staff1" face="stand" storage="/chara/9/elderman.png"]
 
+;職員2
+[chara_new name="staff2" storage=”/chara/8/elderman_back.png"]
+
 ;[表紙は「はじめから」と「アイデア・意見を投稿する」以外のボタンを消してください。
 ;タイトルのロゴは松尾さんが作成予定なのでできたらslackにあげてもらいます。その他のボタンは消してOKです。
 ;Verは19/10/12としてください。
@@ -663,7 +666,7 @@
 
 そう言った職員の背後から別の声が聞こえた。[l]
 
-[chara_show name="staff2"  storage=”/chara/8/elderman_back.png"]
+[chara_show name="staff2"]
 ;職員２ 振動#役場の職員2
 
 #役場の職員2
@@ -777,7 +780,7 @@
 「観光客を増やせば、この町は勢いを取り戻す。[l]だから、観光客を集めるための事業に予算を使うのはどうだろう？」
 
 
-[chara_show name="staff2"  storage=”/chara/8/elderman_back.png"]
+[chara_show name="staff2"]
 ;職員２ 振動
 
 #役場の職員2
