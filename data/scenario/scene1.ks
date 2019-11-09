@@ -38,6 +38,11 @@
 ;表情差分
 [chara_face name="mita" face="stand" storage="chara/2/stand_50lady.png"]
 
+;職員1
+[chara_new name="staff1" storage=”/chara/9/elderman.png"]
+;表情差分
+[chara_face name="staff1" face="stand" storage="/chara/9/elderman.png"]
+
 ;[表紙は「はじめから」と「アイデア・意見を投稿する」以外のボタンを消してください。
 ;タイトルのロゴは松尾さんが作成予定なのでできたらslackにあげてもらいます。その他のボタンは消してOKです。
 ;Verは19/10/12としてください。
@@ -617,11 +622,11 @@
 「おかげで、3ヶ月もの間、この町の町長として過ごさねばならぬではないか・・・」[p]
 
 
+[chara_show name="staff1"]
+;職員１ 
+
 #役場の職員1
 「町長、大丈夫ですか？[l]さっきから、何やらひとりでブツブツと独り言を言っておられますが・・・」[p]
-
-[chara_show name="staff"  storage=”/chara/9/elderman.png"]
-;職員１ 
 
 [chara_face name="mayor" face="depress"];
 ;がっかりする町長町 振動
@@ -741,7 +746,7 @@
 #町長
 「高齢者はこの町の功労者だ。[l]だから、高齢者を大切にするための事業に予算を使うのはどうだろう？」[p]
 
-[chara_show name="staff"  storage=”/chara/9/elderman.png"]
+[chara_show name="staff1"]
 ;職員１ 振動
 
 #役場の職員1
