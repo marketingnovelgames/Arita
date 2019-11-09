@@ -84,7 +84,7 @@
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [bg storage="cityhall_overview_AritaLow.jpg"  ]
 
-[chara_show  name="mita" storage="chara/2/stand_50lady.png" ]
+[chara_show  name="mita"]
 ;三田さん
 
 #三田さん
@@ -204,7 +204,7 @@
 [chara_hide name=”mayor" ]
 ;町長退場
 
-[chara_hide name=”50mita" ]
+[chara_hide name=”mita" ]
 ;三田さん退場
 
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
