@@ -40,8 +40,6 @@
 
 ;職員1
 [chara_new name="staff1" storage=”/chara/9/elderman.png"]
-;表情差分
-[chara_face name="staff1" face="stand" storage="/chara/9/elderman.png"]
 
 ;職員2
 [chara_new name="staff2" storage=”/chara/8/elderman_back.png"]
