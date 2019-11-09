@@ -4,9 +4,6 @@
 [clearfix]
 [start_keyconfig]
 
-
-[bg storage="room.jpg" time="100"]
-
 ;メニューボタンの表示
 @showmenubutton
 
