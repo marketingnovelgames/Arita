@@ -22,6 +22,22 @@
 ;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 [chara_config ptext="chara_name_area"]
 
+;キャラクター定義
+;町長
+[chara_new  name="mayor" storage="chara/1/WACA11782.png"]
+;表情差分
+[chara_face name="mayor" face="waca11782" storage="chara/1/WACA11782.png"]
+[chara_face name="mayor" face="stand" storage="chara/1/stand_mayor.png"]
+[chara_face name="mayor" face="depress" storage=”chara/1/depress_mayor.png"]
+[chara_face name="mayor" face="thinking" face="thinking" storage=”thinking_mayor.png"]
+[chara_face name="mayor" face="sreaming" storage=”chara/1/surprise2_mayor.png"]
+[chara_face name="mayor" face="surprise" storage=”chara/1/surprise2_mayor.png"]
+
+;三田
+[chara_new name="mita" storage="chara/2/stand_50lady.png"]
+;表情差分
+[chara_face name="mita" face="stand" storage="chara/2/stand_50lady.png"]
+
 ;[表紙は「はじめから」と「アイデア・意見を投稿する」以外のボタンを消してください。
 ;タイトルのロゴは松尾さんが作成予定なのでできたらslackにあげてもらいます。その他のボタンは消してOKです。
 ;Verは19/10/12としてください。
@@ -43,7 +59,7 @@
 おっと、自己紹介が遅れてしまった。[p]
 
 
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png" ]
+[chara_show  name="mayor"]
 ;異星人の町長
 
 私の名は『WACA11783』。[p]
@@ -54,21 +70,22 @@
 なぜなら私は今、地球人として、この有田町の「町長」なる役職に就いているからだ。[p]
 
 
-[chara_face name="mayor" face="stand" storage=”chara/1/stand_mayor.png"]
+[chara_face name="mayor" face="stand"]
 ;地球人の立っている町長
 
 そう、この町での私の名は『松江はじめ』。[l]
 町民からは『松江町長』と呼ばれている。[p]
 
+[chara_hide name="mayor"]
 
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ;▼▼シーン切り替え
 ;町役場の近所の道
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [bg storage="cityhall_overview_AritaLow.jpg"  ]
-[chara_show  name="50mita"  storage="chara/2/stand_50lady.png" ]
-;三田さん
 
+[chara_show  name="mita" storage="chara/2/stand_50lady.png" ]
+;三田さん
 
 #三田さん
 「町長〜！おはよう！今日も素敵なスーツね」[p]
@@ -245,18 +262,17 @@
 [bg  storage="DSC03497.jpg" ] 
 ;町長室
 
-[chara_face name="mayor" face="stand" storage=”chara/1/depress_mayor.png"]
+[chara_face name="mayor" face="depress"]
 ;がっかり町長
 
 #町長
-
 「そう・・・アリタヤキ（有田焼）・・・。[l]これが私の運命をおかしくしてしまったのだ・・・」[p]
 
 
 #町長
 「思えば、あんなものを王子が我が星へ持って帰ってきたから・・・」[p]
 
-[chara_hide name=”mayor" ]
+[chara_hide name=”mayor"]
 ;町長退場
 
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -269,7 +285,7 @@
 
 あらためて自己紹介をしよう。[p]
 
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png" ]
+[chara_show  name="mayor"]
 ;異星人の町長
 
 町長と呼ばれている私の本当の名は『WACA11783』。[p]
@@ -297,7 +313,7 @@
 
 [bg  storage="capsule.jpg" ]
 
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png" ]
+[chara_show  name="mayor"]
 ;異星人の町長
 
 そんなワガママ王子であったが、芸術に深い興味をもち、数多の美術品を収集する趣味をもっていた。[p]
@@ -325,7 +341,7 @@
 
 その日の私は、いつものようにリンク王子の部屋を掃除し、王子の美術品コレクションのお手入れをしていた。[p]
 
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png" ]
+[chara_show  name="mayor"]
 ;異星人の町長
 
 王子は掃除が苦手ではあったが、極度のキレイ好き。[p]
@@ -468,7 +484,7 @@
 [bg  storage="DSC03308s.jpg" ]
 ;宇宙船の棚
 
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png" ]
+[chara_show  name="mayor"]
 ;異星人の町長
 
 ・・・って、こちらが感動に浸っている場合ではないっ！！！[p]
@@ -510,7 +526,7 @@
 [bg  storage="DSC03497.jpg" ]
 ;町長室
 
-[chara_show name="mayor" face="stand" storage=”chara/1/stand_mayor.png"]
+[chara_show name="mayor" face="stand"]
 ;立ってる町長
 
 ・・・しかし、今の私は、有田町の町長なる役職に就き、地球人のふりをして日々を過ごしている。[p]
@@ -519,7 +535,7 @@
 
 ・・・悪いことは重なるものだ。[p]
 
-[chara_hide name=”mayor" ]
+[chara_hide name="mayor" ]
 ;町長退場
 
 [bg   storage="laydown.png"  ]
@@ -550,7 +566,7 @@
 [bg  storage="DSC03497.jpg" ]
 ;町長室
 
-[chara_face name="mayor" face="stand" storage=”chara/1/depress_mayor.png"]
+[chara_face name="mayor" face="depress"]
 ;がっかり町長
 
 ・・・まあ、よい。[p]
@@ -558,7 +574,7 @@
 [bg  storage="DSC03497.jpg" ]
 ;町長室
 
-[chara_face name="mayor" face="stand" storage=”thinking_mayor.png"]
+[chara_face name="mayor" face="thinking"]
 ;考えてる町長
 
 その3ヶ月の間、私はこの地球人に擬態し、『アリタヤキ（有田焼）』なるものの修復手段を探そうと思う。[p]
@@ -585,13 +601,13 @@
 [bg  storage="DSC03698.jpg" ]
 ;有田町役場内部
 
-[chara_show name="mayor" face="stand" storage=”chara/1/surprise2_mayor.png"]
+[chara_show name="mayor" face="sreaming"]
 ;叫ぶ町長町長 振動
 
 #町長
 「ってなんでやねーん！なぜ、私がこの町の町長になっとんねーん！！」[p]
 
-[chara_face name="mayor" face="depress" storage=”chara/1/depress_mayor.png"]
+[chara_face name="mayor" face="depress"]
 ;がっかりする町長町長
 
 #町長
@@ -607,8 +623,9 @@
 [chara_show name="staff"  storage=”/chara/9/elderman.png"]
 ;職員１ 
 
-[chara_face name="mayor" face="depress" storage=”chara/1/depress_mayor.png"];
-がっかりする町長町 振動
+[chara_face name="mayor" face="depress"];
+;がっかりする町長町 振動
+
 ;------------------------------------------------------------
 ;■町長のナレーション
 
@@ -621,7 +638,7 @@
 ;------------------------------------------------------------
 
 
-[chara_face name="mayor" face="stand" storage=”chara/1/chara/1/stand_mayor.png"]
+[chara_face name="mayor" face="stand"]
 ;立ってる町長
 
 #町長
@@ -785,7 +802,7 @@
 [bg  storage="DSC03497.jpg" ]
 ;町長室
 
-[chara_face name="mayor" face="stand" storage=”thinking_mayor.png"]
+[chara_face name="mayor" face="thinking"]
 ;考えてる町長
 
 ;■町長のナレーション
@@ -797,7 +814,7 @@
 私は役場の職員たちの鋭い視線を受けながら、会議室へと向かった。[p]
 
 
-[chara_face name="mayor" face="surprise" storage=”chara/1/surprise2_mayor.png"]
+[chara_face name="mayor" face="surprise"]
 ;叫ぶ町長町長 振動
 
 #町長
