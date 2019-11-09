@@ -80,9 +80,9 @@
 
 いや、異星人だった・・・としたほうが正しいな。[l]
 なぜなら私は今、地球人として、この有田町の「町長」なる役職に就いているからだ。[p]
+[chara_hide name="mayor"]
 
-
-[chara_face name="mayor" face="stand"]
+[chara_show name="mayor" face="stand"]
 ;地球人の立っている町長
 
 そう、この町での私の名は『松江はじめ』。[l]
@@ -281,7 +281,7 @@
 [bg  storage="DSC03497.jpg" ] 
 ;町長室
 
-[chara_face name="mayor" face="depress"]
+[chara_show name="mayor" face="depress"]
 ;がっかり町長
 
 #町長
@@ -585,7 +585,7 @@
 [bg  storage="DSC03497.jpg" ]
 ;町長室
 
-[chara_face name="mayor" face="depress"]
+[chara_show name="mayor" face="depress"]
 ;がっかり町長
 
 ・・・まあ、よい。[p]
@@ -593,7 +593,7 @@
 [bg  storage="DSC03497.jpg" ]
 ;町長室
 
-[chara_face name="mayor" face="thinking"]
+[chara_show name="mayor" face="thinking"]
 ;考えてる町長
 
 その3ヶ月の間、私はこの地球人に擬態し、『アリタヤキ（有田焼）』なるものの修復手段を探そうと思う。[p]
@@ -626,7 +626,7 @@
 #町長
 「ってなんでやねーん！なぜ、私がこの町の町長になっとんねーん！！」[p]
 
-[chara_face name="mayor" face="depress"]
+[chara_show name="mayor" face="depress"]
 ;がっかりする町長町長
 
 #町長
@@ -642,7 +642,7 @@
 #役場の職員1
 「町長、大丈夫ですか？[l]さっきから、何やらひとりでブツブツと独り言を言っておられますが・・・」[p]
 
-[chara_face name="mayor" face="depress"];
+[chara_show name="mayor" face="depress"];
 ;がっかりする町長町 振動
 
 ;------------------------------------------------------------
@@ -657,7 +657,7 @@
 ;------------------------------------------------------------
 
 
-[chara_face name="mayor" face="stand"]
+[chara_show name="mayor" face="stand"]
 ;立ってる町長
 
 #町長
@@ -830,7 +830,7 @@
 [bg  storage="DSC03497.jpg" ]
 ;町長室
 
-[chara_face name="mayor" face="thinking"]
+[chara_show name="mayor" face="thinking"]
 ;考えてる町長
 
 ;■町長のナレーション
@@ -842,7 +842,7 @@
 私は役場の職員たちの鋭い視線を受けながら、会議室へと向かった。[p]
 
 
-[chara_face name="mayor" face="surprise"]
+[chara_show name="mayor" face="surprise"]
 ;叫ぶ町長町長 振動
 
 #町長
