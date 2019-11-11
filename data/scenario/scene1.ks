@@ -938,4 +938,4 @@
 #
 王子がペルソナに帰星するまで、あと51日と3時間・・・。[p]
 
-;[jump storage=scene2.ks target=*start]
+[jump storage=scene2.ks target=*start]
