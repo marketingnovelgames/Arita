@@ -69,9 +69,9 @@
 #敬太
 「わかってるよ、うるさいなあ」[p]
 
-[bg  storage="DSC03907.jpg"  ]
+[bg  storage="DSC03907.jpg"]
 
-[chara_show  name="ayako"  storage="chara/3/stand2_aya.png"  width="474"  height="832"  left="260"  top="151"  reflect="true"  ]
+;[chara_show  name="ayako"  storage="chara/3/stand2_aya.png"  width="474"  height="832"  left="260"  top="151"  reflect="true"  ]
 
 #彩子（敬太の母）
 「ほら、お弁当！[l]今日はお母さん、ちょっと遅くなるからね。[l]晩ご飯はおばあちゃんと一緒に食べるんだよ」[p]
@@ -79,7 +79,7 @@
 #敬太
 「わかった、わかった」[p]
 
-[chara_show  name="keta"  time="1000"  wait="false"  storage="chara/4/stand2_keta.png"  width="278"  height="486"  left="15"  top="367"  reflect="true"  ]
+;[chara_show  name="keta"  time="1000"  wait="false"  storage="chara/4/stand2_keta.png"  width="278"  height="486"  left="15"  top="367"  reflect="true"  ]
 
 
 #彩子（敬太の母）
@@ -152,7 +152,7 @@
 
 [bg  time="0"  method="crossfade"  storage="DSC03609.jpg"  ]
 
-[chara_show  name="keta"  time="0"  wait="true"  storage="chara/4/stand_keta.png"  width="157"  height="269"  left="496"  top="504"  reflect="false"  ]
+;[chara_show  name="keta"  time="0"  wait="true"  storage="chara/4/stand_keta.png"  width="157"  height="269"  left="496"  top="504"  reflect="false"  ]
 
 実は、敬太には友だちがひとりもいなかったのである。[p]
 東京から有田へ移住してきて以降、敬太は学校のクラスメイトとなかなか馴染めず、つらい日々を送っていた。[p]
@@ -198,12 +198,12 @@
 ;ここまで大きめのフォント終わり（江尻）
 
 [bg  time="500"  method="crossfade"  storage="DSC04101.jpg"  ]
-[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand_keta.png"  width="334"  height="591"  left="357"  top="414"  reflect="true"  ]
+;[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand_keta.png"  width="334"  height="591"  left="357"  top="414"  reflect="true"  ]
 
 #敬太
 （あーあ、今日もつまらなかったな・・・。[l]家に帰ってゲームでもしようかな・・・）[p]
 
-[chara_show  name="to"  time="1000"  wait="true"  storage="chara/5/stand2_mate1.png"  width="334"  height="602"  left="172"  top="422"  reflect="true"  ]#大輔（クラスメイト）
+;[chara_show  name="to"  time="1000"  wait="true"  storage="chara/5/stand2_mate1.png"  width="334"  height="602"  left="172"  top="422"  reflect="true"  ]#大輔（クラスメイト）
 
 #
 「おい、山口」[p]
@@ -228,7 +228,7 @@
 #大輔（クラスメイト）
 「でもさあ、売れてないってことは、あの皿に価値なんてないんじゃねーの？（笑）」[p]
 
-[chara_show  name="shu"  time="1000"  wait="true"  storage="chara/6/stand_mate2.png"  width="398"  height="697"  left=";-81"  top="409"  reflect="false"  ]
+;[chara_show  name="shu"  time="1000"  wait="true"  storage="chara/6/stand_mate2.png"  width="398"  height="697"  left=";-81"  top="409"  reflect="false"  ]
 
 #蓮（クラスメイト）
 「ほんとほんと、値段の付け方間違えてるんじゃないの？」[p]
@@ -262,7 +262,7 @@
 大輔にあおられた敬太は、大輔に飛びかかった。[p]
 クラスメイトが騒然とする中、先生が慌てて止めに入った。[p]
 
-[chara_show  name="mayor"  time="1000"  wait="false"  storage="chara/1/surprise_mayor.png"  width="1243"  height="1243"  left=";-297"  top="32"  reflect="false"  ]
+;[chara_show  name="mayor"  time="1000"  wait="false"  storage="chara/1/surprise_mayor.png"  width="1243"  height="1243"  left=";-297"  top="32"  reflect="false"  ]
 
 
 #先生
@@ -281,13 +281,13 @@
 
 [bg  time="500"  method="crossfade"  storage="DSC03916.jpg"  ]
 
-[chara_show  name="keta"  time="1000"  wait="false"  storage="chara/4/stand_keta.png"  width="335"  height="593"  left="287"  top="383"  reflect="false"  ]
+;[chara_show  name="keta"  time="1000"  wait="false"  storage="chara/4/stand_keta.png"  width="335"  height="593"  left="287"  top="383"  reflect="false"  ]
 
 
 #敬太
 「・・・ただいま」[p]
 
-[chara_show  name="grandoma_keta"  time="1000"  wait="true"  storage="chara/7/walk_grandma.png"  width="1259"  height="2237"  left=";-419"  top="263"  reflect="false"  ]
+;[chara_show  name="grandoma_keta"  time="1000"  wait="true"  storage="chara/7/walk_grandma.png"  width="1259"  height="2237"  left=";-419"  top="263"  reflect="false"  ]
 
 
 #美代子（敬太の祖母）
@@ -363,7 +363,9 @@
 ひとしきり泣いた敬太は、2階から1階へ駆け下りた。[l]
 
 [bg  time="1000"  method="crossfade"  storage="DSC03401.jpg"  ]
-[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="239"  height="426"  left="436"  top="439"  reflect="false"  ]
+
+;[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="239"  height="426"  left="436"  top="439"  reflect="false"  ]
+
 [camera  time="1000"  zoom="3"  wait="true"  x="200"  y="0"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
 
 
@@ -372,7 +374,9 @@
 
 [_tb_end_text]
 [tb_hide_message_window  ]
-[chara_show  name="grandoma_keta"  time="1000"  wait="true"  storage="chara/7/walk_grandma.png"  width="750"  height="1334"  left=";-213"  top="503"  reflect="false"  ]
+
+;[chara_show  name="grandoma_keta"  time="1000"  wait="true"  storage="chara/7/walk_grandma.png"  width="750"  height="1334"  left=";-213"  top="503"  reflect="false"  ]
+
 [camera  time="1000"  zoom="1.5"  wait="true"  x=";-110"  y=";-200"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
 [tb_show_message_window  ]
 
@@ -475,7 +479,8 @@
 「へえ・・・」[p]
 
 [bg  time="500"  method="crossfade"  storage="DSC03929.jpg"  ]
-[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="909"  height="1577"  left="30"  top="366"  reflect="false"  ]
+
+;[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="909"  height="1577"  left="30"  top="366"  reflect="false"  ]
 
 「このマグカップ、1,000円で買えるんだ・・・」[p]
 
@@ -492,13 +497,14 @@
 [bg  time="500"  method="crossfade"  storage="DSC03315.jpg"  ] 
 ;お店
 
-[chara_show  name="keta"  time="1000"  storage="chara/4/stand2_keta.png"  width="750"  height="1334"  left="202"  top="438"  reflect="false"  ]
+;[chara_show  name="keta"  time="1000"  storage="chara/4/stand2_keta.png"  width="750"  height="1334"  left="202"  top="438"  reflect="false"  ]
 
 #店のおじさん（田中さん）
 「もしもし、僕、何か探し物かい？」[p]
 
 [chara_mod  name="keta"  time="600"  cross="true"  storage="chara/4/stand_keta_refrect.png"  ]
-[chara_show  name="stationstaff"  time="1000" storage="chara/9/stationstaff4.png"  width="517"  height="776"  left="210"  top="205"  reflect="true"  ]
+
+;[chara_show  name="stationstaff"  time="1000" storage="chara/9/stationstaff4.png"  width="517"  height="776"  left="210"  top="205"  reflect="true"  ]
 
 #敬太
 [chara_mod  name="keta"  time="600"  cross="true"  storage="chara/4/lookup_keta.png"  ]
@@ -530,7 +536,8 @@
 [bg  time="500"  method="crossfade"  storage="DSC03315.jpg"  ] 
 ;お店
 
-[chara_show  name="keta"   storage="chara/4/stand2_keta.png"  width="750"  height="1334"  left="202"  top="438"  reflect="false"  ]
+;[chara_show  name="keta"   storage="chara/4/stand2_keta.png"  width="750"  height="1334"  left="202"  top="438"  reflect="false"  ]
+
 [chara_show  name="keta"  cross="true"  storage="chara/4/stand_keta_refrect.png"  ]
 [chara_show  name="stationstaff"  time="600"  cross="true"  storage="chara/9/elderman.png"  ]
 
@@ -890,7 +897,7 @@
 #
 そうして、町長は敬太の家に行き、敬太のおじいちゃんの皿を見ることになった。[p]
 
-[chara_show  name="mayor"  time="1000"  wait="true"  storage="chara/1/mayor_back.png"  width="537"  height="957"  left="51"  top="174"  reflect="false"  ]
+;[chara_show  name="mayor"  time="1000"  wait="true"  storage="chara/1/mayor_back.png"  width="537"  height="957"  left="51"  top="174"  reflect="false"  ]
 
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ▼▼シーン切り替え
@@ -898,7 +905,8 @@
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [bg  time="500"  method="crossfade"  storage="DSC03900.jpg"  ]
 
-[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="270"  height="480"  left="341"  top="337"  reflect="false"  ]
+;[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="270"  height="480"  left="341"  top="337"  reflect="false"  ]
+
 [chara_mod  name="mayor"  time="600"  cross="true"  storage="chara/1/crossseat_mayor1.png"  ]
 
 #敬太
@@ -906,7 +914,9 @@
 
 [_tb_end_text]
 [chara_hide  name="keta"  time="1000"  wait="true"  pos_mode="true"  ]
-[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand_keta.png"  width="292"  height="525"  left="361"  top="403"  reflect="false"  ]
+
+;[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand_keta.png"  width="292"  height="525"  left="361"  top="403"  reflect="false"  ]
+
 [tb_image_show  time="1000"  storage="default/DSC03446.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_30"  ]
 ;お皿だけ背景イメージにしていませんが、全部消して背景イメージでもいいとおもいます。[l]その際ゆっくり拡大などのエフェクトがあると良いと思います。[l]
 
@@ -1099,3 +1109,5 @@
 そうして、町長は敬太のおじいちゃんの皿を売るためのアイデアを考えることになった。[l]
 
 ;------------------------------------------------------------
+
+[jump storage=scene3.ks target=*start]

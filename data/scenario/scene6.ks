@@ -1,5 +1,5 @@
 [bg  storage="DSC03907.jpg"  ]
-[chara_show  name="mayor"  time="1000"  wait="true"  storage="chara/1/mayor_back.png"  width="537"  height="957"  left="51"  top="174"  reflect="false"  ]
+;[chara_show  name="mayor"  time="1000"  wait="true"  storage="chara/1/mayor_back.png"  width="537"  height="957"  left="51"  top="174"  reflect="false"  ]
 
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ;■ナレーション
@@ -12,9 +12,9 @@
 
 [bg  storage="DSC03900.jpg"  ]
 
-[chara_show  name="mayor"  time="1000"  storage="chara/1/crossseat_mayor1.png"  width="330"  height="589"  left="12"  top="242"  reflect="false"  ]
+;[chara_show  name="mayor"  time="1000"  storage="chara/1/crossseat_mayor1.png"  width="330"  height="589"  left="12"  top="242"  reflect="false"  ]
 
-[chara_show  name="grandoma_keta"  time="1000"  storage="chara/7/stand2_grandma.png"  width="640"  height="960"  left="96"  top="442"  reflect="false"  ]
+;[chara_show  name="grandoma_keta"  time="1000"  storage="chara/7/stand2_grandma.png"  width="640"  height="960"  left="96"  top="442"  reflect="false"  ]
 
 ; 女性の座ってるシルエットがないため女性手前、町長奥のの配置でお願いします
 
@@ -69,12 +69,12 @@
 
 [bg  time="500"  method="crossfade"  storage="DSC03916.jpg"  ]
 
-[chara_show  name="to"  time="1000"  wait="true"  storage="chara/5/stand_mate1.png"  width="364"  height="654"  left=";-62"  top="340"  reflect="false"  ]
+;[chara_show  name="to"  time="1000"  wait="true"  storage="chara/5/stand_mate1.png"  width="364"  height="654"  left=";-62"  top="340"  reflect="false"  ]
 
 #大輔（クラスメイト）
 「お〜い！敬太〜！」[p]
 
-[chara_show  name="shu"  time="1000"  wait="true"  storage="chara/6/stand_mate2.png"  width="488"  height="874"  reflect="true"  left="240"  top="344"  ]
+;[chara_show  name="shu"  time="1000"  wait="true"  storage="chara/6/stand_mate2.png"  width="488"  height="874"  reflect="true"  left="240"  top="344"  ]
 
 #蓮（クラスメイト）
 「川へ水切りしに行こうぜ〜！！」[p]
@@ -91,7 +91,7 @@
 #敬太
 「おお、大輔、蓮〜！今行く〜！」[p]
 
-[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="244"  height="421"  left="126"  top="206"  reflect="false"  ]
+;[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="244"  height="421"  left="126"  top="206"  reflect="false"  ]
 
 ;------------------------------------------------------------
 ;■ナレーション
@@ -130,11 +130,11 @@
 
 [bg  storage="DSC03900.jpg"  ]
 
-[chara_show  name="mayor"  time="1000" storage="chara/1/crossseat_mayor1.png"  width="330"  height="589"  left="12"  top="242"  reflect="false"  ]
+;[chara_show  name="mayor"  time="1000" storage="chara/1/crossseat_mayor1.png"  width="330"  height="589"  left="12"  top="242"  reflect="false"  ]
 
-[chara_show  name="grandoma_keta"  time="1000" storage="chara/7/stand2_grandma.png"  width="640"  height="960"  left="96"  top="442"  reflect="false"  ]
+;[chara_show  name="grandoma_keta"  time="1000" storage="chara/7/stand2_grandma.png"  width="640"  height="960"  left="96"  top="442"  reflect="false"  ]
 
-[chara_show  name="keta"  time="1000"  storage="chara/4/stand2_keta.png"  width="621"  height="1105"  left=";-220"  top="433"  reflect="false"  ]
+;[chara_show  name="keta"  time="1000"  storage="chara/4/stand2_keta.png"  width="621"  height="1105"  left=";-220"  top="433"  reflect="false"  ]
 
 
 #敬太
@@ -200,9 +200,9 @@
 
 [bg  storage="DSC03900.jpg"  ]
 
-[chara_show  name="mayor"  time="1000" storage="chara/1/crossseat_mayor1.png"  width="330"  height="589"  left="12"  top="242"  reflect="false"  ]
+;[chara_show  name="mayor"  time="1000" storage="chara/1/crossseat_mayor1.png"  width="330"  height="589"  left="12"  top="242"  reflect="false"  ]
 
-[chara_show  name="grandoma_keta"  time="1000" storage="chara/7/stand2_grandma.png"  width="640"  height="960"  left="96"  top="442"  reflect="false"  ]
+;[chara_show  name="grandoma_keta"  time="1000" storage="chara/7/stand2_grandma.png"  width="640"  height="960"  left="96"  top="442"  reflect="false"  ]
 
 [tb_chara_shake  name="grandma_ketar"  direction="x"  count="2"  swing="20"  time="100"  ]
 
@@ -251,7 +251,7 @@
 #彩子（敬太の母）
 「今晩は月夜よ、お母さん」[p]
 
-[chara_show  name="ayako"  storage="chara/3/sp_aya.png"  width="301"  height="448"  left="424"  top="190"  reflect="false"  ]
+;[chara_show  name="ayako"  storage="chara/3/sp_aya.png"  width="301"  height="448"  left="424"  top="190"  reflect="false"  ]
 
 ;------------------------------------------------------------
 ;■ナレーション
@@ -286,12 +286,12 @@
 ;全員退場
 
 [bg  storage="DSC03907.jpg"  ]
-[chara_show  name="ayako"  storage="chara/3/stand2_aya.png"  width="474"  height="832"  left="260"  top="151"  reflect="true"  ]
+;[chara_show  name="ayako"  storage="chara/3/stand2_aya.png"  width="474"  height="832"  left="260"  top="151"  reflect="true"  ]
 
 #彩子（敬太の母）
 「敬太！」[p]
 
-[chara_show  name="keta"  time="1000"  wait="false"  storage="chara/4/stand2_keta.png"  width="278"  height="486"  left="15"  top="367"  reflect="true"  ]
+;[chara_show  name="keta"  time="1000"  wait="false"  storage="chara/4/stand2_keta.png"  width="278"  height="486"  left="15"  top="367"  reflect="true"  ]
 
 #敬太
 「！？ど、どうしたの？お母さん？」[p]
@@ -317,15 +317,15 @@
 
 [bg  storage="DSC03570.jpg" ]
 
-[chara_show  name="mayor" storage="chara/1/mayor_back.png"  width="385"  height="685"  left="33"  top="528"  reflect="false"  ]
+;[chara_show  name="mayor" storage="chara/1/mayor_back.png"  width="385"  height="685"  left="33"  top="528"  reflect="false"  ]
 
-[chara_show  name="grandoma_keta"   storage="chara/7/stand2_grandma.png"  width="496"  height="743"  left=";-205"  top="571"  reflect="false"  ]
+;[chara_show  name="grandoma_keta"   storage="chara/7/stand2_grandma.png"  width="496"  height="743"  left=";-205"  top="571"  reflect="false"  ]
 
-[chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="489"  height="874"  left="132"  top="502"  reflect="false"  ]
+;[chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="489"  height="874"  left="132"  top="502"  reflect="false"  ]
 
-[chara_show  name="keta"   storage="chara/4/stand2_keta.png"  width="301"  height="536"  left="386"  top="511"  reflect="false"  ]
+;[chara_show  name="keta"   storage="chara/4/stand2_keta.png"  width="301"  height="536"  left="386"  top="511"  reflect="false"  ]
 
-[tb_chara_shake  name="keta"  direction="x"  count="2"  swing="20"  time="100"  ]
+;[tb_chara_shake  name="keta"  direction="x"  count="2"  swing="20"  time="100"  ]
 
 #敬太
 「うう〜、夜の河原は冷えるね」[p]
@@ -552,16 +552,16 @@ WACA11783は、青白く光る破片を回収した。[p]
 [bg storage="myspaceship2.jpg"  ]
 ;町長の宇宙船２
 
-[chara_show  name="mayor"   storage="chara/1/WACA11782.png"  width="174"  height="537"  left="23"  top="298"  reflect="false"  ]
+;[chara_show  name="mayor"   storage="chara/1/WACA11782.png"  width="174"  height="537"  left="23"  top="298"  reflect="false"  ]
 
 #WACA11783
 「みなさん、本当にありがとうございました」[p]
 
-[chara_show  name="ayako"   storage="chara/3/stand3_aya.png"  width="418"  height="745"  left="50"  top="496"  reflect="false"  ]
+;[chara_show  name="ayako"   storage="chara/3/stand3_aya.png"  width="418"  height="745"  left="50"  top="496"  reflect="false"  ]
 
-[chara_show  name="keta"    storage="chara/4/stand2_keta.png"  width="270"  height="473"  left="259"  top="616"  reflect="false"  ]
+;[chara_show  name="keta"    storage="chara/4/stand2_keta.png"  width="270"  height="473"  left="259"  top="616"  reflect="false"  ]
 
-[chara_show  name="grandoma_keta"  storage="chara/7/stand2_grandma.png"  width="529"  height="798"  left="242"  top="523"  reflect="false"  ]
+;[chara_show  name="grandoma_keta"  storage="chara/7/stand2_grandma.png"  width="529"  height="798"  left="242"  top="523"  reflect="false"  ]
 
 ;------------------------------------------------------------
 ;■ナレーション
@@ -631,7 +631,7 @@ WACA11783、美代子、彩子、敬太の4人は、WACA11783が乗ってきた�
 [bg storage="myspaceship2.jpg"  ]
 ;町長の宇宙船２
 
-[chara_show  name="grandoma_keta"  storage="chara/7/stand2_grandma.png"  width="529"  height="798"  left="242"  top="523"  reflect="false"  ]
+;[chara_show  name="grandoma_keta"  storage="chara/7/stand2_grandma.png"  width="529"  height="798"  left="242"  top="523"  reflect="false"  ]
 
 その表情は、彼女が自分の心に仕舞い込んでいた思いをグッとガマンしているように見えた。[p]
 
@@ -640,7 +640,7 @@ WACA11783、美代子、彩子、敬太の4人は、WACA11783が乗ってきた�
 #WACA11783
 「そうか・・・そうだったな」[p]
 
-[chara_show  name="mayor"  time="1000"  wait="true"  storage="chara/1/WACA11782.png"  width="298"  height="438"  left=";-30"  top="181"  reflect="false"  ]
+;[chara_show  name="mayor"  time="1000"  wait="true"  storage="chara/1/WACA11782.png"  width="298"  height="438"  left=";-30"  top="181"  reflect="false"  ]
 
 ;------------------------------------------------------------
 ;■ナレーション

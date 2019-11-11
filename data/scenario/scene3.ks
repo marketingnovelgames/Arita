@@ -1,3 +1,5 @@
+*start
+
 ;暗転
 ;------------------------------------------------------------
 ;■ナレーション
@@ -286,7 +288,7 @@
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [bg  time="500"  method="crossfade"  storage="DSC03900.jpg"  ]
 
-[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="270"  height="480"  left="341"  top="337"  reflect="false"  ]
+;[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="270"  height="480"  left="341"  top="337"  reflect="false"  ]
 
 [chara_mod  name="mayor"  time="600"  cross="true"  storage="chara/1/crossseat_mayor1.png"  ]
 
@@ -781,3 +783,5 @@
 （・・・と待て待て、今はまずは敬太くんのことを解決するのが先決だ。[l]焦らなくても、敬太くんの件が解決すればきっと、王子の器を修復するための道が開けるはず）[p]
 
 ;[a]ここから
+
+[jump storage=scene4.ks target=*start]
