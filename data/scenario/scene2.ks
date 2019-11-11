@@ -440,12 +440,18 @@
 ;A：「僕の毎月のお小遣い、4600回分だ・・・」
 ;B：「僕の毎月のお小遣い、46000回分だ・・・」
 ;C：「僕の毎月のお小遣い、460000回分だ・・・」
-
 ;AとCを選択したら「;-2」。[l]
 ;Bを選択したら「+1」。[l]
-
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[glink storage="scene2.ks" target="A3" text="僕の毎月のお小遣い、4600回分だ・・・" size=20 y=20 x=30]
+[glink storage="scene2.ks" target="B3" text="僕の毎月のお小遣い、46000回分だ・・・" size=20 y=100 x=30]
+[glink storage="scene2.ks" target="C3" text="僕の毎月のお小遣い、460000回分だ・・・" size=20 y=180 x=30]
 
+[s]
+
+*A3
+*B3
+*C3
 
 [bg  time="500"  method="crossfade"  storage="bicycle_ketaLight.jpg"  ]
 
@@ -979,9 +985,14 @@
 ;B：「君のおじいちゃんには、お弟子さんがいたのかな？」
 ;C：「君のおじいちゃんとおばあちゃんの夫婦関係は良好だったかい？」
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[glink storage="scene2.ks" target="A4" text="君のおじいちゃんは、7年前、誰かと恋に落ちたと言っていなかったかい？" size=20 y=20 x=30]
+[glink storage="scene2.ks" target="B4" text="君のおじいちゃんには、お弟子さんがいたのかな？" size=20 y=100 x=30]
+[glink storage="scene2.ks" target="C4" text="君のおじいちゃんとおばあちゃんの夫婦関係は良好だったかい？" size=20 y=180 x=30]
 
+[s]
 
-▼Aを選択した場合（;-1）
+*A4
+;▼Aを選択した場合（;-1）
 [bg  time="500"  method="crossfade"  storage="AdobeStock_269381585 .jpg"  ] 
 ;ちょっと恋人風
 
@@ -997,7 +1008,11 @@
 #町長
 「そ、そうか。[l]変なことを聞いてゴメンよ」[p]
 
+@jump target=*finish_question4
+
 ;------------------------------------------------------------
+
+*B4
 ;▼Bを選択した場合（＋1）
 [bg  time="500"  method="crossfade"  storage="DSC03397.jpg"  ]
 ; お弟子さん写真
@@ -1015,7 +1030,11 @@
 #町長
 （冷静に考えれば、王子が恋した相手というのは、敬太くんのおじいちゃんの弟子だったのかもしれないな・・・。[l]ということは、この敬太くんの悩みを解決してあげることで、その弟子と出会う道が開けるのかもしれない・・・！）[p]
 
+@jump target=*finish_question4
+
 ;------------------------------------------------------------
+
+*C4
 ;▼Cを選択した場合（;-2）
 
 [bg  time="500"  method="crossfade"  storage="AdobeStock_267544482.jpg"  ]夫婦関係画像
@@ -1029,6 +1048,10 @@
 #町長
 「そ、そうか！それなら大丈夫だよ！変なことを聞いてしまってゴメンね」[p]
 
+@jump target=*finish_question4
+
+
+*finish_question4
 
 [bg  time="500"  method="crossfade"  storage="DSC03900.jpg"  ]部屋
 
