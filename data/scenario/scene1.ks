@@ -34,7 +34,7 @@
 ;町長
 [chara_new  name="mayor" storage="chara/1/WACA11782.png" width="600" height="900"]
 ;表情差分
-[chara_face name="mayor" face="waca11782" storage="chara/1/depress_mayor.png"]
+[chara_face name="mayor" face="waca11782" storage="chara/1/WACA11782.png"]
 [chara_face name="mayor" face="stand" storage="chara/1/stand_mayor.png"]
 [chara_face name="mayor" face="depress" storage="chara/1/depress_mayor.png"]
 [chara_face name="mayor" face="thinking" storage="chara/1/thinking_mayor.png"]
@@ -47,16 +47,16 @@
 [chara_face name="mita" face="stand" storage="chara/2/stand_50lady.png"]
 
 ;職員1
-[chara_new name="staff1" storage="/chara/9/elderman.png" width="600" height="900"]
+[chara_new name="staff1" storage="chara/9/elderman.png" width="600" height="900"]
 
 ;職員2
-[chara_new name="staff2" storage="/chara/8/elderman_back.png" width="600" height="900"]
+[chara_new name="staff2" storage="chara/8/elderman_back.png" width="600" height="900"]
 
 ;職員3
-[chara_new name="staff3" storage="/chara/3/2ork_aya.png" width="600" height="900"]
+[chara_new name="staff3" storage="chara/3/work_aya.png" width="600" height="900"]
 
 ;職員4
-[chara_new name="staff4" storage="/chara/11/ask_staff.png" width="600" height="900"]
+[chara_new name="staff4" storage="chara/11/ask_staff.png" width="600" height="900"]
 
 ;[表紙は「はじめから」と「アイデア・意見を投稿する」以外のボタンを消してください。
 ;タイトルのロゴは松尾さんが作成予定なのでできたらslackにあげてもらいます。その他のボタンは消してOKです。
@@ -78,7 +78,7 @@
 おっと、自己紹介が遅れてしまった。[p]
 
 
-[chara_show  name="mayor"]
+[chara_show  name="mayor" face="waca11782"]
 ;異星人の町長
 
 私の名は『WACA11783』。[p]
@@ -304,7 +304,7 @@
 #町長
 「思えば、あんなものを王子が我が星へ持って帰ってきたから・・・」[p]
 
-[chara_hide name=”mayor"]
+[chara_hide name="mayor"]
 ;町長退場
 
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -643,7 +643,8 @@
 #町長
 「ってなんでやねーん！なぜ、私がこの町の町長になっとんねーん！！」[p]
 
-[chara_show name="mayor" face="depress"]
+[chara_show name="mayor"]
+[chara_mod  name="mayor" face="depress"]
 ;がっかりする町長町長
 
 #町長
