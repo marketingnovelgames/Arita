@@ -32,7 +32,7 @@
 
 ;キャラクター定義
 ;町長
-[chara_new  name="mayor" storage="chara/1/WACA11782.png"]
+[chara_new  name="mayor" storage="chara/1/WACA11782.png" width="600" height="900"]
 ;表情差分
 [chara_face name="mayor" face="waca11782" storage="chara/1/WACA11782.png"]
 [chara_face name="mayor" face="stand" storage="chara/1/stand_mayor.png"]
@@ -42,21 +42,21 @@
 [chara_face name="mayor" face="surprise" storage=”chara/1/surprise2_mayor.png"]
 
 ;三田
-[chara_new name="mita" storage="chara/2/stand_50lady.png"]
+[chara_new name="mita" storage="chara/2/stand_50lady.png" width="600" height="900"]
 ;表情差分
 [chara_face name="mita" face="stand" storage="chara/2/stand_50lady.png"]
 
 ;職員1
-[chara_new name="staff1" storage=”/chara/9/elderman.png"]
+[chara_new name="staff1" storage=”/chara/9/elderman.png" width="600" height="900"]
 
 ;職員2
-[chara_new name="staff2" storage=”/chara/8/elderman_back.png"]
+[chara_new name="staff2" storage=”/chara/8/elderman_back.png" width="600" height="900"]
 
 ;職員3
-[chara_new name="staff3" storage=”/chara/3/2ork_aya.png"]
+[chara_new name="staff3" storage=”/chara/3/2ork_aya.png" width="600" height="900"]
 
 ;職員4
-[chara_new name="staff4" storage=”/chara/11/ask_staff.png"]
+[chara_new name="staff4" storage=”/chara/11/ask_staff.png" width="600" height="900"]
 
 ;[表紙は「はじめから」と「アイデア・意見を投稿する」以外のボタンを消してください。
 ;タイトルのロゴは松尾さんが作成予定なのでできたらslackにあげてもらいます。その他のボタンは消してOKです。
@@ -84,15 +84,15 @@
 私の名は『WACA11783』。[p]
 この地球から53万光年離れた惑星「ペルソナ」からやって来た異星人だ。[p]
 
-いや、異星人だった・・・としたほうが正しいな。[l]
+いや、異星人だった・・・としたほうが正しいな。[p]
 なぜなら私は今、地球人として、この有田町の「町長」なる役職に就いているからだ。[p]
 
 [chara_hide name="mayor"]
 
-[chara_show name="mayor" face="stand" scale="0.5"]
+[chara_show name="mayor" face="stand"]
 ;地球人の立っている町長
 
-そう、この町での私の名は『松江はじめ』。[l]
+そう、この町での私の名は『松江はじめ』。[p]
 町民からは『松江町長』と呼ばれている。[p]
 
 [chara_hide name="mayor"]
