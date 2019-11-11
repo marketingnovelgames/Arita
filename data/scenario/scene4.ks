@@ -1,5 +1,13 @@
 *start
 
+;メニューボタンの実装
+[button name="role_button" role="skip" graphic="button/auto.png" x=50 y=930]
+[button name="role_button" role="save" graphic="button/auto.png" x=150 y=930]
+[button name="role_button" role="load" graphic="button/auto.png" x=250 y=930]
+[button name="role_button" role="backlog" graphic="button/auto.png" x=350 y=930]
+[button name="role_button" role="window" graphic="button/auto.png" x=450 y=930]
+[button name="role_button" role="menu" graphic="button/auto.png" x=550 y=930]
+
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ;■ナレーション
 

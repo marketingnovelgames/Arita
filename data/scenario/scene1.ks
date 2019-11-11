@@ -7,6 +7,14 @@
 ;メニューボタンの表示
 @showmenubutton
 
+;メニューボタンの実装
+[button name="role_button" role="skip" graphic="button/auto.png" x=50 y=930]
+[button name="role_button" role="save" graphic="button/auto.png" x=150 y=930]
+[button name="role_button" role="load" graphic="button/auto.png" x=250 y=930]
+[button name="role_button" role="backlog" graphic="button/auto.png" x=350 y=930]
+[button name="role_button" role="window" graphic="button/auto.png" x=450 y=930]
+[button name="role_button" role="menu" graphic="button/auto.png" x=550 y=930]
+
 ;メッセージウィンドウの設定
 [position layer="message0" left=20 top=600 width=600 height=300 page=fore visible=true]
 
@@ -55,16 +63,15 @@
 ;Verは19/10/12としてください。
 ;[いま下部に「Menu」「Auto」「Close」「Config」を西さんにお願いいています。]
 ;文字スピードは全体50でお願いします
+
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ;▼プロローグ
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[bg  storage="DSC03777.jpg" ]
+
+[bg  storage="DSC03777.jpg"]
 
 20**年。[p]
-
-
 ここは地球の日本という国にある「有田町」という町だ。[p]
-
 
 私は今、この町で人生最大の危機を迎えている・・・。[p]
 
@@ -77,13 +84,12 @@
 私の名は『WACA11783』。[p]
 この地球から53万光年離れた惑星「ペルソナ」からやって来た異星人だ。[p]
 
-
 いや、異星人だった・・・としたほうが正しいな。[l]
 なぜなら私は今、地球人として、この有田町の「町長」なる役職に就いているからだ。[p]
 
 [chara_hide name="mayor"]
 
-[chara_show name="mayor" face="stand"]
+[chara_show name="mayor" face="stand" scale="0.5"]
 ;地球人の立っている町長
 
 そう、この町での私の名は『松江はじめ』。[l]

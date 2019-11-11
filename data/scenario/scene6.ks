@@ -1,3 +1,13 @@
+*start
+
+;メニューボタンの実装
+[button name="role_button" role="skip" graphic="button/auto.png" x=50 y=930]
+[button name="role_button" role="save" graphic="button/auto.png" x=150 y=930]
+[button name="role_button" role="load" graphic="button/auto.png" x=250 y=930]
+[button name="role_button" role="backlog" graphic="button/auto.png" x=350 y=930]
+[button name="role_button" role="window" graphic="button/auto.png" x=450 y=930]
+[button name="role_button" role="menu" graphic="button/auto.png" x=550 y=930]
+
 [bg  storage="DSC03907.jpg"  ]
 ;[chara_show  name="mayor"  time="1000"  wait="true"  storage="chara/1/mayor_back.png"  width="537"  height="957"  left="51"  top="174"  reflect="false"  ]
 
