@@ -34,12 +34,12 @@
 ;町長
 [chara_new  name="mayor" storage="chara/1/WACA11782.png" width="600" height="900"]
 ;表情差分
-[chara_face name="mayor" face="waca11782" storage="chara/1/WACA11782.png"]
+[chara_face name="mayor" face="waca11782" storage="chara/1/depress_mayor.png"]
 [chara_face name="mayor" face="stand" storage="chara/1/stand_mayor.png"]
-[chara_face name="mayor" face="depress" storage=”chara/1/depress_mayor.png"]
-[chara_face name="mayor" face="thinking" face="thinking" storage=”thinking_mayor.png"]
-[chara_face name="mayor" face="sreaming" storage=”chara/1/surprise2_mayor.png"]
-[chara_face name="mayor" face="surprise" storage=”chara/1/surprise2_mayor.png"]
+[chara_face name="mayor" face="depress" storage="chara/1/depress_mayor.png"]
+[chara_face name="mayor" face="thinking" storage="chara/1/thinking_mayor.png"]
+[chara_face name="mayor" face="sreaming" storage="chara/1/surprise2_mayor.png"]
+[chara_face name="mayor" face="surprise" storage="chara/1/surprise2_mayor.png"]
 
 ;三田
 [chara_new name="mita" storage="chara/2/stand_50lady.png" width="600" height="900"]
@@ -47,16 +47,16 @@
 [chara_face name="mita" face="stand" storage="chara/2/stand_50lady.png"]
 
 ;職員1
-[chara_new name="staff1" storage=”/chara/9/elderman.png" width="600" height="900"]
+[chara_new name="staff1" storage="/chara/9/elderman.png" width="600" height="900"]
 
 ;職員2
-[chara_new name="staff2" storage=”/chara/8/elderman_back.png" width="600" height="900"]
+[chara_new name="staff2" storage="/chara/8/elderman_back.png" width="600" height="900"]
 
 ;職員3
-[chara_new name="staff3" storage=”/chara/3/2ork_aya.png" width="600" height="900"]
+[chara_new name="staff3" storage="/chara/3/2ork_aya.png" width="600" height="900"]
 
 ;職員4
-[chara_new name="staff4" storage=”/chara/11/ask_staff.png" width="600" height="900"]
+[chara_new name="staff4" storage="/chara/11/ask_staff.png" width="600" height="900"]
 
 ;[表紙は「はじめから」と「アイデア・意見を投稿する」以外のボタンを消してください。
 ;タイトルのロゴは松尾さんが作成予定なのでできたらslackにあげてもらいます。その他のボタンは消してOKです。
@@ -122,7 +122,7 @@
 「たしか今日って予算会議の日よね？」[p]
 
 #町長
-「そうですね」
+「そうですね」[p]
 
 #三田さん
 「町長さん〜。[l]今度の予算、県外から若い人を集めることに使ってほしいな」[p]
@@ -277,14 +277,18 @@
 [bg  storage="DSC03326.jpg" ]
 ;拡大しつつ青磁とは違う方向でゆっくり拡大
 
-そして、上等の[ruby text="いずみ"]泉[ruby text="やま"]山[ruby text="こう"]陶[ruby text="せき"]石や[ruby text="あま"]天[ruby text="くさ"]草[ruby text="こう"]陶[ruby text="せき"]石を原料として生かした、つややかでなめらかな肌合いを持つ[ruby text="はく"]白[ruby text="じ"]磁だ。[p]
+そして、上等の[ruby text="いずみ"]泉[ruby text="やま"]山[ruby text="こう"]陶[ruby text="せき"]石や[ruby text="あま"]天[ruby text="くさ"]草[ruby text="こう"]陶[ruby text="せき"]石を原料として生かした[ruby text="はく"]白[ruby text="じ"]磁だ。[p]
+こちらはつややかでなめらかな肌合いを持つ点が特徴的だ。[p]
 
 [bg  storage="tokiichi.jpg" ]
 
-毎年5月に有田町でおこなわれる「[ruby text="とう"]陶[ruby text="き"]器[ruby text="いち"]市」は、日本三大陶器祭りのひとつと数えられており、世界中からたくさんの陶芸ファンが集まる。[p]
+毎年5月に有田町でおこなわれる「[ruby text="とう"]陶[ruby text="き"]器[ruby text="いち"]市」は、日本三大陶器祭りのひとつと数えられている。[p]
+世界中からたくさんの陶芸ファンが集まる大きな祭りだ。[p]
+
+;[autostart]
 
 #
-有田町役場 町長室。[p]
+;有田町役場 町長室。[p]
 
 [bg  storage="DSC03497.jpg"] 
 ;町長室
