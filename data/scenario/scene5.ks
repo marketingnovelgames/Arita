@@ -794,6 +794,12 @@
 ;------------------------------------------------------------
 ;▼Aを選択した場合（ゲームオーバー）
 
+[glink storage="scene4.ks" target="A10" text="このゲーム自体が茶番であり、真剣に考えること自体ムダだったんだ" size=20 y=20 x=30]
+[glink storage="scene4.ks" target="B10" text="アインシュタインの相対性理論だ" size=20 y=100 x=30]
+
+[s]
+
+*A10
 [bg   storage="space_fes2.jpg"  ]
 [chara_mod  name="mayor"  storage="chara/1/sprise_mayor.png"  ]
 
@@ -829,8 +835,9 @@
 
 器を割られた王子の怒りを誰も抑えることはできなかった・・・。[p]
 
-;The END
+The END[p]
 
+*B10
 ;------------------------------------------------------------
 ;▼Bを選択した場合（+2）
 
