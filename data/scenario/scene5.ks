@@ -794,8 +794,8 @@
 ;------------------------------------------------------------
 ;▼Aを選択した場合（ゲームオーバー）
 
-[glink storage="scene4.ks" target="A10" text="このゲーム自体が茶番であり、真剣に考えること自体ムダだったんだ" size=20 y=20 x=30]
-[glink storage="scene4.ks" target="B10" text="アインシュタインの相対性理論だ" size=20 y=100 x=30]
+[glink storage="scene5.ks" target="A10" text="このゲーム自体が茶番であり、真剣に考えること自体ムダだったんだ" size=20 y=20 x=30]
+[glink storage="scene5.ks" target="B10" text="アインシュタインの相対性理論だ" size=20 y=100 x=30]
 
 [s]
 
