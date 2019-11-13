@@ -13,7 +13,7 @@
 ;chSpeeds.fast=10
 ;chSpeeds.normal=30
 ;chSpeeds.slow=50
-;skipSpeed=30
+;skipSpeed=100
 ;skipEffectIgnore=true
 ;autoSpeed=1300
 ;autoClickStop=true
