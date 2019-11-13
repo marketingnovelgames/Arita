@@ -17,9 +17,6 @@
 ;最初は右下のメニューボタンを非表示にする
 [hidemenubutton]
 
-;各シーンへジャンプ
-@jump storage="scene2.ks"
-
 ;タイトル画面へ移動
 @jump storage="title.ks"
 
