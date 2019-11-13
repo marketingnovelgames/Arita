@@ -75,7 +75,6 @@
 ;表情差分
 [chara_face name="tanaka" face="stand" storage="chara/9/elderman.png"]
 
-[skipstart]
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ;▼▼シーン切り替え
 ;敬太の家
@@ -846,7 +845,7 @@
 
 [chara_hide name="tanaka"]
 
-[bg  time="500"  method="crossfade"  storage="tokiichi.jpg"  ] 
+[bg  time="500"  method="crossfade"  storage="DSC03454.jpg"] 
 ;陶器市
 
 #町長
