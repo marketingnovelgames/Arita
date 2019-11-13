@@ -280,12 +280,11 @@
 そして、上等の[ruby text="いずみ"]泉[ruby text="やま"]山[ruby text="こう"]陶[ruby text="せき"]石や[ruby text="あま"]天[ruby text="くさ"]草[ruby text="こう"]陶[ruby text="せき"]石を原料として生かした[ruby text="はく"]白[ruby text="じ"]磁だ。[p]
 こちらはつややかでなめらかな肌合いを持つ点が特徴的だ。[p]
 
-[bg  storage="tokiichi.jpg" ]
+[bg  storage="DSC03454.jpg" ]
 
 毎年5月に有田町でおこなわれる「[ruby text="とう"]陶[ruby text="き"]器[ruby text="いち"]市」は、日本三大陶器祭りのひとつと数えられている。[p]
 世界中からたくさんの陶芸ファンが集まる大きな祭りだ。[p]
 
-;[autostart]
 
 #
 ;有田町役場 町長室。[p]
@@ -297,7 +296,7 @@
 ;がっかり町長
 
 #町長
-「そう・・・[ruby text="アリ"]有[ruby text="タ"]田[ruby text="ヤキ"]焼）・・・」[p]
+「そう・・・[ruby text="アリ"]有[ruby text="タ"]田[ruby text="ヤキ"]焼・・・」[p]
 「これが私の運命をおかしくしてしまったのだ・・・」[p]
 
 
@@ -929,6 +928,8 @@
 #町長
 （ううううう・・・。[l]私は早く王子のアリタヤキの修復をせねばならんのに・・・）[p]
 （なんで、この町の予算に関する会議にのんきに出席しているんだ・・・）[p]
+
+[chara_hide name="mayor"]
 
 [bg storage="black.png"]
 ;暗転
