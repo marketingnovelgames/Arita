@@ -280,7 +280,7 @@
 そして、上等の[ruby text="いずみ"]泉[ruby text="やま"]山[ruby text="こう"]陶[ruby text="せき"]石や[ruby text="あま"]天[ruby text="くさ"]草[ruby text="こう"]陶[ruby text="せき"]石を原料として生かした[ruby text="はく"]白[ruby text="じ"]磁だ。[p]
 こちらはつややかでなめらかな肌合いを持つ点が特徴的だ。[p]
 
-[bg  storage="tokiichi.jpg" ]
+[bg  storage="DSC03454.jpg" ]
 
 毎年5月に有田町でおこなわれる「[ruby text="とう"]陶[ruby text="き"]器[ruby text="いち"]市」は、日本三大陶器祭りのひとつと数えられている。[p]
 世界中からたくさんの陶芸ファンが集まる大きな祭りだ。[p]
