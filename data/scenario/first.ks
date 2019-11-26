@@ -1,25 +1,35 @@
-;一番最初に呼び出されるファイル
-
-[title name="ティラノスクリプト解説"]
-
-[stop_keyconfig]
 
 
-;ティラノスクリプトが標準で用意している便利なライブラリ群
-;コンフィグ、CG、回想モードを使う場合は必須
-@call storage="tyrano.ks"
+;メニューボタン非表示
+;[hidemenubutton]
 
-;ゲームで必ず必要な初期化処理はこのファイルに記述するのがオススメ
 
-;メッセージボックスは非表示
-@layopt layer="message" visible=false
+;ゲームに必要なライブラリ読み込み
+[call storage="system/tyrano.ks"]
+[call storage="system/builder.ks"]
+[call storage="system/chara_define.ks"]
 
-;最初は右下のメニューボタンを非表示にする
-[hidemenubutton]
+;live2D対応
 
-;タイトル画面へ移動
-@jump storage="title.ks"
+
+[layopt layer=2 visible=true]
+[layopt layer="message0" visible=false]
+[call storage="system/message_window.ks"]
+
+;プラグインの設定
+[call storage="system/plugin.ks"]
+[call storage="system/plugin_third.ks"]
+
+;タイトルの設定
+;[title name="now loading"]
+
+;タイトル画面表示
+[jump storage="title_screen.ks"]
+
+;--------------------------
 
 [s]
+
+
 
 
