@@ -1,8 +1,8 @@
 [_tb_system_call storage=system/_scene05.ks]
 
-[bg time="500" storage="DSC03822.jpg"  ]
+[bg  time="500"  storage="DSC03822.jpg"  ]
 [tb_ptext_show  x="100"  y="480"  size="30"  color="0xffffff"  time="1000"  text="第五章　失われた陶土"  face="undefined"  edge="0x000000"  shadow="undefined"  anim="true"  fadeout="true"  wait="true"  in_effect="fadeIn"  out_effect="fadeOut"  ]
-[tb_image_show  storage="default/DSC03822.png"  name="img_1"  ]
+[tb_image_show  storage="default/DSC03822.png"  name="img_2"  ]
 [tb_show_message_window  ]
 [delay  speed="50"  ]
 [tb_start_text mode=3 ]
@@ -11,7 +11,7 @@
 [_tb_end_text]
 
 [tb_image_hide  ]
-[bg time="500" storage="UNADJUSTEDNONRAW_thumb_dc1a2.jpg"  ]
+[bg  time="500"  storage="UNADJUSTEDNONRAW_thumb_dc1a2.jpg"  ]
 [chara_show  name="stationstaff"  storage="chara/9/elderman.png"  width="352"  height="626"  left="-23"  top="485"  reflect="false"  ]
 [chara_show  name="mayor"  storage="chara/1/stand_mayor.png"  left="229"  top="446"  width="459"  height="819"  reflect="false"  ]
 [tb_start_text mode=3 ]
@@ -62,7 +62,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg time="500" storage="AdobeStock_293850022.jpg"  ]
+[bg  time="500"  storage="AdobeStock_293850022.jpg"  ]
 [tb_start_text mode=3 ]
 #
 三田さんはそう言うと、自分のお店のチラシを渡してきた。[r]
@@ -89,7 +89,7 @@
 [_tb_end_text]
 
 [chara_hide  name="50mita"  wait="false"  pos_mode="false"  ]
-[bg time="500" storage="UNADJUSTEDNONRAW_thumb_dc1a2.jpg"  ]
+[bg  time="500"  storage="UNADJUSTEDNONRAW_thumb_dc1a2.jpg"  ]
 [chara_show  name="stationstaff"  storage="chara/9/call_staff.png"  width="453"  height="684"  left="-53"  top="453"  reflect="true"  ]
 [tb_start_text mode=3 ]
 #役場の職員
@@ -118,7 +118,7 @@
 [chara_hide_all  wait="false"  ]
 [mask  effect="fadeIn"  color="0x000000"  ]
 [tb_hide_message_window  ]
-[bg time="500" storage="DSC03453.jpg"  ]
+[bg  time="500"  storage="DSC03453.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_show  name="keta"  storage="chara/4/stand2_keta.png"  width="104"  height="191"  left="366"  top="492"  reflect="false"  ]
 [chara_show  name="interview"  storage="chara/13/interview.png"  width="215"  height="320"  left="162"  top="431"  reflect="false"  ]
@@ -161,7 +161,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg time="500" storage="AdobeStock_260873009.jpg"  ]
+[bg  time="500"  storage="AdobeStock_260873009.jpg"  ]
 [tb_start_text mode=3 ]
 #敬太
 「でも・・・僕はメールを送っただけで・・・。[r]
@@ -171,7 +171,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg time="500" storage="AdobeStock_81209471.jpg"  ]
+[bg  time="500"  storage="AdobeStock_81209471.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
 「まあ、今回の展覧会は大イチョウ1000年まつりのイベントでもあるからね。[r]
@@ -198,7 +198,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg time="500" storage="kiyoshi2Low.jpg"  ]
+[bg  time="500"  storage="kiyoshi2Low.jpg"  ]
 [tb_start_text mode=3 ]
 「彼の亡くなったおじいちゃんへの愛が、たくさんの人を動かし、そして、たくさんの作品を集め、この展覧会をつくりあげました」[r]
 [p][r]
@@ -220,8 +220,8 @@
 そして、10日後。[r]
 [_tb_end_text]
 
-[bg time="500" storage="DSC03519.jpg"  ]
-[tb_image_show  storage="default/DSC03519item.png"  width="640"  height="960"  name="img_50"  ]
+[bg  time="500"  storage="DSC03519.jpg"  ]
+[tb_image_show  storage="default/DSC03519item.png"  width="640"  height="960"  name="img_51"  ]
 [chara_show  name="mayor"  storage="chara/1/speach.png"  width="78"  height="116"  left="190"  top="476"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #町長
@@ -241,8 +241,8 @@
 [tb_hide_message_window  ]
 [tb_image_hide  ]
 [chara_hide_all  wait="false"  ]
-[bg time="500" storage="DSC03518.jpg"  ]
-[tb_image_show  storage="default/DSC03518iteｍ.png"  width="640"  height="960"  name="img_58"  ]
+[bg  time="500"  storage="DSC03518.jpg"  ]
+[tb_image_show  storage="default/DSC03518iteｍ.png"  width="640"  height="960"  name="img_59"  ]
 [chara_show  name="mayor"  storage="chara/1/speach_mayor.png"  width="580"  height="861"  left="129"  top="374"  ]
 [tb_start_text mode=3 ]
 #町長
@@ -292,7 +292,7 @@
 [chara_mod  name="mayor"  time=""  cross="false"  storage="chara/1/mayor_back.png"  ]
 [chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="false"  left="-89"  top="392"  width="580"  height="861"  ]
 [tb_image_hide  time=""  ]
-[tb_image_show  time=""  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_68"  ]
+[tb_image_show  time=""  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_69"  ]
 [chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/mayor_back.png"  ]
 [mask_off  time="0"  effect="fadeOut"  ]
 [tb_start_text mode=3 ]
@@ -355,13 +355,13 @@
 [tb_start_text mode=3 ]
 #町長
 「わかった・・！[r]
-ありがとう！敬太くん・・・！」[r][p]
+ありがとう！敬太くん・・・！」[r]
 [_tb_end_text]
 
 [chara_hide_all  ]
 [tb_image_hide  ]
 [camera  time="1000"  zoom="1"  wait="true"  ]
-[bg time="500" storage="space_fes2.jpg"  ]
+[bg  time="500"  storage="space_fes2.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
 （敬太くんのお母さん・・・！[p][r]
@@ -372,7 +372,7 @@
 もし、彼女にあの割れた器を見せて何らかの反応をしたときは、私の身分を明かして協力をあおごう）[p][r]
 [_tb_end_text]
 
-[bg time="500" storage="DSC03518.jpg"  ]
+[bg  time="500"  storage="DSC03518.jpg"  ]
 [chara_show  name="mayor"  storage="chara/1/mayor_back.png"  width="188"  height="334"  left="398"  top="514"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #敬太
@@ -418,7 +418,7 @@
 
 [tb_start_text mode=3 ]
 #町長
-（褒められすぎて、なんだかおかしくなりそうだ・・・）[r][p]
+（褒められすぎて、なんだかおかしくなりそうだ・・・）[r]
 [_tb_end_text]
 
 [chara_mod  name="mayor"  storage="chara/1/sprise_mayor.png"  ]
@@ -456,7 +456,7 @@
 [_tb_end_text]
 
 [chara_hide_all  ]
-[bg time="500" storage="DSC03497.jpg"  ]
+[bg  time="500"  storage="DSC03497.jpg"  ]
 [chara_show  name="mayor"  storage="chara/1/WACA11782.png"  width="578"  height="870"  left="225"  top="254"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #
@@ -504,7 +504,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_116"  ]
+[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_117"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
 「えっ・・・？[r]
@@ -564,7 +564,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_122"  ]
+[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_123"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「・・・」[p][r]
@@ -617,14 +617,14 @@
 [tb_start_text mode=3 ]
 #町長
 「えっ・・・？[r]
-えっ・・・？」[r][p]
+えっ・・・？」[r]
 [_tb_end_text]
 
 [resetfont  ]
 [mask  effect="fadeIn"  color="0x000000"  ]
 [tb_hide_message_window  ]
 [chara_hide_all  time=""  wait="true"  ]
-[bg time="500" storage="DSC03885.jpg"  ]
+[bg  time="500"  storage="DSC03885.jpg"  ]
 [chara_show  name="grandoma_keta"  storage="chara/7/walk_grandma.png"  left="-157"  top="531"  width=""  height=""  reflect="false"  wait="false"  ]
 [chara_show  name="mayor"  storage="chara/1/crossseat_mayor1.png"  left="298"  top="233"  width="340"  height="605"  reflect="false"  wait="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
@@ -724,14 +724,14 @@
 
 [_tb_end_text]
 
-[bg time="500" storage="DSC03416.jpg"  ]
+[bg  time="500"  storage="DSC03416.jpg"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「私の真似をして頑張ろうとする主人の姿を見ていたら、私は自分の作品をつくることより、主人を応援したいと思うようになりました。[p][r]
 主人がつくる作品の中には、私が陶芸と向き合った日々も生きている。[p][r]
 そう思うだけで満足するようになったんです。[r]
 [p][r]
-そうして、私は作品をつくることを辞めました」[r][p]
+そうして、私は作品をつくることを辞めました」[r]
 [_tb_end_text]
 
 [bg  time=""  method="crossfade"  storage="complexSmall.jpg"  ]
@@ -749,7 +749,7 @@
 
 [_tb_end_text]
 
-[bg time="500" storage="bdish2.jpg"  ]
+[bg  time="500"  storage="bdish2.jpg"  ]
 [tb_start_text mode=3 ]
 
 #美代子（敬太の祖母）
@@ -765,7 +765,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg time="500" storage="space_fes2.jpg"  ]
+[bg  time="500"  storage="space_fes2.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
 （ビ、ビンゴー！！！）[r]
@@ -880,12 +880,12 @@
 
 [_tb_end_text]
 
-[glink  color="black"  storage="scene05.ks"  size="20"  target="*A:Game"  text="「これは茶番なんだ」"  x="200"  y="150"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="scene05.ks"  size="20"  text="「相対性理論なんだ」"  target="*B:Relativity"  x="200"  y="240"  width=""  height=""  _clickable_img=""  ]
+[glink  color="white"  storage="scene05.ks"  size="20"  target="*A:Game"  text="「これは茶番なんだ」"  x="130"  y="170"  width="300"  height=""  _clickable_img=""  ]
+[glink  color="white"  storage="scene05.ks"  size="20"  text="「相対性理論なんだ」"  target="*B:Relativity"  x="130"  y="220"  width="300"  height=""  _clickable_img=""  ]
 [s  ]
 *A:Game
 
-[bg time="500" storage="ownedsmall.png"  ]
+[bg  time="500"  storage="ownedsmall.png"  ]
 [chara_mod  name="mayor"  storage="chara/1/sprise_mayor.png"  ]
 [tb_start_text mode=3 ]
 #町長
@@ -917,7 +917,7 @@
 [_tb_end_text]
 
 [chara_mod  name="mayor"  storage="chara/1/WACA11782.png"  ]
-[bg time="500" storage="myspaceship2.jpg"  ]
+[bg  time="500"  storage="myspaceship2.jpg"  ]
 [tb_start_text mode=3 ]
 #
 町長はそう独り言を言うと、さっさと異星人の姿に戻り、ペルソナ星に戻ってしまった。[r]
@@ -925,7 +925,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg time="500" storage="AdobeStock_59212565.jpg"  ]
+[bg  time="500"  storage="AdobeStock_59212565.jpg"  ]
 [tb_start_text mode=3 ]
 その1ヶ月後、第七銀河はこの宇宙から消失した。[r]
 [p][r]
@@ -933,7 +933,7 @@
 
 [p][r]
 #
-The END[r][p]
+The END[r]
 [_tb_end_text]
 
 [jump  storage="title_screen.ks"  target="*title"  ]
@@ -941,7 +941,7 @@ The END[r][p]
 *B:Relativity
 
 [chara_mod  name="mayor"  storage="chara/1/thinking_WAC.png"  ]
-[bg time="500" storage="complexSmall.jpg"  ]
+[bg  time="500"  storage="complexSmall.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
 （・・・そうだ、アインシュタインの相対性理論だ）[r]
@@ -968,7 +968,7 @@ The END[r][p]
 
 [_tb_end_text]
 
-[bg time="500" storage="DSC03885.jpg"  ]
+[bg  time="500"  storage="DSC03885.jpg"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「・・・町長さん、いえWACA11783さん、どうかされましたか？」[r]
@@ -1059,7 +1059,7 @@ WACA11783は宇宙を救う覚悟で、祖母に懇願（こんがん）した�
 「なっ・・・！！」[p]
 [_tb_end_text]
 
-[bg time="500" storage="DSC03397.jpg"  ]
+[bg  time="500"  storage="DSC03397.jpg"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「私は夫の死後、陶芸を少し再開しました。[r]
@@ -1087,7 +1087,7 @@ WACA11783は宇宙を救う覚悟で、祖母に懇願（こんがん）した�
 
 [_tb_end_text]
 
-[bg time="500" storage="AdobeStock_119435056.jpg"  ]
+[bg  time="500"  storage="AdobeStock_119435056.jpg"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「実は、その器で使っている陶土は、とても特殊なもの。[p][r]
@@ -1101,7 +1101,7 @@ WACA11783は宇宙を救う覚悟で、祖母に懇願（こんがん）した�
 [p][r]
 [_tb_end_text]
 
-[bg time="500" storage="DSC03662.jpg"  ]
+[bg  time="500"  storage="DSC03662.jpg"  ]
 [tb_start_text mode=undefined ]
 #美代子（敬太の祖母）
 「だから、その器を直すためには、その【陶土】が必要になるんです」[p]
@@ -1112,7 +1112,7 @@ WACA11783は宇宙を救う覚悟で、祖母に懇願（こんがん）した�
 50年前、王子が着陸した場所にまだ残っているとか・・・？」[p]
 [_tb_end_text]
 
-[bg time="500" storage="DSC03654.jpg"  ]
+[bg  time="500"  storage="DSC03654.jpg"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「あの陶土はとても量が少なく、すべてを器の製作に使ってしまいました。[r]
@@ -1130,7 +1130,7 @@ WACA11783は宇宙を救う覚悟で、祖母に懇願（こんがん）した�
 [p][r]
 [_tb_end_text]
 
-[bg time="500" storage="AdobeStock_119435056.jpg"  ]
+[bg  time="500"  storage="AdobeStock_119435056.jpg"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「実は【あの方】のロケットが着陸した場所は、今は立ち入り禁止となっている泉山磁石場（いずみやまじせきば）のそばでした。[p][r]
@@ -1138,7 +1138,7 @@ WACA11783は宇宙を救う覚悟で、祖母に懇願（こんがん）した�
 [p][r]
 [_tb_end_text]
 
-[bg time="500" storage="DSC03642.jpg"  ]
+[bg  time="500"  storage="DSC03642.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
 「泉山磁石場・・・！[r]
@@ -1201,7 +1201,7 @@ WACA11783は宇宙を救う覚悟で、祖母に懇願（こんがん）した�
 [_tb_end_text]
 
 [chara_hide_all  wait="false"  ]
-[bg time="500" storage="AdobeStock_59212565.jpg"  ]
+[bg  time="500"  storage="AdobeStock_59212565.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
 （敬太のお祖母さん・・・いや、美代子さん・・・！！[r]

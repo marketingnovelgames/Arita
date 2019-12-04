@@ -168,8 +168,8 @@
 [p][r]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene04.ks"  size="20"  target="*A:sell"  text="「あの皿を売ろう」"  x="200"  y="100"  ]
-[glink  color="black"  storage="scene04.ks"  size="20"  text="「あの皿を売ってはいけない」"  target="*B:unsell"  x="200"  y="200"  ]
+[glink  color="white"  storage="scene04.ks"  size="20"  target="*A:sell"  text="「あの皿を売ろう」"  x="130"  y="170"  width="300"  ]
+[glink  color="white"  storage="scene04.ks"  size="20"  text="「あの皿を売ってはいけない」"  target="*B:unsell"  x="130"  y="220"  width="300"  ]
 [s  ]
 *A:sell
 
@@ -642,9 +642,9 @@
 [p][r]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene04.ks"  size="20"  text="作品集めた展示会だよ"  x="200"  y="150"  target="*A:conference"  ]
-[glink  color="black"  storage="scene04.ks"  size="20"  text="大皿のポスターだよ"  y="200"  x="200"  target="*B:poster"  ]
-[glink  color="black"  storage="scene04.ks"  size="20"  text="野菜との写真だよ"  x="200"  y="250"  width=""  height=""  _clickable_img=""  target="*C:photo"  ]
+[glink  color="white"  storage="scene04.ks"  size="20"  text="作品を集めた展示会だよ"  x="130"  y="170"  target="*A:conference"  width="300"  ]
+[glink  color="white"  storage="scene04.ks"  size="20"  text="大皿のポスターだよ"  y="220"  x="130"  target="*B:poster"  width="300"  ]
+[glink  color="white"  storage="scene04.ks"  size="20"  text="野菜との写真だよ"  x="130"  y="270"  width="300"  height=""  _clickable_img=""  target="*C:photo"  ]
 [s  ]
 *A:conference
 

@@ -469,9 +469,9 @@
 [p][r]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene02.ks"  size="20"  target="*A：僕の毎月のお小遣い、4600回分だ・・・"  text="お小遣い4600回分だ"  x="200"  y="50"  ]
-[glink  color="black"  storage="scene02.ks"  size="20"  target="*B：僕の毎月のお小遣い、46000回分だ・・・"  text="お小遣い46000回分だ"  x="200"  y="100"  ]
-[glink  color="black"  storage="scene02.ks"  size="20"  target="*C：僕の毎月のお小遣い、460000回分だ・・・"  text="お小遣い460000回分だ"  x="200"  y="150"  ]
+[glink  color="white"  storage="scene02.ks"  size="20"  target="*A：僕の毎月のお小遣い、4600回分だ・・・"  text="お小遣い4600回分だ"  x="130"  y="170"  width="300"  ]
+[glink  color="white"  storage="scene02.ks"  size="20"  target="*B：僕の毎月のお小遣い、46000回分だ・・・"  text="お小遣い46000回分だ"  x="130"  y="220"  width="300"  ]
+[glink  color="white"  storage="scene02.ks"  size="20"  target="*C：僕の毎月のお小遣い、460000回分だ・・・"  text="お小遣い460000回分だ"  x="130"  y="270"  width="300"  ]
 [s  ]
 *undefined
 
@@ -1178,9 +1178,9 @@
 [p][r]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene02.ks"  size="20"  target="*恋に落ちた？"  text="「君のおじいちゃんは恋に落ちた？」"  x="100"  y="100"  ]
-[glink  color="black"  storage="scene02.ks"  size="20"  text="「君のおじいちゃんにお弟子いたのかな？」"  target="*お弟子"  x="100"  y="200"  ]
-[glink  color="black"  storage="scene02.ks"  size="20"  text="「君のおじいちゃんの夫婦関係は良好だったかい？」"  target="*夫婦関係"  x="100"  y="300"  width=""  ]
+[glink  color="white"  storage="scene02.ks"  size="20"  target="*恋に落ちた？"  text="おじいちゃんは恋に落ちた？"  x="70"  y="70"  width="420"  ]
+[glink  color="white"  storage="scene02.ks"  size="20"  text="おじいちゃんにお弟子はいたのかな？"  target="*お弟子"  x="70"  y="120"  width="420"  ]
+[glink  color="white"  storage="scene02.ks"  size="20"  text="おじいちゃんの夫婦関係は良好だったかい？"  target="*夫婦関係"  x="70"  y="170"  width="420"  ]
 [s  ]
 *恋に落ちた？
 

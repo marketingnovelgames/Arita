@@ -52,10 +52,10 @@
 すこし説明が必要かな?[r]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene01.ks"  size="20"  text="惑星ペルソナとは？"  x="250"  y="100"  width=""  height=""  _clickable_img=""  target="*persona"  ]
-[glink  color="black"  storage="scene01.ks"  size="20"  text="有田町はどういうところ？"  y="150"  x="250"  target="*arita"  ]
-[glink  color="black"  storage="scene01.ks"  size="20"  text="町長ってどんな仕事？"  y="200"  x="250"  target="*mayor"  ]
-[glink  color="black"  storage="scene01.ks"  size="20"  text="説明は大丈夫。次に進む"  y="250"  x="250"  target="*end"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="惑星ペルソナとは？"  x="130"  y="70"  width="300"  height=""  _clickable_img=""  target="*persona"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="有田町はどういうところ？"  y="120"  x="130"  target="*arita"  width="300"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="町長ってどんな仕事？"  y="170"  x="130"  target="*mayor"  width="300"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="説明は大丈夫。次に進む"  y="220"  x="130"  target="*end"  width="300"  ]
 [s  ]
 *persona
 
@@ -209,10 +209,10 @@
 
 [_tb_end_text]
 
-[glink  color="black"  storage="scene01.ks"  size="20"  text="「キレイなスタイルをほめる」"  x="100"  y="50"  target="*A:"  ]
-[glink  color="black"  storage="scene01.ks"  size="20"  text="「若い人の話題に真面目に応える」"  x="100"  y="100"  target="*B:"  ]
-[glink  color="black"  storage="scene01.ks"  size="20"  text="「おいしい野菜をほめる」"  x="100"  y="150"  target="*C:"  ]
-[glink  color="black"  storage="scene01.ks"  size="20"  text="「素敵なシワをほめる」"  x="100"  y="200"  target="*D:"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="「キレイなスタイルをほめる」"  x="110"  y="70"  target="*A:"  width="330"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="「若い人の話題に真面目に応える」"  x="110"  y="120"  target="*B:"  width="330"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="「おいしい野菜をほめる」"  x="110"  y="170"  target="*C:"  width="330"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="「素敵なシワをほめる」"  x="110"  y="220"  target="*D:"  width="330"  ]
 [s  ]
 *A:
 
@@ -440,7 +440,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_127"  ]
+[tb_image_show  time="1000"  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_128"  ]
 [tb_start_text mode=3 ]
 なぜなら、私の足元には、真っ二つに割れてしまった陶器が転がっていたからだ。[r]
 
@@ -768,19 +768,19 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/road.jpg"  width="640"  height="960"  name="img_204"  ]
+[tb_image_show  time="1000"  storage="default/road.jpg"  width="640"  height="960"  name="img_205"  ]
 [tb_start_text mode=3 ]
 予算を使って道路を整備するのか、[r]
 [p][r]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/park.jpg"  width="638"  height="960"  name="img_206"  ]
+[tb_image_show  time="1000"  storage="default/park.jpg"  width="638"  height="960"  name="img_207"  ]
 [tb_start_text mode=3 ]
 公園をつくるのか、[r]
 [p][r]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/build.jpg"  width="648"  height="951"  name="img_208"  ]
+[tb_image_show  time="1000"  storage="default/build.jpg"  width="648"  height="951"  name="img_209"  ]
 [tb_start_text mode=3 ]
 はたまた学校をつくるのか[r]
 [p][r]
@@ -803,10 +803,10 @@
 [p][r]
 [_tb_end_text]
 
-[glink  color="black"  storage="scene01.ks"  size="20"  text="高齢者に使おう"  x="100"  y="50"  target="*A:高齢化"  ]
-[glink  color="black"  storage="scene01.ks"  size="20"  text="若者に使おう"  target="*B:若者"  x="100"  y="100"  ]
-[glink  color="black"  storage="scene01.ks"  size="20"  target="*C:観光"  text="観光に使おう"  x="100"  y="150"  ]
-[glink  color="black"  storage="scene01.ks"  size="20"  target="*D:予算使わない"  text="予算は使わない"  x="100"  y="200"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="高齢者に使おう"  x="130"  y="170"  target="*A:高齢化"  width="300"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="若者に使おう"  target="*B:若者"  x="130"  y="220"  width="300"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  target="*C:観光"  text="観光に使おう"  x="130"  y="270"  width="300"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  target="*D:予算使わない"  text="予算は使わない"  x="130"  y="320"  width="300"  ]
 [s  ]
 *A:高齢化
 
@@ -888,6 +888,7 @@
 
 [_tb_end_text]
 
+[jump  storage="scene01.ks"  target="*議論後"  ]
 *D:予算使わない
 
 [tb_eval  exp="f.Mscore-=2"  name="Mscore"  cmd="-="  op="t"  val="2"  val_2="undefined"  ]
