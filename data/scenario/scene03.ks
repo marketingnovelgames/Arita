@@ -806,7 +806,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [_tb_end_text]
 
 [bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
-[camera  time="10000"  zoom="1.2"  wait="false"  x="50"  y="-50"  ]
+[camera  time="10000"  zoom="1.4"  wait="false"  x="50"  y="-100"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
 「本当は、敬太はあの皿を売りたくないはずです。[r]
