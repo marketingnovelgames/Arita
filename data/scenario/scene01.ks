@@ -32,7 +32,7 @@
 
 [cm  ]
 [tb_start_text mode=3 ]
-いや、異星人だった・・・としたほうが正しいな。[l][r]
+いや、異星人だった・・・としたほうが正しいな[l][r]
 なぜなら、私は今、この有田町の「町長」なる役職に就いているからだ。[l][r]
 [_tb_end_text]
 
@@ -51,7 +51,9 @@
 [tb_start_text mode=3 ]
 すこし説明が必要かな?[r]
 [_tb_end_text]
+
 [autosave]
+
 [glink  color="white"  storage="scene01.ks"  size="20"  text="惑星ペルソナとは？"  x="130"  y="70"  width="300"  height=""  _clickable_img=""  target="*persona"  ]
 [glink  color="white"  storage="scene01.ks"  size="20"  text="有田町はどういうところ？"  y="120"  x="130"  target="*arita"  width="300"  ]
 [glink  color="white"  storage="scene01.ks"  size="20"  text="町長ってどんな仕事？"  y="170"  x="130"  target="*mayor"  width="300"  ]
