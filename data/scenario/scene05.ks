@@ -227,12 +227,12 @@
 #町長
 「・・・というわけで、大イチョウ1000年まつりの来訪者数は20万人を達成することができました。[p][r]
 おそらく、大成功といえると思います。[p][r]
-これもひとえに、この新しいイベントの開催に快く（こころよく）協力してくださった皆さんのおかげです」[p][r]
+これもひとえに、この新しいイベントの開催に[ruby text="こころよ"]快く協力してくださった皆さんのおかげです」[p][r]
 [_tb_end_text]
 
 [tb_start_text mode=3 ]
 #
-壇上（だんじょう）に立っていた町長がそう言うと、会場が大きな拍手に包まれた。[p][r]
+[ruby text="だん"]壇[ruby text="じょう"]上に立っていた町長がそう言うと、会場が大きな拍手に包まれた。[p][r]
 大イチョウ1000年まつりが終了し、10日後。[p][r]
 町役場では祭りの報告会がおこなわれていた。[p][r]
 
@@ -242,7 +242,7 @@
 [tb_image_hide  ]
 [chara_hide_all  wait="false"  ]
 [bg  time="500"  storage="DSC03518.jpg"  ]
-[tb_image_show  storage="default/DSC03518iteｍ.png"  width="640"  height="960"  name="img_59"  ]
+[tb_image_show  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_59"  ]
 [chara_show  name="mayor"  storage="chara/1/speach_mayor.png"  width="580"  height="861"  left="129"  top="374"  ]
 [tb_start_text mode=3 ]
 #町長

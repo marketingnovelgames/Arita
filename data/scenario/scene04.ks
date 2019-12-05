@@ -10,8 +10,8 @@
 [chara_hide  name="mayor"  time="1000"  wait="true"  pos_mode="true"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_hide_message_window  ]
-[tb_ptext_show  x="100"  y="480"  size="30"  color="0x000000"  time="1000"  text="第四章　銀杏の花言葉"  face="undefined"  edge="0xffffff"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
 [bg  time=""  method="crossfade"  storage="DSC03632.jpg"  ]
+[tb_ptext_show  x="185"  y="418"  size="30"  color="0xffffff"  time="1000"  text="第四章　銀杏の花言葉"  face="undefined"  edge="0x000000"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
 *tozan-2
 
 [tb_show_message_window  ]
@@ -50,7 +50,7 @@
 [p][r]
 [_tb_end_text]
 
-[chara_move  name="mayor"  anim="true"  effect="linear"  wait="false"  left="362"  top="321"  width="186"  height="340"  ]
+[chara_move  name="mayor"  anim="false"  effect="linear"  wait="false"  left="362"  top="321"  width="186"  height="340"  ]
 [tb_start_text mode=3 ]
 #
 町長は敬太のほうへゆっくりと歩き、優しく声をかけた。[p][r]
@@ -82,7 +82,7 @@
 [tb_image_show  time="1000"  storage="default/DSC03637.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_26"  ]
 [tb_start_text mode=3 ]
 #
-そう言うと、町長は磁器でつくられた神社を指指した。[r]
+そう言うと、町長は磁器でつくられた神社を指さした。[r]
 そして、話を続けた。[r]
 [p][r]
 [_tb_end_text]
@@ -263,7 +263,6 @@
 
 [_tb_end_text]
 
-[bg  time="500"  storage="AdobeStock_63160854.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
 「敬太くん、あの皿がなぜ、2300万円という金額なのかを考えたことはあるかい？」[r]
@@ -449,7 +448,7 @@
 「三田さん、今日も野菜を差し入れしてくださったんですが、帰り際に、[r]
 [p][r]
 町長のデスクの上に置いてあったポスターのサンプルに興味が湧いたらしくて・・・。[r]
-
+[p][r]
 ポスターを手に取って、写真やら文章やらをチェックされていたそうなんですが、[r]
 [p][r]
 ポスターの中の文言を見て、こう言われたんです。[r]
@@ -488,31 +487,31 @@
 「イチョウの花言葉って、どんな言葉なんだ・・・？」[r]
 [p][r]
 #役場の職員
-「【荘厳（そうごん）】【長寿（ちょうじゅ）】【鎮魂（ちんこん）】。[r]
+「【[ruby text="そう"]荘[ruby text="ごん"]厳】【[ruby text="ちょう"]長[ruby text="じゅ"]寿】【[ruby text="ちん"]鎮[ruby text="こん"]魂】。[r]
 [p][r]
 この3つが、イチョウの花言葉らしいです。[r]
 [p][r]
 さらには、イチョウはその樹齢の長さから、【生きている化石】とも呼ばれているそうで」[r]
-
+[p][r]
 [_tb_end_text]
 
 [chara_hide_all  wait="false"  ]
 [bg  time="500"  storage="AdobeStock_256052213.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
-「【荘厳】・・・[r]
+「【[ruby text="そう"]荘[ruby text="ごん"]厳】・・・[r]
 [p][r]
 [_tb_end_text]
 
 [bg  time="500"  storage="longlife.jpg"  ]
 [tb_start_text mode=3 ]
-【長寿】・・・[r]
+【[ruby text="ちょう"]長[ruby text="じゅ"]寿】・・・[r]
 [p][r]
 [_tb_end_text]
 
 [bg  time="500"  storage="AdobeStock_109746082.jpg"  ]
 [tb_start_text mode=3 ]
-【鎮魂】・・・」[r]
+【[ruby text="ちん"]鎮[ruby text="こん"]魂】・・・」[r]
 [p][r]
 [_tb_end_text]
 
@@ -552,12 +551,11 @@
 [p][r]
 花言葉、素晴らしい視点じゃないか！！[r]
 ナイスアシスト！！三田さん！！」[r]
-
+[p][r]
 
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="false"  ]
-[bg  time="500"  storage="AdobeStock_96148211.jpg"  ]
 [tb_start_text mode=3 ]
 # 町長
 「まさか野菜だけでなく、アイデアまで差し入れしてくださるとは・・・！！」[r]
@@ -624,14 +622,13 @@
 「うん！！[r]
 おじいちゃんのすごさをたくさんの人に知ってもらえるなら、僕、何でも手伝うよ！！」[r]
 
-
+[p][r]
 [_tb_end_text]
 
 [chara_mod  name="mayor"  storage="chara/1/walk_mayor.png"  ]
 [tb_start_text mode=3 ]
 #町長
 「よし！！」[r]
-
 [_tb_end_text]
 
 [chara_mod  name="mayor"  storage="chara/1/thinking_mayor.png"  ]
@@ -985,7 +982,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg  time=""  method="crossfade"  storage="AdobeStock_292804100.jpg"  ]
+[bg  time=""  method="crossfade"  storage="AdobeStock_285771747.jpg"  ]
 [tb_start_text mode=3 ]
 #
 いつしか、敬太の顔には満面の笑顔が浮かんでいた。[r]

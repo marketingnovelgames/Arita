@@ -179,20 +179,19 @@
 [tb_eval  exp="f.Mscore+=2"  name="Mscore"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
 [bg  time="500"  method="crossfade"  storage="AdobeStock_180605356.jpg"  ]
 [tb_start_text mode=3 ]
-
 #WACA11783
 「あの皿が売れていない理由。[r]
 それはズバリ、あの皿の存在が、あの皿を欲しいと思う人に伝わっていないからだ」[r]
-
+[p][r]
 
 #WACA11783
 「あの皿は山口清彩の皿であるということを考えると、少なからず、全国のどこかにあの皿に興味をもっている人がいるはずだ。[r]
 田中さんが言うには、“清彩に憧れて有田焼の世界に足を踏み入れた陶芸家は少なくない”とのこと」[r]
 
-
+[p][r]
 #WACA11783
 「ということは、あの2300万円の皿が世の中に存在していることを知らない清彩ファンがどこかにいるのかも・・・」[r]
-
+[p][r]
 [_tb_end_text]
 
 [jump  storage="scene03.ks"  target="*C-2：伝えること"  ]
@@ -257,6 +256,7 @@
 
 #WACA11783
 「おっ、山口清彩、しっかりファンがいるではないか。[r]
+[p][r]
 ファンの数はそれほど多くはないかもしれないが、どの記事も、清彩の作品の素晴らしさを語っている」[r]
 [p][r]
 【清彩作品の世界に浸る】[r]
@@ -437,6 +437,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 
 #町長
 「2300万円もする皿なら、おそらく、君のおじいちゃんの代表作のひとつだと思う。[r]
+[p][r]
 その代表作について、ファンの人たちが誰も言及していなかったんだ」[r]
 [p][r]
 
@@ -471,7 +472,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 #
 その瞬間、敬太は突然、何も言わず、自宅を飛び出して行った。[r]
 突然のことに、ポカンとする町長。[r]
-
+[p][r]
 [_tb_end_text]
 
 [mask  effect="fadeIn"  color="0x000000"  ]
@@ -495,6 +496,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [p][r]
 [_tb_end_text]
 
+[tb_chara_shake  name="mayor"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
 ドンッ！！！！！[r]
 （※誰かとぶつかった音）[r]
@@ -577,7 +579,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [p][r]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/DSC03446.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_127"  ]
+[tb_image_show  time="1000"  storage="default/DSC03446.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_128"  ]
 [tb_start_text mode=3 ]
 #町長
 「実は今、敬太くんから、おじいちゃんがつくられたお皿を売るための知恵を貸してほしいと言われていまして・・・。[r]
@@ -755,7 +757,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [p][r]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/DSC03446.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_148"  ]
+[tb_image_show  time="1000"  storage="default/DSC03446.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_149"  ]
 [tb_start_text mode=3 ]
 
 
@@ -804,6 +806,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [_tb_end_text]
 
 [bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
+[camera  time="10000"  zoom="1.2"  wait="false"  x="50"  y="-50"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
 「本当は、敬太はあの皿を売りたくないはずです。[r]

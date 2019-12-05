@@ -1,3 +1,6 @@
+;191204update
+;plugin  オートセーブ追加
+
 [_tb_system_call storage=system/_title_screen.ks]
 
 [hidemenubutton]
