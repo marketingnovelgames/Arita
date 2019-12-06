@@ -410,7 +410,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 すると、ファンの人がつくったブログや、おじいちゃんについて特集している記事などが見つかった。[r]
 [p][r]
 やっぱり、君のおじいちゃんはすごい人だったんだよ」[r]
-
+[p][r]
 [_tb_end_text]
 
 [chara_mod  name="keta"  storage="chara/4/lookup_keta.png"  ]
@@ -499,8 +499,6 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [tb_chara_shake  name="mayor"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
 ドンッ！！！！！[r]
-（※誰かとぶつかった音）[r]
-[p][r]
 [_tb_end_text]
 
 [tb_start_text mode=3 ]

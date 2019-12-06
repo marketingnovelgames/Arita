@@ -55,6 +55,8 @@
 [tb_start_text mode=3 ]
 #女性
 「"わかった"は1回！」[r]
+[p][r]
+#啓太
 「じゃあ、行ってきますー！！」[r]
 [p][r]
 [_tb_end_text]
@@ -102,12 +104,12 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="kiyoshiLow.jpg"  ]
+[bg  time="500"  method="crossfade"  storage="DSC03416.jpg"  ]
 [tb_start_text mode=3 ]
 亡くなった父「清（きよし）」は有田焼をつくる陶芸家だった。[p][r]
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="DSC03321.jpg"  ]
+[bg  time="500"  method="crossfade"  storage="DSC03419.jpg"  ]
 [tb_start_text mode=3 ]
 自らを「山口清彩（やまぐちせいさい）」と名乗り、町外れに小さな工房を構え、自身の作品を自宅1階の小さなショールームに展示していた。[r]
 [p][r]
@@ -118,7 +120,7 @@
 そんな父を彩子は尊敬していた。[r]
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="kiyoshi2Low.jpg"  ]
+[bg  time="500"  method="crossfade"  storage="kiyoshiLow.jpg"  ]
 [tb_start_text mode=3 ]
 そして、彩子の息子である敬太も、祖父である清のことが大好きだった。[r]
 [p][r]
@@ -141,7 +143,7 @@
 [bg  time="0"  method="crossfade"  storage="DSC03609.jpg"  ]
 [chara_show  name="keta"  time="0"  wait="true"  storage="chara/4/stand_keta.png"  width="157"  height="269"  left="496"  top="504"  reflect="false"  ]
 [tb_start_text mode=3 ]
-実は、敬太には友だちがひとりもいなかったのである。[r]
+実は、敬太には友だちがひとりもいなかったのである。[p][r]
 東京から有田へ移住してきて以降、敬太は学校のクラスメイトとなかなか馴染めず、つらい日々を送っていた。[r]
 [p][r]
 [_tb_end_text]
@@ -149,11 +151,13 @@
 [chara_hide  name="keta"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="500"  method="crossfade"  storage="DSC03592.jpg"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="Japanese_School_Bell02-12_(online-audio-converter.com).ogg"  ]
-[font  size="30"  color="0xfab905"  ]
-[tb_ptext_show  x="33"  y="256"  size="60"  color="0xfab905"  time="1000"  text="♪キンコンカンコン～"  face="undefined"  edge="undefined"  shadow=""  anim="true"  fadeout="false"  wait="false"  in_effect="swing"  out_effect="fadeOut"  ]
-[tb_ptext_show  x="48"  y="384"  size="60"  color="0xfab905"  time="1000"  text="♪キンコンカンコン～"  face="undefined"  edge="undefined"  shadow=""  anim="true"  fadeout="false"  wait="false"  in_effect="swing"  out_effect="fadeOut"  ]
-[resetfont  ]
-[font  size="36"  color="0xffffff"  ]
+[tb_start_text mode=3 ]
+#
+♪キンコンカンコン～[r]
+♪キンコンカンコン～[r]
+[p][r]
+[_tb_end_text]
+
 [tb_start_text mode=3 ]
 ここは敬太が通う小学校。[r]
 終業のベルが鳴り響いている。[r]
@@ -303,7 +307,7 @@
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #祖母 美代子
-「・・・？？」[l][r]
+「・・・？？」[p][r]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -312,8 +316,8 @@
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #美代子
-「け、敬太！！？」[l][r]
-「どうしたんだい！！？その顔は・・・！！？」[l][r]
+「け、敬太！！？」[r]
+「どうしたんだい！！？その顔は・・・！！？」[p][r]
 
 [_tb_end_text]
 
@@ -325,7 +329,7 @@
 
 [tb_start_text mode=3 ]
 #美代子
-「なんでもないって・・・。」[p][r]
+「なんでもないって・・・。」[r]
 「誰かにいじめられたのかい？？」[p][r]
 [_tb_end_text]
 
@@ -339,7 +343,7 @@
 [chara_hide  name="keta"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=3 ]
 #美代子
-「敬太・・・。」[l][r]
+「敬太・・・。」[p][r]
 [_tb_end_text]
 
 [chara_hide  name="grandoma_keta"  time="1000"  wait="true"  pos_mode="true"  ]
@@ -375,37 +379,36 @@
 #（回想）
 穐[r]
 「お前んちの前通りかかったけどさ、あの窓に飾られてる食器ってさ、売れんの？」[r]
+[p][r]
 [_tb_end_text]
 
 [cm  ]
-[tb_start_text mode=2 ]
-「オレが生まれたときから、ずっと飾られてるぜ（笑）」[l][r]
+[tb_start_text mode=3 ]
+「オレが生まれたときから、ずっと飾られてるぜ（笑）」[r]
+[p][r]
 [_tb_end_text]
 
-[cm  ]
 [bg  time="500"  method="crossfade"  storage="room2_ketalight.jpg"  ]
 [tb_start_text mode=3 ]
 #敬太
 「くそ・・・おじいちゃんの食器がスゴイってこと、絶対に証明してやる・・・！」[p][r]
 [_tb_end_text]
 
-[cm  ]
-[tb_start_text mode=2 ]
-ひとしきり泣いた敬太は、2階から1階へ駆け下りた。[p][l][r]
+[tb_start_text mode=3 ]
+ひとしきり泣いた敬太は、2階から1階へ駆け下りた。[p][r]
 [_tb_end_text]
 
-[bg  time="1000"  method="crossfade"  storage="DSC03401.jpg"  ]
-[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="239"  height="426"  left="436"  top="439"  reflect="false"  ]
-[camera  time="1000"  zoom="3"  wait="true"  x="200"  y="0"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
+[bg  time="500"  method="crossfade"  storage="DSC03401.jpg"  ]
+[chara_show  name="keta"  time="0"  wait="false"  storage="chara/4/stand2_keta.png"  width="239"  height="426"  left="436"  top="439"  reflect="false"  ]
+[camera  time="1000"  zoom="2"  wait="false"  x="150"  y="0"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
 [tb_start_text mode=3 ]
 #敬太
 「おばあちゃん！」[r]
 「オレ、ちょっと出てくるから！」[p][r]
 [_tb_end_text]
 
-[reset_camera  time="1000"  wait="true"  ]
+[camera  time="1000"  zoom="2"  wait="false"  y="-50"  x="-150"  ]
 [chara_show  name="grandoma_keta"  time="1000"  wait="true"  storage="chara/7/walk_grandma.png"  width="750"  height="1334"  left="-213"  top="503"  reflect="false"  ]
-[camera  time="1000"  zoom="1.5"  wait="true"  x="-110"  y="-200"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「？？[r]
@@ -560,6 +563,7 @@
 [bg  time="500"  method="crossfade"  storage="DSC03315.jpg"  ]
 [chara_show  name="keta"  time="1000"  storage="chara/4/stand_keta_refrect.png"  width="333"  height="592"  left="26"  top="536"  reflect="false"  ]
 [chara_show  name="stationstaff"  time="1000"  storage="chara/9/stationstaff4.png"  width="517"  height="776"  left="223"  top="397"  reflect="true"  ]
+[camera  time="1000"  zoom="1.2"  wait="false"  y="-100"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #店のおじさん（田中さん）
@@ -582,11 +586,13 @@
 [_tb_end_text]
 
 [chara_mod  name="stationstaff"  time="600"  cross="true"  storage="chara/9/elderman.png"  ]
+[reset_camera  time="5000"  wait="false"  ]
 [tb_start_text mode=3 ]
 #店のおじさん（田中さん）
 「うーん、そうだなあ。[r]
 この店の中にある商品だと、この壺（つぼ）とかかな。[p][r]
 これは中右衛門（なかえもん）という有名な陶芸家がつくった壺なんだよ」[r]
+[p][r]
 
 [_tb_end_text]
 
@@ -818,7 +824,7 @@
 
 #店のおじさん（田中さん）
 「大イチョウ1000年まつり、いい感じに準備が盛り上がっているみたいですな」[r]
-
+[p][r]
 [_tb_end_text]
 
 [bg  time="500"  method="crossfade"  storage="UNADJUSTEDNONRAW_thumb_dc1a2.jpg"  ]
@@ -916,7 +922,7 @@
 #敬太くん
 「・・・町長さん？」[r]
 
-
+[p][r]
 #町長
 「・・・あ、ああ、私がこの町の町長だよ」[r]
 
@@ -941,7 +947,6 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="complexSmall.jpg"  ]
 [chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/thinking_mayor.png"  ]
 [tb_start_text mode=3 ]
 #町長
@@ -964,8 +969,11 @@
 [chara_mod  name="mayor"  storage="chara/1/stand_mayor.png"  ]
 [tb_start_text mode=3 ]
 #町長
-「な、なるほど・・・。[p][r]
-そこにいる敬太くんは、知る人ぞ知る陶芸家『山口清彩』氏の孫で、クラスメイトたちをぎゃふんと言わせたいので、清彩氏がつくった2300万円の皿を売りたいと・・・」[r]
+「な、なるほど・・・。[r]
+[p][r]
+そこにいる敬太くんは、知る人ぞ知る陶芸家『山口清彩』氏の孫で、[r]
+[p][r]
+クラスメイトたちをぎゃふんと言わせたいので、清彩氏がつくった2300万円の皿を売りたいと・・・」[r]
 
 [p][r]
 
@@ -979,7 +987,7 @@
 #敬太くん
 「町長さんなら、そんなのきっと楽勝だよね！」[r]
 
-
+[p][r]
 [_tb_end_text]
 
 [chara_mod  name="mayor"  storage="chara/1/thinking_mayor.png"  ]
@@ -1075,7 +1083,6 @@
 [_tb_end_text]
 
 [chara_mod  name="mayor"  storage="chara/1/depress_mayor.png"  ]
-[bg  time="500"  method="crossfade"  storage="complexSmall.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
 （話の流れで「朝飯前」と言ってしまったが、なんだかとんでもないことに巻き込まれてしまった感があるぞ・・・）[r]
@@ -1101,6 +1108,7 @@
 [_tb_end_text]
 
 [chara_show  name="mayor"  time="1000"  wait="true"  storage="chara/1/mayor_back.png"  width="537"  height="957"  left="51"  top="174"  reflect="false"  ]
+[reset_camera  time="1000"  wait="true"  ]
 [tb_start_text mode=3 ]
 敬太の家の中にある敬太くんの部屋[r]
 [_tb_end_text]
@@ -1115,7 +1123,10 @@
 
 [chara_hide  name="keta"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand_keta.png"  width="292"  height="525"  left="361"  top="403"  reflect="false"  ]
+[tb_hide_message_window  ]
 [tb_image_show  time="1000"  storage="default/DSC03446.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_301"  ]
+[camera  time="10000"  zoom="1.1"  wait="false"  x="0"  y="-20"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #町長
 「これが・・・2300万円の皿・・・！」[r]
@@ -1130,11 +1141,14 @@
 [p][r]
 #町長
 （ただ、この皿の値段は2300万円・・・。[r]
+
+[_tb_end_text]
+
+[tb_start_text mode=3 ]
 [p][r]
 2300万円といえば、この国では小さな家が買えてしまう値段・・・。[p][r]
 かなり思い切った値段であることはたしかだ）[r]
 [p][r]
-
 #町長
 「・・・ん！？」[r]
 
@@ -1142,7 +1156,6 @@
 [_tb_end_text]
 
 [tb_image_hide  ]
-[camera  time="500"  zoom="1.5"  wait="true"  y="-50"  ]
 [tb_chara_shake  name="mayor"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
 #町長
@@ -1351,7 +1364,7 @@
 
 [p][r]
 #町長
-（なんだか上手く誘導された感はあるけれど、修復できる人物が早急に見つかることに越したことはない）[r]
+（なんだか上手く誘導された感はあるけれど、修復できる人物が早急に見つかるに越したことはない）[r]
 [p][r]
 [_tb_end_text]
 
@@ -1377,3 +1390,4 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene03.ks"  target="*mayorsHome"  ]
+[reset_camera  time="1000"  wait="true"  ]
