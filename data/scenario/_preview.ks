@@ -1,236 +1,190 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="Screen_Shot_2019-09-16_at_0.08.52.png"  ]
+[bg  time="10"  storage="DSC03950.jpg"  cross="true"  ]
 [tb_show_message_window] 
-[chara_mod  name="mayor"  storage="chara/1/stand_WAC.png"  time="10"  ]
-[chara_mod  name="keta"  storage="chara/4/run_keta.png"  time="10"  ]
-[chara_show  name="mayor"  storage="chara/1/crossseat_mayor1.png"  left="341"  top="336"  width="262"  height="465"  reflect="false"  wait="false"  time="10"  ]
-[chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="388"  height="689"  left="165"  top="345"  reflect="false"  time="10"  ]
-[chara_move  name="keta"  anim="false"  time="10"  effect="linear"  wait="false"  left="359"  top="328"  width="362"  height="656"  ]
-[chara_move  name="ayako"  anim="false"  time="10"  effect="linear"  wait="false"  left="111"  top="589"  width="441"  height="784"  ]
+[chara_mod  name="mayor"  time="10"  cross="false"  storage="chara/1/walk_mayor.png"  ]
+[chara_show  name="others"  storage="chara/14/ask_staff.png"  width="355"  height="631"  reflect="true"  left="10"  top="452"  time="10"  ]
+[chara_show  name="elderman"  storage="chara/8/elderman.png"  width="322"  height="572"  left="179"  top="444"  reflect="true"  wait="false"  time="10"  ]
+[chara_show  name="ayako"  storage="chara/3/work_aya.png"  width="339"  height="603"  left="322"  top="488"  reflect="false"  time="10"  ]
+[chara_show  name="mayor"  storage="chara/1/stand_mayor.png"  width="464"  height="825"  left="-225"  top="479"  reflect="false"  time="10"  ]
 [reset_camera  x="*0px"  y="*0px"  scale="1"  rotate="0deg"  time="10"  ]
 [mask_off time=10]
-[bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
-[camera  time="10000"  zoom="1.4"  wait="false"  x="50"  y="-100"  ]
 [tb_start_text mode=3 ]
-#彩子（敬太の母）
-「本当は、敬太はあの皿を売りたくないはずです。[r]
-だって、大好きなおじいちゃんの形見なんですから」[r]
-[p][r]
-
-#町長
-「・・・」[r]
-[p][r]
-
-#彩子（敬太の母）
-[_tb_end_text]
-
-[tb_chara_shake  name="ayako"  direction="x"  count="2"  swing="20"  time="50"  ]
-[tb_start_text mode=3 ]
-#彩子（敬太の母）
-「私、あの子を救ってあげたいんですが、どうすればいいかわからなくて・・・」[r]
-[p][r]
 #
-いつしか、敬太の母親の目には涙がにじんでいた。[r]
-敬太の母親は、慌ててハンカチで涙を拭った。[r]
+いつの間にか、私の目の前には4人の職員がいた。[r]
+彼らはお互いの意見をぶつけ合っている。[r]
+[p][r]
+そうか、今日は予算会議の日だったな。[r]
+
+
+この町の予算とは「町民から得た税金を町のためにどう使うか？」という年間計画のことである。[r]
+[p][r]
+
+予算に関する議論はいつも揉（も）めやすい。[r]
+町議会でも、議員たちがよく揉めていた。[r]
+[p][r]
+
+[_tb_end_text]
+
+[tb_image_show  time="1000"  storage="default/01-001.jpg"  width="640"  height="960"  name="img_205"  ]
+[tb_start_text mode=3 ]
+予算を使って道路を整備するのか、[r]
 [p][r]
 [_tb_end_text]
 
-[chara_show  name="mayor"  storage="chara/1/thinking_mayor.png"  left=""  top=""  width=""  height=""  reflect="false"  ]
-*A-2:知ってもらう
+[tb_image_show  time="1000"  storage="default/01-002.jpg"  width="640"  height="960"  name="img_207"  ]
+[tb_start_text mode=3 ]
+公園をつくるのか、[r]
+[p][r]
+[_tb_end_text]
+
+[tb_image_show  time="1000"  storage="default/01-003.jpg"  width="640"  height="960"  name="img_209"  ]
+[tb_start_text mode=3 ]
+はたまた学校をつくるのか[r]
+[p][r]
+[_tb_end_text]
+
+[tb_image_hide  time="1000"  ]
+[tb_start_text mode=3 ]
+その使い道はさまざま。[r]
+[p][r]
+今、私に求められているのは、まさに、その予算の使い道をどのようにするのか？という決断だ。[r]
+[p][r]
+[_tb_end_text]
 
 [tb_start_text mode=3 ]
-
-#町長
-（なるほど・・・。[r]
-そういうことだとすると、あの皿を単に売ればいいという話ではなくなってきたな・・・）[r]
+今の私はこの町の町長。[r]
+私の一言が、きっと、この町の未来を変えるのだろう。[r]
 [p][r]
 
-#町長
-（敬太くんが本当に求めていることは、あの皿を売ることではなく・・・）[r]
+・・・さて、どんなことに予算を使おうかな。[r]
 [p][r]
 [_tb_end_text]
 
-[glink  color="white"  storage="scene03.ks"  size="20"  text="「おじいちゃんを知ってもらいたい」"  target="*A:おじいちゃんを知ってもらいたい"  x="90"  y="270"  width="360"  ]
-[glink  color="white"  storage="scene03.ks"  size="20"  target="*B:大人をからかおうとしている"  text="「大人をからかおうとしている」"  x="90"  y="320"  width="360"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="高齢者に使おう"  x="130"  y="170"  target="*A:高齢化"  width="300"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="若者に使おう"  target="*B:若者"  x="130"  y="220"  width="300"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  target="*C:観光"  text="観光に使おう"  x="130"  y="270"  width="300"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  target="*D:予算使わない"  text="予算は使わない"  x="130"  y="320"  width="300"  ]
 [s  ]
-*A:おじいちゃんを知ってもらいたい
+*A:高齢化
 
-[bg  time="500"  method="crossfade"  storage="DSC03416.jpg"  ]
+[tb_eval  exp="f.Mscore+=2"  name="Mscore"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
 [tb_start_text mode=3 ]
 #町長
+「君たち、議論はそこまでだ。[r]
+私の考えを言おう」[r]
+[p][r]
 
-（そう。[r]
-敬太くんは、クラスメイトにおじいちゃんのすごさを知ってもらいたいだけなんだ）[r]
+#町長
+「高齢者はこの町の功労者だ。[r]
+だから、高齢者を大切にするための事業に予算を使うのはどうだろう？」[r]
 [p][r]
 [_tb_end_text]
 
-[jump  storage="scene03.ks"  target="*A-2:おじいちゃんを知ってもらう"  ]
-*B:大人をからかおうとしている
-
+[tb_chara_shake  name="stationstaff"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
-#町長
-（そう。[r]
-敬太くんは、ただ我々をからかおうとしているだけなんだ）[r]
-[p][r]
-
-#町長
-（むむむ・・・！[r]
-そう思うと、なんだか腹が立ってきたぞ）[r]
-[p][r]
-
-#町長
-（グッ・・・！！！[r]
-しまった・・・！！！[r]
-感情が乱れてしまうと、地球人への擬態が解けてしまう・・・！！！）[r]
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="mayor"  storage="chara/1/surprise3_WAC.png"  ]
-[tb_start_text mode=3 ]
-#
-町長がそう思った瞬間、彼の姿はもとの異星人の姿に戻ってしまっていた。[r]
-[p][r]
-#彩子（敬太の母）
-「きゃー！！！！！！[r]
-な、なんなんですか、あなた！！！！！！[r]
-なんでそんな格好しているんですか！！！？」[r]
-
-#町長
-「なんでそんな格好と言われても、これが私の本当の姿・・・」[r]
-
-[_tb_end_text]
-
-[chara_mod  name="ayako"  storage="chara/3/call_aya.png"  ]
-[chara_move  name="ayako"  anim="false"  time="300"  effect="linear"  wait="true"  left="70"  top="272"  width="441"  height="784"  ]
-[tb_start_text mode=3 ]
-#彩子（敬太の母）
-「け、警察！！！！！」[r]
-[p][r]
-■ナレーション[r]
-呆然とする町長の耳に、パトカーのサイレンが聞こえてきた。[r]
-[p][r]
-
-The End[r]
-[p][r]
-[_tb_end_text]
-
-[chara_hide_all  time="1000"  wait="true"  ]
-[jump  storage="title_screen.ks"  target=""  ]
-[s  ]
-*A-2:おじいちゃんを知ってもらう
-
-[tb_start_text mode=3 ]
-#町長
-「敬太君のお母さん。[r]
-敬太くんは、あの皿を売りたいわけではなく、[p][r]
-クラスメイトにおじいちゃんのすごさを知ってもらいたいだけなんですね」[r]
-
-
-#彩子（敬太の母）
-「はい・・・。[r]
-私もそう思います・・・」[p][r]
-[_tb_end_text]
-
-[bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
-[tb_start_text mode=3 ]
-#彩子（敬太の母）
-「敬太が足を運びそうな場所・・・」[r]
-[p][r]
-
-#町長
-「敬太くんに会って、彼自身の口から本当の気持ちを聞き出そうと思います。[r]
-[p][r]
-そうすれば、きっと何かいい解決策が見つかるかも・・・」[r]
-
-[_tb_end_text]
-
-[bg  time="500"  method="crossfade"  storage="DSC03632.jpg"  ]
-[tb_start_text mode=3 ]
-#彩子（敬太の母）
-「敬太が足を運びそうな場所・・・。[r]
-ひとつ心当たりがあります。[r]
-あの子、陶山神社（すえやまじんじゃ）によく行くんです」[r]
-[p][r]
-#町長
-「陶山神社（すえやまじんじゃ）・・・」[r]
+# 役場の職員1
+「いいですね！[r]
+これでこの町のお年寄りの方々もホッとすると思います。[p][r]
+新しい医療施設を建てたり、高齢者の方々の憩いの場所を増やしたりすると良さそうですね。[p][r]
+じゃあ、予算会議はその方向で進めましょう」[r]
 [p][r]
 
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="FAC25D91-42AB-4D97-BC08-AC10FDF25650_1_105_c.jpg"  ]
-[tb_start_text mode=3 ]
-#彩子（敬太の母）
-「はい。[r]
-敬太は昔からあの神社が大好きで・・・。[r]
-[p][r]
-磁器の鳥居を抜けた高台から、よくこの有田の町を眺めていました」[r]
-[p][r]
-[_tb_end_text]
+[jump  storage="scene01.ks"  target="*議論後"  ]
+*B:若者
 
-[bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
-[bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
+[tb_eval  exp="f.Mscore+=3"  name="Mscore"  cmd="+="  op="t"  val="3"  val_2="undefined"  ]
 [tb_start_text mode=3 ]
 #町長
-「敬太くんのお母さん、コーヒーありがとうございました。[r]
-私は今から陶山神社に足を運んでみます」[r]
-[p][r]
+「君たち、議論はそこまでだ。[r]
+私の考えを言おう」[r]
 
-#彩子（敬太の母）
-「ありがとうございます。[r]
-敬太がいればいいんですが・・・」[r]
-[p][r]
 
 #町長
-「私も会えることを願っています。[r]
-では失礼します」[r]
-[p][r]
-[_tb_end_text]
+「若者が増えないと、この町はどんどん寂しくなる。[r]
+だから、若者を集めるための事業に予算を使うのはどうだろう？」[r]
 
-[chara_hide_all  wait="false"  ]
-[tb_start_text mode=3 ]
-#
-町長はそう言うと、敬太の家を後にし、陶山神社を目指すことにした。[r]
-[p][r]
-[_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="DSC03397.jpg"  ]
-[tb_start_text mode=3 ]
-#町長
-（・・・さっきは思いもよらなかったが、敬太くんのお母さん、父の清彩氏と同じように陶芸家の道は志さなかったのだろうか？）[r]
-[p][r]
-
-#町長
-（もし仮に、彼女が陶芸家を目指していたとしたら・・・。[p][r]
-王子が地球で出会った女性というのは・・・彼女という可能性もあるのか・・・？）[r]
-[p][r]
 [_tb_end_text]
 
 [tb_chara_shake  name="mayor"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
-#町長
-（・・・！！）[r]
+#役場の職員4
+「やっぱり、町長なら分かってくれると思いました！[p][r]
+若者が活躍できるまちづくりが大事ですよね。[p][r]
+この町には若者向けの施設が少ないので、まずは若者たちが集える場所づくりが先決だと思います」[r]
 [p][r]
+
+
 [_tb_end_text]
 
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  ]
+[jump  storage="scene01.ks"  target="*議論後"  ]
+*C:観光
+
+[tb_eval  exp="f.Mscore+=2"  name="Mscore"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
 [tb_start_text mode=3 ]
 #町長
-（なんということだ・・・！[r]
-もしそうなら、私の正体を明かせば、[r]
-[p][r]
-王子の器の修復を手伝ってもらえるかもしれない・・・！）[r]
+「君たち、議論はそこまでだ。[r]
+私の考えを言おう」[r]
+
+
+#町長
+「観光客を増やせば、この町は勢いを取り戻す。[r]
+だから、観光客を集めるための事業に予算を使うのはどうだろう？」[r]
+
+[_tb_end_text]
+
+[tb_chara_shake  name="ayako"  direction="x"  count="2"  swing="20"  time="100"  ]
+[tb_start_text mode=3 ]
+#役場の職員2
+「そうなんです！[r]
+結局、この町の観光資源をいかに上手く使うかが大事なんですよね。[p][r]
+この町が盛り上がれば、高齢者の方も若者も、今よりもっとこの町が好きになるはずです。[p][r]
+観光客を増やすための施策を積極的に考えたいですね！」[p][r]
+
+[_tb_end_text]
+
+[jump  storage="scene01.ks"  target="*議論後"  ]
+*D:予算使わない
+
+[tb_eval  exp="f.Mscore-=2"  name="Mscore"  cmd="-="  op="t"  val="2"  val_2="undefined"  ]
+[tb_chara_shake  name="ayako"  direction="x"  count="2"  swing="20"  time="100"  ]
+[tb_start_text mode=3 ]
+#役場の職員3
+「ちょっと待ってください！[p][r]
+予算を使わないなんて、そんな方針聞いたことがないです！[p][r]
+そもそも予算は“使う”ためにありますし、[p][r]
+税金を払ってくださっている町の人たちはみんな、[r]
+自分たちの税金が良いことに使われることを願っているんです・・・！[p][r]
+使い方がわからないから使わないなんて、責任逃れですよ・・・。[p][r]
+予算をどう使うのかを考えるのが、町長の仕事じゃないですか！」[p][r]
+
+
+#町長
+「た、たしかに・・・。[r]
+（めっちゃ怒られた・・・）」[r]
 [p][r]
 [_tb_end_text]
 
-[chara_show  name="mayor"  storage="chara/1/stand_mayor.png"  ]
+[jump  storage="scene01.ks"  target="*議論後"  ]
+*議論後
+
 [tb_start_text mode=3 ]
 #町長
-（・・・と待て待て、今はまずは敬太くんのことを解決するのが先決だ。[r]
+（私の予算の使い方が正しいかどうかわからない。[r]
 [p][r]
-焦らなくても、敬太くんの件が解決すればきっと、王子の器を修復するための道が開けるはず）[r]
+しかし、なんとかこの場はしのげそうだ。[r]
+
+
+私は役場の職員たちの鋭い視線を受けながら、会議室へと向かった。）[r]
 [p][r]
+王子がペルソナに帰星するまで、あと51日と3時間・・・。[r]
+
 [_tb_end_text]
 
-[jump  storage="scene04.ks"  target="*tozan"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="scene02.ks"  target="*"  ]
+[s  ]
