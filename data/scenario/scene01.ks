@@ -776,19 +776,19 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/road.jpg"  width="640"  height="960"  name="img_205"  ]
+[tb_image_show  time="1000"  storage="default/01-001.jpg"  width="640"  height="960"  name="img_205"  ]
 [tb_start_text mode=3 ]
 予算を使って道路を整備するのか、[r]
 [p][r]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/park.jpg"  width="638"  height="960"  name="img_207"  ]
+[tb_image_show  time="1000"  storage="default/01-002.jpg"  width="640"  height="960"  name="img_207"  ]
 [tb_start_text mode=3 ]
 公園をつくるのか、[r]
 [p][r]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/build.jpg"  width="648"  height="951"  name="img_209"  ]
+[tb_image_show  time="1000"  storage="default/01-003.jpg"  width="640"  height="960"  name="img_209"  ]
 [tb_start_text mode=3 ]
 はたまた学校をつくるのか[r]
 [p][r]

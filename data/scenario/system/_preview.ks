@@ -1,7 +1,0 @@
-[preload  storage="./data/bgimage/cityhall_overview_AritaLow.jpg"  ]
-[preload  storage="./data/bgimage/DSC03950.jpg"  ]
-[preload  storage="./data/fgimage/chara/1/mayor_back.png"  ]
-[preload  storage="./data/fgimage/default/road.jpg"  ]
-[preload  storage="./data/fgimage/default/park.jpg"  ]
-[preload  storage="./data/fgimage/default/build.jpg"  ]
-[return] 
