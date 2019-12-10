@@ -1,55 +1,14 @@
-[_tb_system_call storage=system/_scene01.ks]
+[_tb_system_call storage=system/_preview.ks ]
 
-*1_profile
-
-[cm  ]
-[reset_camera  time="1000"  wait="true"  ]
-[tb_ptext_hide  time="1000"  ]
-[tb_replay_start  ]
-[bg  time="500"  storage="DSC03777.jpg"  ]
-[tb_ptext_show  x="130"  y="180"  size="30"  color="0x000000"  time="1000"  face="undefined"  text="第一章　20XX年地球への旅"  edge="undefined"  shadow=""  anim="true"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
-[l  ]
-[tb_ptext_hide  time="1000"  ]
-[tb_show_message_window  ]
-[delay  speed="30"  ]
+[mask time=10]
+[bg  time="10"  storage="DSC03777.jpg"  ]
+[tb_show_message_window] 
+[chara_mod  name="mayor"  time="10"  cross="true"  storage="chara/1/stand_mayor.png"  ]
+[chara_show  name="mayor"  storage="chara/1/stand_mayor.png"  width=""  height="676"  left="56"  top="267"  reflect="false"  wait="false"  time="10"  ]
+[reset_camera  x="*0px"  y="*0px"  scale="1"  rotate="0deg"  time="10"  ]
+[mask_off time=10]
 [tb_start_text mode=3 ]
-20**年。[r]
-ここは地球なる星の『有田』という町だ。[r]
-私は今、この町で人生最大の危機を迎えている・・・[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=3 ]
-おっと、自己紹介が遅れてしまった。[l][r]
-私の名前は『WACA11782』。[l][r]
-[_tb_end_text]
-
-[chara_show  name="mayor"  time=""  wait="false"  storage="chara/1/WACA11782.png"  width="610"  height="923"  left="-145"  top="140"  reflect="false"  ]
-[cm  ]
-[tb_start_text mode=3 ]
-この星から53万光年離れた惑星『ペルソナ』からやって来た、異星人だ。[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=3 ]
-いや、異星人だった・・・としたほうが正しいな[l][r]
-なぜなら、私は今、この有田町の「町長」なる役職に就いているからだ。[l][r]
-[_tb_end_text]
-
-[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/stand_mayor.png"  ]
-[chara_show  name="mayor"  storage="chara/1/stand_mayor.png"  width=""  height="676"  left="56"  top="267"  reflect="false"  wait="false"  ]
-[tb_start_text mode=3 ]
-そう、この町での私の名前は[r]
-『松江はじめ』。[r]
-町民からは[r]
-『松江町長』と呼ばれている。[l][r]
-[_tb_end_text]
-
-[cm  ]
-*explain
-
-[tb_start_text mode=3 ]
-他に聞きたいことは無いかな?[r]
+すこし説明が必要かな?[r]
 [_tb_end_text]
 
 [autosave]
@@ -82,14 +41,12 @@
 #
 そんな有田町は、佐賀県にある人口2万人ほどの町。[r]
 古くから「有田焼（ありたやき）」という焼き物の産地として知られている。[r]
-[p][r]
 [_tb_end_text]
 
 [bg  time="500"  storage="DSC03698.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 #
-「有田焼（ありたやき）」は陶磁器（とうじき）と呼ばれる焼き物で、長い歴史をもつ。[r]
-[p][r]
+「有田焼（ありたやき）」は陶磁器（とうじき）と呼ばれる焼き物で、長い歴史をもつ。[p][r]
 世界中にファンをもち、とくにヨーロッパでの人気が高く、ヨーロッパの陶器文化に大きな影響を与えた。[r]
 [p][r]
 [_tb_end_text]
@@ -354,7 +311,7 @@
 [tb_start_text mode=3 ]
 #
 惑星『ペルソナ』は、第七銀河系にあり、数多の文明を築き上げた第一等級の星。[p][r]
-私はその星に生まれ、ペルソナ王宮にて、[r]
+私はその星に生まれ、ペルソナ王宮にて、[p][r]
 第301代王子である『リンク王子』の身の回りのお世話をする仕事に就いていた。[p][r]
 いわゆる「執事（しつじ）」というやつだ。[r]
 [p][r]
@@ -366,7 +323,7 @@
 リンク王子はとても快活な性格。[r]
 政務を放ったらかしては、いろいろな星へ周遊し、私たちを困らせる日々。[p][r]
 
-何度注意しても、私の言うことなどは耳に届いていない様子で、そのワガママぶりにほとほと困り果てていた。[r]
+何度注意しても、私の言うことなどは耳に届いていない様子で、そのワガママぶりにほとほと困り果てていた。[p][r]
 [p][r]
 [_tb_end_text]
 
@@ -400,7 +357,7 @@
 [chara_show  name="mayor"  storage="chara/1/WACA11782.png"  ]
 [tb_start_text mode=3 ]
 王子は掃除が苦手ではあったが、極度のキレイ好き。[p][r]
-自身が収集した美術品たちに、少しでもホコリが乗っているとすこぶる機嫌が悪くなる。[r]
+自身が収集した美術品たちに、少しでもホコリが乗っているとすこぶる機嫌が悪くなる。[p][r]
 [p][r]
 だから私は、王子の部屋を掃除する際、ホコリを少しでも残さぬよう完璧に掃除している・・・はずだった。[r]
 [p][r]
@@ -417,16 +374,16 @@
 [p][r]
 [_tb_end_text]
 
-[tb_manpu  type="nanto"  width="200"  time="500"  in_time="500"  out_time="1000"  wait="false"  sevolume="0"  x="30"  y="160"  left="30"  top="134"  height=""  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="glass-break4_(online-audio-converter.com).ogg"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="false"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="glass-break4_(online-audio-converter.com).ogg"  ]
+[tb_manpu  type="nanto"  width="200"  time="500"  in_time="500"  out_time="1000"  wait="false"  sevolume="0"  x="30"  y="160"  left="30"  top="134"  height=""  ]
 [tb_ptext_show  x="164"  y="251"  size="60"  color="0xfab905"  time="500"  anim="true"  face="fantasy"  text="ガッシャーン！"  edge="undefined"  shadow="0x000000"  fadeout="false"  wait="true"  in_effect="swing"  out_effect="fadeOut"  ]
 [tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 ん？？[r]
 
-そのとき私の右斜め下から聞こえた、聞き馴染みのない音。[r]
+そのとき私の右斜めから聞こえた、聞き馴染みのない音。[r]
 
 足元に目をやると・・・。[r]
 [p][r]
@@ -434,7 +391,7 @@
 
 
 ぎゃあああああああ！！！[r]
-王子が大切にしていた皿が割れてしまっておる！！！[r]
+王子が大切にしていた陶器が割れてしまっておる！！！[r]
 [p][r]
 
 [_tb_end_text]
@@ -444,15 +401,15 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/bdish3.jpg"  width="640"  height="960"  name="img_129"  ]
+[tb_image_show  time="1000"  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_129"  ]
 [tb_start_text mode=3 ]
-なぜなら、私の足元には、真っ二つに割れてしまった皿が転がっていたからだ。[r]
+なぜなら、私の足元には、真っ二つに割れてしまった陶器が転がっていたからだ。[r]
 
 [p][r]
-お手入れのプロである私が、まさか王子の皿を割ってしまうなんて・・・。[r]
-しかもその皿は、王子がとくに大切にしていた品物。[r]
+お手入れのプロである私が、まさか王子の陶器を割ってしまうなんて・・・。[r]
+しかもその陶器は、王子がとくに大切にしていた器。[r]
 [p][r]
-ああ、よりによって、まさかあの皿を割ってしまうなんて・・・。[r]
+ああ、よりによって、まさかあの器を割ってしまうなんて・・・。[r]
 [p][r]
 
 [_tb_end_text]
@@ -463,7 +420,7 @@
 [tb_start_text mode=3 ]
 話は7年前にさかのぼる。[r]
 
-リンク王子は7年前、「地球」という星に興味を抱いていた。[r]
+リンク王子は7年前、「地球」という星にこっそり足を運んでいた。[r]
 [p][r]
 [_tb_end_text]
 
@@ -476,7 +433,7 @@
 
 [bg  time="500"  storage="DSC03541.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
-私たち使用人の目を盗んでこっそり、王子はその地球に足を運んでいた。[r]
+王子はその地球に興味を抱き、私たち使用人の目を盗んで降り立っていたのであった。[r]
 [p][r]
 
 そんな王子が降り立った場所は、日本の佐賀県にあった「有田」と呼ばれる町。[r]
@@ -507,7 +464,7 @@
 
 [bg  time="500"  storage="DSC03769.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
-陶芸に興味をもっていた王子は、目を輝かせながら陶芸の魅力を伝えるその女性の姿にフォーリンラブしてしまう。[r]
+陶芸に興味をもっていた王子は、陶芸の魅力を目を輝かせながら伝えるその女性の姿にフォーリンラブしてしまう。[r]
 [p][r]
 [_tb_end_text]
 
@@ -531,17 +488,16 @@
 ペルソナ王宮の必死の捜索によって、地球に隠れていることがバレてしまった王子は、ペルソナ星へ戻ることを余儀なくされる。[r]
 [p][r]
 女性は王子が別の星から来たことを知って驚くが、それ以上に、王子と別れる寂しさのほうが強かった。[p][r]
-王子も同じ気持ちだったが、後ろ髪を引かれる思いで、別れを告げる。[r]
+王子も同じ気持ちだったが、後ろ髪引かれる思いで、別れを告げる。[r]
 [p][r]
 [_tb_end_text]
 
 [bg  time="500"  storage="KakinomotoVer190804.png"  cross="true"  ]
 [tb_start_text mode=3 ]
-別れのとき、その女性は、王子にひとつの皿を渡した。[r]
+別れのとき、その女性は、王子にひとつの器を渡した。[r]
 [p][r]
-#女性
 「どうか、私のことを忘れないで。[p][r]
-あなたが自分の星に戻ったあと、もし私のことを思い出してくれるのなら、この皿を私だと思って大切にして・・・」[r]
+あなたが自分の星に戻ったあと、もし私のことを思い出してくれるのなら、この器を私だと思って大切にして・・・」[r]
 [p][r]
 [_tb_end_text]
 
@@ -552,16 +508,15 @@
 [_tb_end_text]
 
 [tb_start_text mode=3 ]
-#WACA11783
+#
 ああ・・・ええ話やなあ・・・。[r]
 [_tb_end_text]
 
 [bg  time="500"  storage="DSC03308s.jpg"  cross="true"  ]
 [chara_show  name="mayor"  storage="chara/1/WACA11782.png"  left="219"  top="267"  width="509"  height="763"  reflect="false"  ]
 [tb_start_text mode=3 ]
-#WACA11783
 ・・・って、こちらが感動に浸っている場合ではないっ！！！[p][r]
-私はそんな王子の思い出の皿を割ってしまった・・・！！[r]
+私はそんな王子の思い出の器を割ってしまった・・・！！[r]
 これはシャレにならんくらいにヤバイ。[p][r]
 怒りに身を任せた王子が、第7銀河系の星々をすべて破壊し尽くす・・・といった最悪なシナリオも考えられる。[r]
 [p][r]
@@ -571,15 +526,16 @@
 [chara_hide  name="mayor"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="500"  storage="linksspaceship.png"  cross="true"  ]
 [tb_start_text mode=3 ]
-そ、そうだ、今はちょうど王子が他の星に出張中の期間。[r]
-王子がペルソナ星に帰還するまで、たしか4ヶ月は[ruby text="ゆう"]猶[ruby text="よ"]予があったはず。[r]
+そ、そうだ、今はちょうど王子が他星に出張中の期間。[r]
+[p][r]
+王子が帰星するまで、たしか4ヶ月は猶予（ゆうよ）があったはず。[r]
 [p][r]
 [_tb_end_text]
 
 [bg  time="500"  storage="AdobeStock_253362712.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 ワープ等の移動時間を考えると、3ヶ月ほどは地球に滞在できる。[p][r]
-その滞在中に皿を修復し、王子が帰星するまでにこっそりペルソナ星に戻ればよい。[r]
+その滞在中に器を修復し、王子が帰星するまでにこっそりペルソナ星に戻ればよい。[r]
 [p][r]
 [_tb_end_text]
 
@@ -618,7 +574,7 @@
 [bg  time="500"  storage="AdobeStock_9844733.jpg"  ]
 [tb_start_text mode=3 ]
 この件が明るみに出れば、私はきっと、他星の人間を傷つけた罪でスペースプリズン（銀河の檻）に収監されてしまうだろう。[p][r]
-いや、それだけではない、修復した『[ruby text="あり"]有[ruby text="た"]田[ruby text="やき"]焼』を持って帰ることができない私は、王子の逆鱗に触れること必至・・・！！[p][r]
+いや、それだけではない、修復した『アリタヤキ（有田焼）』を持って帰ることができない私は、王子の逆鱗に触れること必至・・・！！[p][r]
 
 [_tb_end_text]
 
@@ -644,7 +600,7 @@
 [_tb_end_text]
 
 [tb_start_text mode=3 ]
-その3ヶ月の間、私はこの地球人に擬態し、『[ruby text="あり"]有[ruby text="た"]田[ruby text="やき"]焼』[r]
+その3ヶ月の間、私はこの地球人に擬態し、『アリタヤキ（有田焼）』[r]
 [p]なるものの修復手段を探そうと思う。[r]
 [p][r]
 そもそも、有田の町で情報を得るには、この町に住む住人の姿を借りることが近道。[r]
@@ -660,19 +616,17 @@
 [p][r]
 [_tb_end_text]
 
-[chara_hide  name="mayor"  time="0"  wait="false"  pos_mode="false"  ]
 [bg  time="500"  storage="cityhall_overview_AritaLow.jpg"  cross="true"  ]
-[chara_show  name="mayor"  storage="chara/1/surprise2_mayor.png"  width="569"  height="1013"  left="40"  top="124"  reflect="false"  wait="false"  ]
+[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/surprise2_mayor.png"  ]
 [tb_start_text mode=3 ]
 #町長
-「って、なんで私がこの町の町長になっとんねーん！！」[r]
+「ってなんでやねーん！[r]
+なぜ、私がこの町の町長になっとんねーん！！」[r]
 [p][r]
 [_tb_end_text]
 
-[chara_hide  name="mayor"  time="0"  wait="true"  pos_mode="true"  ]
-[chara_show  name="mayor"  storage="chara/1/depress_mayor.png"  width="390"  height="695"  left="306"  top="466"  reflect="false"  wait="false"  ]
+[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/depress_mayor.png"  ]
 [bg  time="500"  storage="DSC03950.jpg"  cross="true"  ]
-[camera  time="10000"  zoom="1.2"  wait="false"  y="-100"  ]
 [tb_start_text mode=3 ]
 #町長
 「ううう・・・。[r]
@@ -692,13 +646,12 @@
 #
 ふと目を上げると、そこには、心配そうな目で私を見つめる男の姿があった。[r]
 その男の姿を見るに、どうやら町役場の職員らしい。[r]
-[p][r]
+
 そうか、私はいつの間にか町役場の中に入っていたのか。[r]
 
 [_tb_end_text]
 
-[reset_camera  time="1000"  wait="false"  ]
-[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/mayor_back.png"  ]
+[chara_mod  name="mayor"  time=""  cross="false"  storage="chara/1/walk_mayor.png"  ]
 [tb_start_text mode=3 ]
 #町長
 「う、うむ。[r]
@@ -738,7 +691,7 @@
 [p][r]
 [_tb_end_text]
 
-[chara_show  name="ayako"  storage="chara/3/work_aya.png"  width="371"  height="660"  left="330"  top="413"  reflect="false"  ]
+[chara_show  name="ayako"  storage="chara/3/work_aya.png"  width="339"  height="603"  left="322"  top="488"  reflect="false"  ]
 [tb_chara_shake  name="ayako"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
 #役場の職員3
