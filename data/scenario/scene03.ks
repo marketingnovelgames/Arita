@@ -410,7 +410,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 すると、ファンの人がつくったブログや、おじいちゃんについて特集している記事などが見つかった。[r]
 [p][r]
 やっぱり、君のおじいちゃんはすごい人だったんだよ」[r]
-
+[p][r]
 [_tb_end_text]
 
 [chara_mod  name="keta"  storage="chara/4/lookup_keta.png"  ]
@@ -499,8 +499,6 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [tb_chara_shake  name="mayor"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
 ドンッ！！！！！[r]
-（※誰かとぶつかった音）[r]
-[p][r]
 [_tb_end_text]
 
 [tb_start_text mode=3 ]
@@ -647,7 +645,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [_tb_end_text]
 
 [chara_move  name="ayako"  anim="false"  time="300"  effect="linear"  wait="true"  left="111"  top="589"  width="441"  height="784"  ]
-[camera  time="1000"  zoom="1.5"  wait="true"  x="50"  y="-150"  ]
+[camera  time="5000"  zoom="1.5"  wait="false"  x="50"  y="-150"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
 「この度は敬太が無茶なことを言って申し訳ございません。[r]
@@ -791,7 +789,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="Screen_Shot_2019-09-16_at_0.08.52.png"  ]
+[tb_image_show  time="0"  storage="default/Screen_Shot_2019-09-16_at_0.08.52.png"  width="640"  height="960"  name="img_156"  ]
 [tb_start_text mode=3 ]
 
 
@@ -805,7 +803,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
+[tb_image_hide  time="1000"  ]
 [camera  time="10000"  zoom="1.4"  wait="false"  x="50"  y="-100"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
@@ -831,6 +829,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [p][r]
 [_tb_end_text]
 
+[reset_camera  time="1000"  wait="false"  ]
 [chara_show  name="mayor"  storage="chara/1/thinking_mayor.png"  left=""  top=""  width=""  height=""  reflect="false"  ]
 *A-2:知ってもらう
 
@@ -940,7 +939,7 @@ The End[r]
 
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="DSC03632.jpg"  ]
+[tb_image_show  time="1000"  storage="default/DSC03632.jpg"  width="640"  height="960"  name="img_188"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
 「敬太が足を運びそうな場所・・・。[r]
@@ -953,7 +952,7 @@ The End[r]
 
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="FAC25D91-42AB-4D97-BC08-AC10FDF25650_1_105_c.jpg"  ]
+[tb_image_show  time="1000"  storage="default/FAC25D91-42AB-4D97-BC08-AC10FDF25650_1_105_c.jpg"  width="640"  height="960"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
 「はい。[r]
@@ -963,6 +962,7 @@ The End[r]
 [p][r]
 [_tb_end_text]
 
+[tb_image_hide  time="1000"  ]
 [bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
 [bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
 [tb_start_text mode=3 ]
@@ -990,6 +990,7 @@ The End[r]
 [_tb_end_text]
 
 [bg  time="500"  method="crossfade"  storage="DSC03397.jpg"  ]
+[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  left="-101"  top="213"  width="476"  height="714"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #町長
 （・・・さっきは思いもよらなかったが、敬太くんのお母さん、父の清彩氏と同じように陶芸家の道は志さなかったのだろうか？）[r]
@@ -1008,7 +1009,6 @@ The End[r]
 [p][r]
 [_tb_end_text]
 
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  ]
 [tb_start_text mode=3 ]
 #町長
 （なんということだ・・・！[r]
