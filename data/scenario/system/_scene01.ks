@@ -14,7 +14,7 @@
 [preload  storage="./data/bgimage/DSC03321.jpg"  ]
 [preload  storage="./data/bgimage/w640h940_2.png"  ]
 [preload  storage="./data/bgimage/DSC03308s.jpg"  ]
-[preload  storage="./data/fgimage/default/bdish2.jpg"  ]
+[preload  storage="./data/fgimage/default/bdish3.jpg"  ]
 [preload  storage="./data/bgimage/DSC03550.jpg"  ]
 [preload  storage="./data/bgimage/DSC03570.jpg"  ]
 [preload  storage="./data/bgimage/DSC03541.jpg"  ]

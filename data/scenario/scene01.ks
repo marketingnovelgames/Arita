@@ -7,7 +7,7 @@
 [tb_ptext_hide  time="1000"  ]
 [tb_replay_start  ]
 [bg  time="500"  storage="DSC03777.jpg"  ]
-[tb_ptext_show  x="200"  y="280"  size="30"  color="0x000000"  time="1000"  face="undefined"  text="第一章　20XX年地球への旅"  edge="undefined"  shadow=""  anim="true"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
+[tb_ptext_show  x="130"  y="180"  size="30"  color="0x000000"  time="1000"  face="undefined"  text="第一章　20XX年地球への旅"  edge="undefined"  shadow=""  anim="true"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
 [l  ]
 [tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
@@ -442,7 +442,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_129"  ]
+[tb_image_show  time="1000"  storage="default/bdish3.jpg"  width="640"  height="960"  name="img_129"  ]
 [tb_start_text mode=3 ]
 なぜなら、私の足元には、真っ二つに割れてしまった陶器が転がっていたからだ。[r]
 
