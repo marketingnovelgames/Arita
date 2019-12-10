@@ -459,7 +459,7 @@
 
 [tb_image_hide  time="1000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg  time="500"  storage="DSC03550.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03550-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 話は7年前にさかのぼる。[r]
 
@@ -467,14 +467,14 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03570.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03570-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 「地球」は水と緑にあふれた美しい星として、我が星のベストセラー書籍『人生で一度は訪れてみたい星 7選』にも選出されているほどの星。[r]
 
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03541.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03541-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 私たち使用人の目を盗んでこっそり、王子はその地球に足を運んでいた。[r]
 [p][r]
@@ -483,7 +483,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03634.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03634-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 有田の町に降り立った王子は、地球人の姿に擬態し、数日間過ごすことを考える。[p][r]
 地球でのバカンスをしばし楽しみ、飽きたらペルソナに戻ろう・・・[p][r]
@@ -492,26 +492,26 @@
 
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03750.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03750-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 なんと、王子は有田に住むある女性に恋してしまったのだった。[r]
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03771.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03771-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 ひょんなきっかけで、1日限定の陶芸体験教室に参加していた王子。[p][r]
 その女性は「陶芸家」という名の職をもち、その体験教室で「アリタヤキ（有田焼）」と呼ばれる陶芸品のつくりかたを教えていた。[p][r]
 
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03769.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03769-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 陶芸に興味をもっていた王子は、目を輝かせながら陶芸の魅力を伝えるその女性の姿にフォーリンラブしてしまう。[r]
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="KakinomotoVer190804.png"  cross="true"  ]
+[bg  time="500"  storage="KakinomotoVer190804-kaisou.png"  cross="true"  ]
 [tb_start_text mode=3 ]
 やがて、交流し始めたふたり。[r]
 いつしか相手の女性も、王子のひたむきな想いに心を開いていった。[r]
@@ -520,13 +520,13 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="galaxy.png"  cross="true"  ]
+[bg  time="500"  storage="galaxy-kaisou.png"  cross="true"  ]
 [tb_start_text mode=3 ]
 しかし、王子は惑星ペルソナの王族であり、自由の利かない身分[r]
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="linksspaceship.png"  cross="true"  ]
+[bg  time="500"  storage="linksspaceship-kaisou.png"  cross="true"  ]
 [tb_start_text mode=3 ]
 ペルソナ王宮の必死の捜索によって、地球に隠れていることがバレてしまった王子は、ペルソナ星へ戻ることを余儀なくされる。[r]
 [p][r]
@@ -535,7 +535,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="KakinomotoVer190804.png"  cross="true"  ]
+[bg  time="500"  storage="KakinomotoVer190804-kaisou.png"  cross="true"  ]
 [tb_start_text mode=3 ]
 別れのとき、その女性は、王子にひとつの皿を渡した。[r]
 [p][r]
@@ -545,7 +545,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="AdobeStock_119435056.jpg"  cross="true"  ]
+[bg  time="500"  storage="AdobeStock_119435056-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 そう言った女性は、王子のロケットが飛び立ったあと、宇宙に向かって手を振り続けたという・・・。[r]
 [p][r]

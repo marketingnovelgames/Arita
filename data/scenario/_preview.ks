@@ -1,407 +1,13 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  storage="DSC03777.jpg"  ]
+[bg  time="10"  storage="DSC03308s.jpg"  ]
 [tb_show_message_window] 
 [chara_mod  name="mayor"  time="10"  cross="true"  storage="chara/1/stand_mayor.png"  ]
-[chara_show  name="mayor"  storage="chara/1/stand_mayor.png"  width=""  height="676"  left="56"  top="267"  reflect="false"  wait="false"  time="10"  ]
+[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  time="10"  ]
 [reset_camera  x="*0px"  y="*0px"  scale="1"  rotate="0deg"  time="10"  ]
 [mask_off time=10]
-[tb_start_text mode=3 ]
-すこし説明が必要かな?[r]
-[_tb_end_text]
-
-[autosave]
-
-[glink  color="white"  storage="scene01.ks"  size="20"  text="惑星ペルソナとは？"  x="130"  y="70"  width="300"  height=""  _clickable_img=""  target="*persona"  ]
-[glink  color="white"  storage="scene01.ks"  size="20"  text="有田町はどういうところ？"  y="120"  x="130"  target="*arita"  width="300"  ]
-[glink  color="white"  storage="scene01.ks"  size="20"  text="町長ってどんな仕事？"  y="170"  x="130"  target="*mayor"  width="300"  ]
-[glink  color="white"  storage="scene01.ks"  size="20"  text="説明は大丈夫。次に進む"  y="220"  x="130"  target="*end"  width="300"  ]
-[s  ]
-*persona
-
-[bg  time="0"  method="crossfade"  storage="space_fes2.jpg"  cross="true"  ]
-[tb_start_text mode=3 ]
-惑星ペルソナはほとんど資源がないにもかかわらず、第７銀河系で最も発展した惑星で銀河系を統治している。[l][r][r]
-商業が盛んな豊かな星で、その経済力は高度なマーケティング力にある。[l][r][r]
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-マーケティング力とは、自分や自分の作ったものを人に興味をもってもらい、買ってもらえること。[l][r][r]
-この力があれば商品をたくさん売ったり、人気者になれる。[l][r][r]
-[_tb_end_text]
-
-[cm  ]
-[jump  storage="scene01.ks"  target="*explain"  ]
-[s  ]
-*arita
-
-[bg  time="0"  method="crossfade"  storage="aritamapSmall.jpg"  cross="true"  ]
-[tb_start_text mode=3 ]
-#
-そんな有田町は、佐賀県にある人口2万人ほどの町。[r]
-古くから「有田焼（ありたやき）」という焼き物の産地として知られている。[r]
-[_tb_end_text]
-
-[bg  time="500"  storage="DSC03698.jpg"  cross="true"  ]
-[tb_start_text mode=3 ]
-#
-「有田焼（ありたやき）」は陶磁器（とうじき）と呼ばれる焼き物で、長い歴史をもつ。[p][r]
-世界中にファンをもち、とくにヨーロッパでの人気が高く、ヨーロッパの陶器文化に大きな影響を与えた。[r]
-[p][r]
-[_tb_end_text]
-
-[bg  time="500"  storage="DSC03459.jpg"  cross="true"  ]
-[tb_start_text mode=3 ]
-白く透きとおるような地肌に、華やかで繊細な絵付けが特徴。[r]
-有田焼はおもに2種類ある。[r]
-[p][r]
-[_tb_end_text]
-
-[bg  time="500"  storage="DSC03427.jpg"  cross="true"  ]
-[tb_start_text mode=3 ]
-青磁釉（せいじゆう）を使った、深くきらめく自然の青翠色の光沢が神秘的な青磁（せいじ）。[r]
-[p][r]
-[_tb_end_text]
-
-[bg  time="500"  storage="DSC03339.jpg"  cross="true"  ]
-[tb_start_text mode=3 ]
-そして、上等の泉山陶石（いずみやまこうせき）や天草陶石（あまくさこうせき）を原料として生かした、つややかでなめらかな肌合いを持つ白磁（はくじ）だ。[r]
-[p][r]
-[_tb_end_text]
-
-[bg  time="500"  storage="UNADJUSTEDNONRAW_thumb_dc1a2.jpg"  cross="true"  ]
-[tb_start_text mode=3 ]
-
-毎年5月に有田町でおこなわれる「陶器市（とうきいち）」は、日本三大陶器祭りのひとつと数えられており、世界中からたくさんの陶芸ファンが集まる。[r]
-[_tb_end_text]
-
-[jump  storage="scene01.ks"  target="*explain"  ]
-[s  ]
-*mayor
-
-[bg  time="500"  method="crossfade"  storage="DSC03947.jpg"  cross="true"  ]
-[tb_start_text mode=3 ]
-#
-町長の仕事は町民を幸せにすること。[r]
-そして町の人びとから選ばれる人気者であること。[r]
-[p][r]
-町長は数年に一度、町民による選挙で当選する必要がある。[r]
-町長の仕事場は町役場だ。[r]
-#
-町役場。[r]
-[p][r]
-そこは、この有田町のさまざまな決まり事がなされる場所。[r]
-
-この町役場ではたくさんの人が働いており、有田町の発展のための仕事が進められている。[r]
-[p][r]
-その仕事には、町をもっと住みやすくするための計画の立案や、道路整備、施設の建設などが含まれる。[r]
-[p][r]
-そして今、松江町長は、町長としての業務の傍ら、町おこしのイベント企画を進めていた。[r]
-[p][r]
-[_tb_end_text]
-
-[jump  storage="scene01.ks"  target="*explain"  ]
-[s  ]
-[tb_replay  id="1_profile"  ]
-*end
-
-[tb_start_text mode=3 ]
-話を進めよう。[r]
-町役場に行く時間だ。[r]
-[_tb_end_text]
-
-[bg  time="500"  method="crossfade"  storage="bicycle_keta2.png"  ]
-*first_apparance_of_mayor
-
-[tb_show_message_window  ]
-[delay  speed="30"  ]
-[tb_start_text mode=3 ]
-#
-有田町役場への通り道[p][r]
-[_tb_end_text]
-
-[chara_show  name="50mita"  time="1000"  wait="false"  storage="chara/2/stand_50lady.png"  width="287"  height="511"  left="313"  top="326"  reflect="false"  ]
-[tb_start_text mode=3 ]
-#50代の女性
-「町長！おはよう！」[r]
-「今日も素敵なスーツですね。」[r]
-[l][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=3 ]
-#町長
-「うん？」[l][r]
-「ああ、ありがとう。」[l][r]
-[p][r]
-#
-私に声をかけてきたこの女性の名は『三田さん』。[r]
-この有田町で、旦那さんと一緒に農園を営んでいる。[r]
-[p][r]
-気さくな人で、町役場に野菜をちょくちょく差し入れしてくれる。[r]
-[p][r]
-[_tb_end_text]
-
-[cm  ]
-[tb_start_text mode=3 ]
-#三田
-#三田さん
-「たしか今日って予算会議の日よね？」[r]
-[p][r]
-
-#町長
-「そうですね」[r]
-[p][r]
-
-#三田さん
-「町長さん〜。[r]
-今度の予算、県外から若い人を集めることに使ってほしいな。[p][r]
-でないと、この町から若い人がどんどん減っていっちゃうから」[r]
-[p][r]
-
-#三田さん
-「私の若さと美貌でこの町を支えていきたいのは山々なんだけど、さすがに年には勝てないわ」[r]
-[p][r]
-#町長
-町長は応えた[r]
-
-
-
-[_tb_end_text]
-
-[glink  color="white"  storage="scene01.ks"  size="20"  text="「キレイなスタイルをほめる」"  x="110"  y="70"  target="*A:"  width="330"  ]
-[glink  color="white"  storage="scene01.ks"  size="20"  text="「若い人の話題に真面目に応える」"  x="110"  y="120"  target="*B:"  width="330"  ]
-[glink  color="white"  storage="scene01.ks"  size="20"  text="「おいしい野菜をほめる」"  x="110"  y="170"  target="*C:"  width="330"  ]
-[glink  color="white"  storage="scene01.ks"  size="20"  text="「素敵なシワをほめる」"  x="110"  y="220"  target="*D:"  width="330"  ]
-[s  ]
-*A:
-
-[tb_eval  exp="f.Mscore+=2"  name="Mscore"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
-[tb_start_text mode=3 ]
-
-#町長
-「いやいや、三田さんは、まだまだキレイですよ」[r]
-[p][r]
-
-#三田さん
-「もう～上手なんだから～！[r]
-今度、野菜をたくさん差し入れしてあげる！」[r]
-[p][r]
-
-#町長
-「それはうれしいですね～！」[r]
-[p][r]
-
-#町長
-「じゃあ、私は町役場に向かいますね。[r]
-それでは失礼します」[r]
-[p][r]
-[_tb_end_text]
-
-[jump  storage="scene01.ks"  target="*sceneCityHall"  ]
-[s  ]
-*B:
-
-[tb_eval  exp="f.Mscore+=3"  name="Mscore"  cmd="+="  op="t"  val="3"  val_2="undefined"  ]
-[tb_start_text mode=3 ]
-#町長
-「わかりました。[r]
-若い人が移住したくなるような施策、考えてみますね」[r]
-[p][r]
-
-#三田さん
-「ありがとう！[r]
-さすが町長さんね〜！[r]
-頼りにしてるわよ！」[r]
-[p][r]
-
-#町長
-「ありがとうございます」[r]
-[p][r]
-
-#町長
-「じゃあ、私は町役場に向かいますね。[r]
-それでは失礼します」[r]
-[p][r]
-[_tb_end_text]
-
-[jump  storage="scene01.ks"  target="*sceneCityHall"  ]
-[s  ]
-*C:
-
-[tb_eval  exp="f.Mscore+=1"  name="Mscore"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
-[tb_start_text mode=3 ]
-#町長
-「そういえば、三田さんが差し入れしてくれる野菜って本当に美味しいですね」[r]
-[p][r]
-#三田さん
-「あら、そう言ってもらえるとうれしいわ。[r]
-うちの野菜はそんじょそこらの野菜とは育て方が違うからね。[p][r]
-また差し入れしてあげるから、楽しみにしておいて」[r]
-[p][r]
-#町長
-「ありがとうございます」[r]
-[p][r]
-#町長
-「じゃあ、私は町役場に向かいますね。[lr][r]
-それでは失礼します」[lr][r]
-[_tb_end_text]
-
-[jump  storage="scene01.ks"  target="*sceneCityHall"  ]
-[s  ]
-*D:
-
-[tb_eval  exp="f.Mscore-=2"  name="Mscore"  cmd="-="  op="t"  val="2"  val_2="undefined"  ]
-[tb_start_text mode=3 ]
-#町長
-「年齢なんて気にする必要ないんじゃないですか？[lr][r]
-人は年齢を重ねるほどに味が出てくるといわれますし・・・」[lr][r]
-#三田さん
-「・・・ちょっと、町長。[lr][r]
-それって、私の顔のシワが増えてきたってこと・・・？」[lr][r]
-#町長
-「い、いえいえ・・・！[lr][r]
-そんなつもりは・・・！」[lr][r]
-#町長
-（な、なんだか三田さん、怒っちゃったぞ・・・）[lr][r]
-#三田さん
-「・・・」[lr][r]
-#町長
-（さっき、自分で“年には勝てない”って言ってたのに・・・）[lr][r]
-#町長
-「・・・じゃ、じゃあ、私は町役場に向かいます。[r]
-失礼します」[r]
-[p][r]
-
-[_tb_end_text]
-
-[jump  storage="scene01.ks"  target="*sceneCityHall"  ]
-[s  ]
-*sceneCityHall
-
-[chara_hide_all  time="1000"  wait="true"  ]
-[bg  time="500"  storage="DSC03497.jpg"  cross="true"  ]
-[chara_show  name="mayor"  storage="chara/1/depress2_mayor.png"  width="483"  height="725"  left="112"  top="288"  reflect="false"  wait="false"  ]
-[tb_start_text mode=3 ]
-#
-有田町役場　町長室[r]
-[p][r]
-#町長
-「そう・・・アリタヤキ（有田焼）・・・。[r]
-これが私の運命をおかしくしてしまったのだ・・・」[r]
-[p][r]
-#町長
-「思えば、あんなものを王子が我が星へ持って帰ってきたから・・・」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_hide_all  time="1000"  wait="true"  ]
-[tb_hide_message_window  ]
-[bg  time="500"  storage="space_fes2.jpg"  cross="true"  ]
-[tb_show_message_window  ]
-[tb_start_text mode=3 ]
-#
-あらためて自己紹介をしよう。[r]
-
-町長と呼ばれている私の本当の名は『WACA11783』。[r]
-[p][r]
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-#
-惑星『ペルソナ』は、第七銀河系にあり、数多の文明を築き上げた第一等級の星。[p][r]
-私はその星に生まれ、ペルソナ王宮にて、[p][r]
-第301代王子である『リンク王子』の身の回りのお世話をする仕事に就いていた。[p][r]
-いわゆる「執事（しつじ）」というやつだ。[r]
-[p][r]
-[_tb_end_text]
-
-[bg  time="500"  storage="AdobeStock_119012103.jpg"  cross="true"  ]
-[tb_start_text mode=3 ]
-#
-リンク王子はとても快活な性格。[r]
-政務を放ったらかしては、いろいろな星へ周遊し、私たちを困らせる日々。[p][r]
-
-何度注意しても、私の言うことなどは耳に届いていない様子で、そのワガママぶりにほとほと困り果てていた。[p][r]
-[p][r]
-[_tb_end_text]
-
-[bg  time="500"  storage="DSC03321.jpg"  ]
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  left="243"  top="356"  width="528"  height="792"  reflect="false"  ]
-[tb_start_text mode=3 ]
-#
-そんなワガママ王子であったが、芸術に深い興味をもち、数多の美術品を収集する趣味をもっていた。[p][r]
-そして、自身が収集してきた美術品を眺めては、うっとりとした表情を浮かべる日々を送っていた。[p][r]
-
-ただ、いかんせん、王子は掃除が苦手。[r]
-執事である私は、そんな王子の美術品コレクションのお手入れをする立場にもあった。[r]
-[p][r]
-[_tb_end_text]
-
-[bg  time="500"  storage="w640h940_2.png"  ]
-[chara_hide  name="mayor"  time="1000"  wait="true"  pos_mode="true"  ]
-[tb_start_text mode=3 ]
-そんなある日、そのトラブルは起こった。[r]
-それは今から40日ほど前の出来事だった。[r]
-[p][r]
-[_tb_end_text]
-
-[bg  time="500"  storage="DSC03308s.jpg"  ]
-[tb_start_text mode=3 ]
-#
-その日の私は、いつものようにリンク王子の部屋を掃除し、王子の美術品コレクションのお手入れをしていた。[r]
-[p][r]
-[_tb_end_text]
-
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  ]
-[tb_start_text mode=3 ]
-王子は掃除が苦手ではあったが、極度のキレイ好き。[p][r]
-自身が収集した美術品たちに、少しでもホコリが乗っているとすこぶる機嫌が悪くなる。[p][r]
-[p][r]
-だから私は、王子の部屋を掃除する際、ホコリを少しでも残さぬよう完璧に掃除している・・・はずだった。[r]
-[p][r]
-
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-#WACA11783
-「よしっ、あとはこの棚の掃除で終わりだな」[r]
-[p][r]
-#WACA11783
-「今日も布巾でふきふき♪、ふきふき♪」[r]
-
-[p][r]
-[_tb_end_text]
-
-[quake  time="300"  count="3"  hmax="10"  wait="false"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="glass-break4_(online-audio-converter.com).ogg"  ]
-[tb_manpu  type="nanto"  width="200"  time="500"  in_time="500"  out_time="1000"  wait="false"  sevolume="0"  x="30"  y="160"  left="30"  top="134"  height=""  ]
-[tb_ptext_show  x="164"  y="251"  size="60"  color="0xfab905"  time="500"  anim="true"  face="fantasy"  text="ガッシャーン！"  edge="undefined"  shadow="0x000000"  fadeout="false"  wait="true"  in_effect="swing"  out_effect="fadeOut"  ]
-[tb_ptext_hide  time="1000"  ]
-[tb_show_message_window  ]
-[tb_start_text mode=3 ]
-ん？？[r]
-
-そのとき私の右斜めから聞こえた、聞き馴染みのない音。[r]
-
-足元に目をやると・・・。[r]
-[p][r]
-・・・。[r]
-
-
-ぎゃあああああああ！！！[r]
-王子が大切にしていた陶器が割れてしまっておる！！！[r]
-[p][r]
-
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-そこに広がっていたのは、絶望的な光景だった。[r]
-
-[_tb_end_text]
-
-[tb_image_show  time="1000"  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_129"  ]
+[tb_image_show  time="1000"  storage="default/bdish3.jpg"  width="640"  height="960"  name="img_129"  ]
 [tb_start_text mode=3 ]
 なぜなら、私の足元には、真っ二つに割れてしまった陶器が転がっていたからだ。[r]
 
@@ -416,7 +22,7 @@
 
 [tb_image_hide  time="1000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg  time="500"  storage="DSC03550.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03550-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 話は7年前にさかのぼる。[r]
 
@@ -424,14 +30,14 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03570.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03570-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 「地球」は水と緑にあふれた美しい星として、我が星のベストセラー書籍『人生で一度は訪れてみたい星 7選』にも選出されているほどの星。[r]
 
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03541.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03541-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 王子はその地球に興味を抱き、私たち使用人の目を盗んで降り立っていたのであった。[r]
 [p][r]
@@ -440,7 +46,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03634.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03634-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 有田の町に降り立った王子は、地球人の姿に擬態し、数日間過ごすことを考える。[p][r]
 地球でのバカンスをしばし楽しみ、飽きたらペルソナに戻ろう・・・[p][r]
@@ -449,26 +55,26 @@
 
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03750.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03750-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 なんと、王子は有田に住むある女性に恋してしまったのだった。[r]
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03771.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03771-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 ひょんなきっかけで、1日限定の陶芸体験教室に参加していた王子。[p][r]
 その女性は「陶芸家」という名の職をもち、その体験教室で「アリタヤキ（有田焼）」と呼ばれる陶芸品のつくりかたを教えていた。[p][r]
 
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03769.jpg"  cross="true"  ]
+[bg  time="500"  storage="DSC03769-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 陶芸に興味をもっていた王子は、陶芸の魅力を目を輝かせながら伝えるその女性の姿にフォーリンラブしてしまう。[r]
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="KakinomotoVer190804.png"  cross="true"  ]
+[bg  time="500"  storage="KakinomotoVer190804-kaisou.png"  cross="true"  ]
 [tb_start_text mode=3 ]
 やがて、交流し始めたふたり。[r]
 いつしか相手の女性も、王子のひたむきな想いに心を開いていった。[r]
@@ -477,13 +83,13 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="galaxy.png"  cross="true"  ]
+[bg  time="500"  storage="galaxy-kaisou.png"  cross="true"  ]
 [tb_start_text mode=3 ]
 しかし、王子は惑星ペルソナの王族であり、自由の利かない身分[r]
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="linksspaceship.png"  cross="true"  ]
+[bg  time="500"  storage="linksspaceship-kaisou.png"  cross="true"  ]
 [tb_start_text mode=3 ]
 ペルソナ王宮の必死の捜索によって、地球に隠れていることがバレてしまった王子は、ペルソナ星へ戻ることを余儀なくされる。[r]
 [p][r]
@@ -492,7 +98,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="KakinomotoVer190804.png"  cross="true"  ]
+[bg  time="500"  storage="KakinomotoVer190804-kaisou.png"  cross="true"  ]
 [tb_start_text mode=3 ]
 別れのとき、その女性は、王子にひとつの器を渡した。[r]
 [p][r]
@@ -501,7 +107,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="AdobeStock_119435056.jpg"  cross="true"  ]
+[bg  time="500"  storage="AdobeStock_119435056-kaisou.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 そう言った女性は、王子のロケットが飛び立ったあと、宇宙に向かって手を振り続けたという・・・。[r]
 [p][r]
