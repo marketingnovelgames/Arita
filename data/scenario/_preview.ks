@@ -1,109 +1,15 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  storage="DSC03497.jpg"  ]
+[bg  time="10"  storage="DSC03950.jpg"  cross="true"  ]
 [tb_show_message_window] 
-[chara_mod  name="mayor"  time="10"  cross="true"  storage="chara/1/stand_mayor.png"  ]
+[chara_mod  name="mayor"  time="10"  cross="false"  storage="chara/1/walk_mayor.png"  ]
+[chara_show  name="others"  storage="chara/14/ask_staff.png"  width="355"  height="631"  reflect="true"  left="10"  top="452"  time="10"  ]
+[chara_show  name="elderman"  storage="chara/8/elderman.png"  width="322"  height="572"  left="179"  top="444"  reflect="true"  wait="false"  time="10"  ]
+[chara_show  name="ayako"  storage="chara/3/work_aya.png"  width="339"  height="603"  left="322"  top="488"  reflect="false"  time="10"  ]
+[chara_show  name="mayor"  storage="chara/1/stand_mayor.png"  width="464"  height="825"  left="-225"  top="479"  reflect="false"  time="10"  ]
 [reset_camera  x="*0px"  y="*0px"  scale="1"  rotate="0deg"  time="10"  ]
 [mask_off time=10]
-[bg  time="500"  storage="cityhall_overview_AritaLow.jpg"  cross="true"  ]
-[chara_show  name="mayor"  storage="chara/1/surprise2_mayor.png"  width="569"  height="1013"  left="40"  top="124"  reflect="false"  wait="false"  ]
-[tb_start_text mode=3 ]
-#町長
-「って、なんで私がこの町の町長になっとんねーん！！」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_hide  name="mayor"  time="0"  wait="true"  pos_mode="true"  ]
-[chara_show  name="mayor"  storage="chara/1/depress_mayor.png"  width="390"  height="695"  left="306"  top="466"  reflect="false"  wait="false"  ]
-[bg  time="500"  storage="DSC03950.jpg"  cross="true"  ]
-[camera  time="10000"  zoom="1.2"  wait="false"  y="-100"  ]
-[tb_start_text mode=3 ]
-#町長
-「ううう・・・。[r]
-まさか、あの地球人、よりによって『町長』などという要職に就いているとは知らなかった・・・」[r]
-[p][r]
-#町長
-「おかげで、3ヶ月もの間、この町の町長として過ごさねばならぬではないか・・・」[r]
-[p][r]
-#役場の職員1
-「町長、大丈夫ですか？[r]
-さっきから、何やらひとりでブツブツと独り言を言っておられますが・・・」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_show  name="others"  storage="chara/14/ask_staff.png"  width="355"  height="631"  reflect="true"  left="10"  top="452"  ]
-[tb_start_text mode=3 ]
-#
-ふと目を上げると、そこには、心配そうな目で私を見つめる男の姿があった。[r]
-その男の姿を見るに、どうやら町役場の職員らしい。[r]
-[p][r]
-そうか、私はいつの間にか町役場の中に入っていたのか。[r]
-
-[_tb_end_text]
-
-[reset_camera  time="1000"  wait="false"  ]
-[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/mayor_back.png"  ]
-[tb_start_text mode=3 ]
-#町長
-「う、うむ。[r]
-少し考え事をしていただけだ。[r]
-安心してくれたまえ」[r]
-[p][r]
-
-#役場の職員1
-「そうですか、それなら良かったです」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_hide  name="mayor"  time="1000"  wait="true"  pos_mode="false"  ]
-[tb_start_text mode=3 ]
-#職員1
-「町長・・・。[r]
-来年の予算配分ですが、どのような方針にしましょう？[p][r]
-この町は今、高齢化が進んでいますから、高齢者向けのサービスに予算を使ったほうが、町の人たちの満足度は高いと思いますが・・・」[r]
-
-#
-そう言った職員の背後から別の声が聞こえた。[r]
-[_tb_end_text]
-
-[chara_show  name="elderman"  storage="chara/8/elderman.png"  width="322"  height="572"  left="179"  top="444"  reflect="true"  wait="false"  ]
-[tb_chara_shake  name="elderman"  direction="x"  count="2"  swing="20"  time="100"  ]
-[tb_start_text mode=3 ]
-#職員2
-「ちょっと待ってくれよ。[r]
-高齢者向けのサービスには今までも力を入れてきた。[r]
-[p][r]
-今考えるべきことは、この町の未来だと思う。[r]
-[p][r]
-たとえば、この町は転出者が転入者の数を超えてしまっている。[r]
-要は、町に移住してくる人より、町から出ていく人のほうが増えているんだ。[r]
-[p][r]
-どうすれば、この町に人が移住してくれるかを考えるほうが大事だと思う」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_show  name="ayako"  storage="chara/3/work_aya.png"  width="371"  height="660"  left="330"  top="413"  reflect="false"  ]
-[tb_chara_shake  name="ayako"  direction="x"  count="2"  swing="20"  time="100"  ]
-[tb_start_text mode=3 ]
-#役場の職員3
-「あなたがそう考えるのはわかるけど、じゃあ、移住者を増やすためにどんな施策が考えられるの？[p][r]
-はっきりとした施策がないと、予算を割り当てるのは難しいわ。[p][r]
-
-人はね、先の見えないフワッとしたことよりも、今目の前にあるハッキリしたことに予算を使ってほしいと思うものよ。[p][r]
-そう考えると、今、この町にいる高齢者の方たち向けのサービスを充実させたほうが、良いんじゃないかと思うわ」[p][r]
-
-[_tb_end_text]
-
-[chara_show  name="mayor"  storage="chara/1/stand_mayor.png"  width="464"  height="825"  left="-225"  top="479"  reflect="false"  ]
-[tb_chara_shake  name="mayor"  direction="x"  count="2"  swing="20"  time="100"  ]
-[tb_start_text mode=3 ]
-#役場の職員4
-「ちょっと待ってくれよ。[p][r]
-移住者を増やすことや高齢者を守ることも大事だとは思うけど、一番大事なのは、[p][r]
-この町にいる若者たちにスポットライトを当てることだろ？」[p][r]
-[_tb_end_text]
-
 [tb_start_text mode=3 ]
 #
 いつの間にか、私の目の前には4人の職員がいた。[r]
@@ -121,19 +27,19 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/road.jpg"  width="640"  height="960"  name="img_205"  ]
+[tb_image_show  time="1000"  storage="default/01-001.jpg"  width="640"  height="960"  name="img_205"  ]
 [tb_start_text mode=3 ]
 予算を使って道路を整備するのか、[r]
 [p][r]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/park.jpg"  width="638"  height="960"  name="img_207"  ]
+[tb_image_show  time="1000"  storage="default/01-002.jpg"  width="640"  height="960"  name="img_207"  ]
 [tb_start_text mode=3 ]
 公園をつくるのか、[r]
 [p][r]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/build.jpg"  width="648"  height="951"  name="img_209"  ]
+[tb_image_show  time="1000"  storage="default/01-003.jpg"  width="640"  height="960"  name="img_209"  ]
 [tb_start_text mode=3 ]
 はたまた学校をつくるのか[r]
 [p][r]
