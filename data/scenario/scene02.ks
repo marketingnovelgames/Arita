@@ -374,7 +374,7 @@
 「おじいちゃんがつくった食器、世界一だと思ってるのに。」[p][r]
 [_tb_end_text]
 
-[bg  time="1000"  method="crossfade"  storage="Screen_Shot_2019-09-16_at_0.08.52.png"  ]
+[bg  time="1000"  method="crossfade"  storage="02-001.jpg"  ]
 [tb_start_text mode=3 ]
 #（回想）
 穐[r]
@@ -596,7 +596,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/DSC03698.jpg"  width="640"  height="960"  name="img_192"  ]
+[tb_image_show  time="1000"  storage="default/DSC03698.jpg"  width="640"  height="960"  name="img_187"  ]
 [tb_start_text mode=3 ]
 #敬太
 「えーと・・・。[r]
@@ -719,7 +719,7 @@
 [p][r]
 [_tb_end_text]
 
-[tb_image_show  time=""  storage="default/Screen_Shot_2019-09-16_at_0.08.52.png"  width="640"  height="960"  name="img_210"  ]
+[tb_image_show  time=""  storage="default/02-001.jpg"  width="640"  height="960"  name="img_205"  ]
 [tb_start_text mode=3 ]
 #
 敬太は店のおじさんに、クラスメイトとの一件について話した。[r]
@@ -827,7 +827,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="UNADJUSTEDNONRAW_thumb_dc1a2.jpg"  ]
+[bg  time="500"  method="crossfade"  storage="02-002.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
 「はい。[r]
@@ -948,6 +948,7 @@
 [_tb_end_text]
 
 [chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/thinking_mayor.png"  ]
+[bg  storage="02-003.jpg"  cross="true"  time="500"  ]
 [tb_start_text mode=3 ]
 #町長
 「お皿？？」[r]
