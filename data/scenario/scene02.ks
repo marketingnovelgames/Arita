@@ -9,7 +9,7 @@
 [cm  ]
 [tb_ptext_hide  time="1000"  ]
 [bg  time="500"  method="crossfade"  storage="DSC03401.jpg"  ]
-[tb_ptext_show  x="100"  y="500"  size="30"  color="0xffffff"  time="1000"  text="第二章　敬太とおじいちゃんの皿"  anim="true"  face="undefined"  edge=""  shadow="undefined"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
+[tb_ptext_show  x="90"  y="400"  size="30"  color="0xffffff"  time="1000"  text="第二章　敬太とおじいちゃんの皿"  anim="true"  face="undefined"  edge=""  shadow="undefined"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
 *yamaguchi1ver190914
 
 [tb_show_message_window  ]
@@ -719,7 +719,7 @@
 [p][r]
 [_tb_end_text]
 
-[tb_image_show  time=""  storage="default/02-001.jpg"  width="640"  height="960"  name="img_205"  ]
+[tb_image_show  time="0"  storage="default/02-001.jpg"  width="640"  height="960"  ]
 [tb_start_text mode=3 ]
 #
 敬太は店のおじさんに、クラスメイトとの一件について話した。[r]
@@ -1084,6 +1084,7 @@
 [_tb_end_text]
 
 [chara_mod  name="mayor"  storage="chara/1/depress_mayor.png"  ]
+[bg  storage="02-004.jpg"  cross="true"  time="500"  ]
 [tb_start_text mode=3 ]
 #町長
 （話の流れで「朝飯前」と言ってしまったが、なんだかとんでもないことに巻き込まれてしまった感があるぞ・・・）[r]
@@ -1392,3 +1393,5 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene03.ks"  target="*mayorsHome"  ]
 [reset_camera  time="1000"  wait="true"  ]
+[tb_image_hide  time="1000"  ]
+[tb_image_hide  time="1000"  ]

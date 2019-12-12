@@ -32,7 +32,6 @@
 [preload  storage="./data/fgimage/chara/4/fight2R_keta.png"  ]
 [preload  storage="./data/bgimage/AdobeStock_165431202.jpg"  ]
 [preload  storage="./data/bgimage/arita_store2.png"  ]
-[preload  storage="./data/bgimage/email.jpg"  ]
 [preload  storage="./data/bgimage/AdobeStock_123287189.jpg"  ]
-[preload  storage="./data/bgimage/AdobeStock_285771747.jpg"  ]
+[preload  storage="./data/bgimage/04-001.jpg"  ]
 [return]

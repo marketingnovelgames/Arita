@@ -45,6 +45,7 @@
 [preload  storage="./data/fgimage/chara/4/stand_keta.png"  ]
 [preload  storage="./data/fgimage/chara/4/fight2_keta.png"  ]
 [preload  storage="./data/fgimage/chara/1/depress_mayor.png"  ]
+[preload  storage="./data/bgimage/02-004.jpg"  ]
 [preload  storage="./data/bgimage/DSC03900.jpg"  ]
 [preload  storage="./data/fgimage/chara/1/crossseat_mayor1.png"  ]
 [preload  storage="./data/fgimage/default/DSC03446.jpg"  ]

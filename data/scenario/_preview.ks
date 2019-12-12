@@ -1,533 +1,811 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="space_fes2.jpg"  ]
+[bg  time="10"  method="crossfade"  storage="DSC03423.jpg"  ]
 [tb_show_message_window] 
-[chara_mod  name="keta"  time="10"  cross="true"  storage="chara/4/stand_keta_refrect.png"  ]
-[chara_mod  name="shu"  time="10"  cross="false"  storage="chara/6/stand2_mate2.png"  ]
-[chara_mod  name="to"  time="10"  cross="false"  storage="chara/5/standR_mate1.png"  ]
-[chara_mod  name="stationstaff"  time="10"  cross="true"  storage="chara/9/elderman.png"  ]
-[chara_mod  name="mayor"  time="10"  cross="true"  storage="chara/1/walk_mayor.png"  ]
-[chara_show  name="stationstaff"  time="10"  storage="chara/9/stationstaff4.png"  width="517"  height="776"  left="223"  top="397"  reflect="true"  ]
-[chara_show  name="mayor"  storage="chara/1/mayor_back.png"  left="-31"  top="340"  width="489"  height="870"  reflect="false"  time="10"  ]
-[camera  time="10"  zoom="2"  wait="false"  x="150"  y="0"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
-[reset_camera  x="*0px"  y="*0px"  scale="1"  rotate="0deg"  time="10"  ]
+[chara_mod  name="mayor"  storage="chara/1/stand_WAC.png"  time="10"  ]
 [mask_off time=10]
-[bg  time="500"  method="crossfade"  storage="ginkgo.jpg"  ]
-[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/sprise_mayor.png"  ]
-[chara_show  name="mayor"  storage="chara/1/sprise_mayor.png"  ]
+[bg  time="500"  method="crossfade"  storage="DSC03578.jpg"  ]
+[chara_show  name="mayor"  storage="chara/1/crossseat_mayor1.png"  ]
 [tb_start_text mode=3 ]
-#町長
-「大イチョウ1000年まつり、[r]
+#WACA11783
+「そういえば・・・。[r]
+あの山口清彩の皿は、どれくらい世の中に知られているのだろうか？」[r]
+
 [p][r]
-イチョウだけにいっちょやってみますか！・・・[r]
+#WACA11783
+「あれだけの値段がする皿だ。[r]
+きっと、それなりに有名なはず」[r]
 [p][r]
-なんて、ハハハハハ」[r]
+#WACA11783
+「この星にはインターネット検索というものがある。[r]
+検索を使って調べてみるとしよう」[r]
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="DSC03315.jpg"  ]
+[chara_hide  name="mayor"  ]
+[bg  time="500"  method="crossfade"  storage="AdobeStock_144278057.jpg"  ]
 [tb_start_text mode=3 ]
-#店のおじさん（田中さん）
+#WACA11783
+「【山口清彩 2300万円】でGoogle検索・・・と」[r]
+
+[p][r]
+#WACA11783
 「・・・」[r]
+[p][r]
+
+
+#WACA11783
+「おっ、山口清彩、しっかりファンがいるではないか。[r]
+[p][r]
+ファンの数はそれほど多くはないかもしれないが、どの記事も、清彩の作品の素晴らしさを語っている」[r]
+[p][r]
+【清彩作品の世界に浸る】[r]
+【山口清彩は300年にひとりの陶芸家】[r]
+【清彩の器と共に暮らす幸せ】[r]
+[p][r]
+
+#WACA11783
+「この記事は面白いな。[r]
+[p][r]
+【山口清彩は欲のない陶芸家だ。自身の作品を積極的に売ることをせず、商業的な成功を自らの手でつかもうとはしなかった】[r]
+[p][r]
+なるほど、もし清彩がもう少し欲のある陶芸家なら、もっと有名になっていたのだろうか」[r]
+[p][r]
+[_tb_end_text]
+
+[bg  time="500"  method="crossfade"  storage="03-001.jpg"  ]
+[tb_start_text mode=3 ]
+#WACA11783
+「このブログなんかはすごいな。[r]
+[p][r]
+【山口清彩の全作品を愛でるブログ】。[r]
+2年くらい前からほぼ毎週更新か。[r]
+[p][r]
+しかも、清彩がその生涯で発表した全作品をひとつひとつ取り上げ、熱く評論している。[r]
+最近は作品の紹介を終え、清彩作品の世界観に関する持論を展開しているようだ」[r]
+[p][r]
+[_tb_end_text]
+
+[bg  time="500"  method="crossfade"  storage="DSC03585.jpg"  ]
+[chara_show  name="mayor"  storage="chara/1/depress2_WAC.png"  width="636"  height="961"  ]
+[tb_start_text mode=3 ]
+#WACA11783
+「全作品・・・？」[r]
+[p][r]
+[_tb_end_text]
+
+[tb_chara_shake  name="mayor"  direction="x"  count="2"  swing="20"  time="100"  ]
+[tb_start_text mode=3 ]
+#WACA11783
+「・・・全作品を紹介しているはずのブログに、あの2300万円の皿が紹介されていない・・・？」[r]
+[p][r]
+[_tb_end_text]
+
+[tb_image_show  time="1000"  storage="default/DSC03446.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_73"  ]
+[tb_start_text mode=3 ]
+#WACA11783
+「どういうことだ・・・？[r]
+もしかして・・・」[r]
+[p][r]
 
 [_tb_end_text]
 
-[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/stand_mayor.png"  ]
-*表示スピードもとに戻して
+[glink  color="white"  storage="scene03.ks"  size="20"  target="*A:紹介するのを忘れてしまった？"  text="紹介するのを忘れてしまった？"  x="130"  y="270"  width="300"  ]
+[glink  color="white"  storage="scene03.ks"  size="20"  target="*B:あの皿は隠されていた？"  text="あの皿は隠されていた？"  x="130"  y="320"  width="300"  ]
+[tb_image_hide  ]
+[s  ]
+*A:紹介するのを忘れてしまった？
 
+[tb_eval  exp="f.Mscore-=1"  name="Mscore"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
+[chara_hide  name="mayor"  time="1000"  wait="true"  pos_mode="true"  ]
+[bg  time="500"  method="crossfade"  storage="03-002.jpg"  ]
 [tb_start_text mode=3 ]
-#店のおじさん（田中さん）
-「・・・そうだ・・・！！[r]
-町長、もしよかったら、この町の未来を担う子供の声を聞いてあげてくれないかい？」[r]
+#WACA11783
+「ブログ主が紹介するのを忘れてしまっているのか・・・？」[r]
 [p][r]
 
-#町長
-「子供・・・？」[r]
+#WACA11783
+「いやいや、あのブログには『清彩の全作品を取り上げている』と書かれていた」[r]
 [p][r]
+
+#WACA11783
+「・・・となると、あの皿はファンも知らない皿なのかもしれない。[r]
+何らかの事情でその存在が隠され続けていた・・・？」[r]
+[p][r]
+
+#WACA11783
+「その皿がなぜ今、店の窓に飾られているのだろうか・・・？」[r]
+[p][r]
+[_tb_end_text]
+
+[jump  storage="scene03.ks"  target="*B-2:隠された皿"  ]
+[s  ]
+*B:あの皿は隠されていた？
+
+[tb_eval  exp="f.Mscore+=1"  name="Mscore"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[bg  time="500"  method="crossfade"  storage="AdobeStock_28156644.jpg"  ]
+[tb_start_text mode=3 ]
+#WACA11783
+「あの皿は何らかの事情でその存在が隠され続けていて、ファンでさえも知らない皿なのかもしれない」[r]
+[p][r]
+#WACA11783
+「その皿がなぜ今、店の窓に飾られているのだろうか・・・？」[r]
+[p][r]
+[_tb_end_text]
+
+*B-2:隠された皿
+
+[chara_hide  name="mayor"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_start_text mode=3 ]
+#WACA11783
+「明日、あらためて敬太くんから情報収集するしかないな」[r]
 #
-気が付けば、町長の目線の先にひとりの少年が立っていた。[r]
-[p][r]
-[_tb_end_text]
+WACA11783はそう言いながら、その日は眠りにつくことにした。[r]
 
-[chara_hide  name="stationstaff"  time=""  wait="true"  pos_mode="false"  ]
-[chara_show  name="keta"  storage="chara/4/stand_keta.png"  left="394"  top="513"  width="313"  height="558"  reflect="false"  ]
-[tb_start_text mode=3 ]
-#店のおじさん（田中さん）
-「敬太くん、この人はこの町の町長さんだ。[p][r]
-町長さんは偉くて、すごく優しい人だから、きっと、敬太くんの悩みを解決してくれるかもしれないよ」[r]
-[p][r]
-
-#敬太くん
-「・・・町長さん？」[r]
-
-[p][r]
-#町長
-「・・・あ、ああ、私がこの町の町長だよ」[r]
-
-[p][r]
-#敬太くん
-「・・・町長さんって、この町で一番偉いんだよね？[r]
-いろいろなことに詳しいんだよね？」[r]
-[p][r]
 
 [_tb_end_text]
 
-[chara_mod  name="mayor"  storage="chara/1/walk_mayor.png"  ]
-[tb_start_text mode=3 ]
-#町長
-「ま、まあね。[r]
-（我が星では王子の無理難題に挑み続けているけれど）」[r]
-[p][r]
+*敬太の家の中にある敬太くんの部屋
 
-#敬太くん
-「だったらさ・・・。[r]
-僕のおじいちゃんのお皿を売る方法を考えてくれないかな？」[r]
-[p][r]
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="500"  method="crossfade"  storage="DSC03900.jpg"  ]
+[tb_start_text mode=undefined ]
+#
+その翌朝。
+町長は敬太との約束どおり、再び、敬太の自宅を訪ねていた。
+[p]
 [_tb_end_text]
 
-[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/thinking_mayor.png"  ]
-[bg  storage="02-003.jpg"  cross="true"  ]
-[tb_start_text mode=3 ]
-#町長
-「お皿？？」[r]
-[p][r]
-[_tb_end_text]
-
-[bg  time="500"  method="crossfade"  storage="DSC03315.jpg"  ]
-[tb_start_text mode=3 ]
-#店のおじさん（田中さん）
-「町長、私から説明するよ」[r]
-[p][r]
-田中さんはそう言うと、町長に、敬太から聞いた話を伝えた。[r]
-[p][r]
-#店のおじさん（田中さん）
-「・・・というわけなんだ」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="mayor"  storage="chara/1/stand_mayor.png"  ]
-[tb_start_text mode=3 ]
-#町長
-「な、なるほど・・・。[r]
-[p][r]
-そこにいる敬太くんは、知る人ぞ知る陶芸家『山口清彩』氏の孫で、[r]
-[p][r]
-クラスメイトたちをぎゃふんと言わせたいので、清彩氏がつくった2300万円の皿を売りたいと・・・」[r]
-
-[p][r]
-
-#敬太くん
-「そう！！」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="keta"  storage="chara/4/lookup_keta.png"  ]
-[tb_start_text mode=3 ]
-#敬太くん
-「町長さんなら、そんなのきっと楽勝だよね！」[r]
-
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="mayor"  storage="chara/1/thinking_mayor.png"  ]
-[tb_start_text mode=3 ]
-#町長
-（ちょ、ちょっと待てよ。[p][r]
-町長という仕事は、そんなに高い金額の皿を売ったりもするのか・・・！？）[r]
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="keta"  storage="chara/4/stand_keta.png"  ]
-[tb_start_text mode=3 ]
-#敬太
-「・・・なんだか、町長さんの顔が引きつっているように見えるけど・・・」[r]
-
-[p][r]
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-#町長
-（マ、マズイ！！[r]
-私が本物の町長でないことがバレてしまう・・・！）[r]
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="mayor"  storage="chara/1/walk_mayor.png"  ]
-[tb_start_text mode=3 ]
-#町長
-「だ、大丈夫だよ。[r]
-私は何と言っても、この有田町の町長だ。[r]
-お皿を1枚売ることなど、朝飯前だよ。[p][r]
-
-フフフフ・・・」[p][r]
-
-[_tb_end_text]
-
-[bg  time="500"  method="crossfade"  storage="DSC03315.jpg"  ]
-[tb_start_text mode=3 ]
-#敬太
-「そうなんだ！！[r]
-さすがだね！！」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="mayor"  storage="chara/1/stand_mayor.png"  ]
-[tb_start_text mode=3 ]
-#町長
-「敬太君だったね。[r]
-私に一度、そのおじいちゃんの皿とやらを見せてもらえないかな？」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="keta"  storage="chara/4/lookup_keta.png"  ]
-[tb_start_text mode=3 ]
-#敬太
-「もちろんオッケーさ！[r]
-町長さん、このあと時間ある？」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="mayor"  storage="chara/1/thinking_mayor.png"  ]
-[tb_start_text mode=3 ]
-#町長
-「ええと、1時間ほどなら時間がとれるよ」[r]
-
-[_tb_end_text]
-
-[chara_mod  name="keta"  storage="chara/4/fight2_keta.png"  ]
-[tb_start_text mode=3 ]
-#敬太
-「やった！[r]
-じゃあ、僕と一緒にうちに来て！[p][r]
-おじいちゃんの皿を見せるよ！」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="mayor"  storage="chara/1/walk_mayor.png"  ]
-[tb_start_text mode=3 ]
-#町長
-「よ、よし、行こう」[r]
-[p][r]
-
-#店のおじさん（田中さん）
-「さすが、町長。[r]
-こうやって、町の人たちからの信頼を集めていくわけですな。[p][r]
-素晴らしいです」[r]
-[p][r]
-
-#町長
-「い、いや〜。[r]
-それほどでも・・・」[r]
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="mayor"  storage="chara/1/depress_mayor.png"  ]
-[tb_start_text mode=3 ]
-#町長
-（話の流れで「朝飯前」と言ってしまったが、なんだかとんでもないことに巻き込まれてしまった感があるぞ・・・）[r]
-[p][r]
-[_tb_end_text]
-
-[chara_hide_all  wait="false"  ]
-[bg  time="500"  method="crossfade"  storage="bicycle_ketaLight.jpg"  ]
+[chara_show  name="keta"  time="1000"  wait="false"  storage="chara/4/stand2_keta.png"  width="198"  height="355"  left="386"  top="297"  reflect="false"  ]
+[chara_show  name="mayor"  storage="chara/1/crossseat_mayor1.png"  width="302"  height="537"  left="171"  top="247"  reflect="false"  wait="false"  ]
 [tb_start_text mode=3 ]
 #敬太
 「町長さん！[r]
-早く！」[r]
+おじいちゃんのお皿が売れる良いアイデア思いついた！？」[r]
+[p][r]
+
+#町長
+「・・・ゴメンね、敬太くん。[r]
+実はまだ考え中なんだ」[r]
+[p][r]
+
+#敬太
+「そうなんだ・・・」[r]
+[p][r]
+
+#町長
+「でも、今日はいくつか教えてほしいことがあって」[r]
+[p][r]
+
+#敬太
+「教えてほしいこと？」[r]
 [p][r]
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="500"  method="crossfade"  storage="DSC03401.jpg"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
+[tb_image_show  time="1000"  storage="default/AdobeStock_144278057.jpg"  width="640"  height="960"  name="img_100"  ]
 [tb_start_text mode=3 ]
-#
-そうして、町長は敬太の家に行き、敬太のおじいちゃんの皿を見ることになった。[r]
+#町長
+「敬太くんのおじいちゃんのファンがどれくらいいるか、検索を使って調べてみたんだ。[r]
+[p][r]
+すると、ファンの人がつくったブログや、おじいちゃんについて特集している記事などが見つかった。[r]
+[p][r]
+やっぱり、君のおじいちゃんはすごい人だったんだよ」[r]
 [p][r]
 [_tb_end_text]
 
-[chara_show  name="mayor"  time="1000"  wait="true"  storage="chara/1/mayor_back.png"  width="537"  height="957"  left="51"  top="174"  reflect="false"  ]
-[reset_camera  time="1000"  wait="true"  ]
-[tb_start_text mode=3 ]
-敬太の家の中にある敬太くんの部屋[r]
-[_tb_end_text]
-
-[bg  time="500"  method="crossfade"  storage="DSC03900.jpg"  ]
-[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand2_keta.png"  width="270"  height="480"  left="341"  top="337"  reflect="false"  ]
-[chara_mod  name="mayor"  time="600"  cross="true"  storage="chara/1/crossseat_mayor1.png"  ]
+[chara_mod  name="keta"  storage="chara/4/lookup_keta.png"  ]
 [tb_start_text mode=3 ]
 #敬太
-「これがおじいちゃんのお皿だよ！」[r]
+「へっへーん！[r]
+当たり前さ！僕のおじいちゃんなんだから」[r]
+[p][r]
 [_tb_end_text]
 
-[chara_hide  name="keta"  time="1000"  wait="true"  pos_mode="true"  ]
-[chara_show  name="keta"  time="1000"  wait="true"  storage="chara/4/stand_keta.png"  width="292"  height="525"  left="361"  top="403"  reflect="false"  ]
-[tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/DSC03446.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_301"  ]
-[camera  time="10000"  zoom="1.1"  wait="false"  x="0"  y="-20"  ]
-[tb_show_message_window  ]
+[tb_image_show  time="1000"  storage="default/DSC03446.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_104"  ]
 [tb_start_text mode=3 ]
 #町長
-「これが・・・2300万円の皿・・・！」[r]
-[p][r]
-#
-町長は敬太の家の窓に飾られた、有田焼の皿を見ていた。[r]
-[p][r]
-#町長
-（たしかにこの皿には気品がある。[p][r]
-醸し出す雰囲気が普通の皿とは違うことは私にでもわかる）[r]
-
-[p][r]
-#町長
-（ただ、この皿の値段は2300万円・・・。[r]
-
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-[p][r]
-2300万円といえば、この国では小さな家が買えてしまう値段・・・。[p][r]
-かなり思い切った値段であることはたしかだ）[r]
-[p][r]
-#町長
-「・・・ん！？」[r]
-
+「ただ、ひとつ不思議なことがあって・・・[p][r]
+君のおじいちゃんがつくった2300万円の皿について、誰も話題にしていなかったんだよ」[r]
 [p][r]
 [_tb_end_text]
 
 [tb_image_hide  ]
-[tb_chara_shake  name="mayor"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
-#町長
-（この紋様・・・どこかで見たことがあるような・・・）[r]
-[p][r]
-
-
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-#町長
-（！！）[r]
-#町長
-（あああああ！！！[r]
-そうだ！！！私が割ってしまった王子の器の紋様にそっくりなんだ！！）[r]
-[p][r]
-[_tb_end_text]
-
-[reset_camera  time="2000"  wait="true"  ]
-[tb_start_text mode=3 ]
-
-#町長
-（なぜ、そっくりなんだろう・・・！！？[r]
-もしや、王子が恋した相手というのは・・・敬太くんのおじいちゃんなのか・・・！？）[r]
-
-[p][r]
-#町長
-（いやいや、王子は「女性」に恋したと言っていたので、そんなことはないはず・・・）[r]
-
-[p][r]
-#町長
-「敬太くん、ちょっと教えてほしいのだけど・・・」[r]
-[p][r]
-[_tb_end_text]
-
-[glink  color="white"  storage="scene02.ks"  size="20"  target="*恋に落ちた？"  text="おじいちゃんは恋に落ちた？"  x="70"  y="70"  width="420"  ]
-[glink  color="white"  storage="scene02.ks"  size="20"  text="おじいちゃんにお弟子はいたのかな？"  target="*お弟子"  x="70"  y="120"  width="420"  ]
-[glink  color="white"  storage="scene02.ks"  size="20"  text="おじいちゃんの夫婦関係は良好だったかい？"  target="*夫婦関係"  x="70"  y="170"  width="420"  ]
-[s  ]
-*恋に落ちた？
-
-[tb_eval  exp="f.Mscore-=1"  name="Mscore"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
-[bg  time="500"  method="crossfade"  storage="AdobeStock_269381585.jpg"  ]
-[tb_start_text mode=3 ]
-
-#町長
-（王子は女性と言っていたけれど、あえて聞いてみるぞ）[r]
-[p][r]
-#町長
-「君のおじいちゃんは、7年前、誰かと恋に落ちたと言っていなかったかい？」[r]
-[p][r]
 #敬太
-「えっ・・・。[r]
-7年前だと僕がまだ5歳のときだから、よく覚えてないなあ・・・」[r]
-[p][r]
-#町長
-「そ、そうか。[r]
-変なことを聞いてゴメンよ」[r]
+「えっ・・・？」[r]
 [p][r]
 
-[_tb_end_text]
-
-[jump  storage="scene02.ks"  target="*最後"  ]
-[s  ]
-*お弟子
-
-[tb_eval  exp="f.Mscore+=1"  name="Mscore"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
-[bg  time="500"  method="crossfade"  storage="DSC03397.jpg"  ]
-[tb_start_text mode=3 ]
 #町長
-「君のおじいちゃんには、お弟子さんがいたのかな？」[r]
+「2300万円もする皿なら、おそらく、君のおじいちゃんの代表作のひとつだと思う。[r]
+[p][r]
+その代表作について、ファンの人たちが誰も言及していなかったんだ」[r]
 [p][r]
 
 #敬太
-「うーん・・・。[r]
-おじいちゃんはあまり仕事の話をしてくれなかったから、わかんない。[p][r]
-でも、さっきの店のおじさんが、“おじいちゃんに憧れて有田焼の世界に足を踏み入れた陶芸家は多い”って言ってた」[r]
+「・・・」[r]
+
+[p][r]
+#町長
+「もしかすると、あの2300万円の皿は、ファンの人たちが知らない隠れた作品なんじゃないかな？」[r]
+[p][r]
+
+#敬太
+「・・・」[r]
 [p][r]
 
 #町長
-「そうか。[r]
-じゃあ、もしかすると、お弟子さんもいるのかもしれないね」[r]
-[p][r]
+「なぜ、その隠れた作品を急に販売することに・・・？」[r]
 
-#町長
-（冷静に考えれば、王子が恋した相手というのは、敬太くんのおじいちゃんの弟子だったのかもしれないな・・・。[r]
-[p][r]
-ということは、この敬太くんの悩みを解決してあげることで、その弟子と出会う道が開けるのかもしれない・・・！）[r]
 [p][r]
 [_tb_end_text]
 
-[jump  storage="scene02.ks"  target="*最後"  ]
-[s  ]
-*夫婦関係
-
-[tb_eval  exp="f.Mscore-=2"  name="Mscore"  cmd="-="  op="t"  val="2"  val_2="undefined"  ]
-[bg  time="500"  method="crossfade"  storage="AdobeStock_267544482.jpg"  ]
-[tb_start_text mode=3 ]
-#町長
-「君のおじいちゃんとおばあちゃんの夫婦関係は良好だったかい？」[r]
-
-[p][r]
-#敬太
-「えっ！？　それってどういうこと・・・！？[r]
-僕のおじいちゃんとおばあちゃんはすごく仲が良かったよ！」[r]
-
-[p][r]
-#町長
-「そ、そうか！[r]
-それなら大丈夫だよ！[r]
-変なことを聞いてしまってゴメンね」[p][r]
-[_tb_end_text]
-
-*最後
-
-[bg  time="500"  method="crossfade"  storage="DSC03900.jpg"  ]
+[tb_chara_shake  name="keta"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
 #敬太
-「町長さん、どうかな？[r]
-このお皿、売れそうかな？」[r]
-[p][r]
-
-#町長
-「そ、そうだね。[r]
-えーと・・・うーん・・・」[r]
+「・・・！！」[r]
 [p][r]
 [_tb_end_text]
 
-[chara_mod  name="keta"  storage="chara/4/stand2_keta.png"  ]
+[chara_mod  name="keta"  storage="chara/4/run_keta.png"  ]
+[chara_move  name="keta"  anim="false"  time="300"  effect="linear"  wait="true"  left="-47"  top="285"  width="362"  height="656"  ]
 [tb_start_text mode=3 ]
-#敬太
-「・・・なんだか難しそうだね・・・。[r]
-[p][r]
-そもそも、町長さんは忙しいし、僕の頼みなんかに時間をかけている場合じゃないものね・・・」[r]
-[p][r]
-
-#町長
-「い、いやいや！！[r]
-そんなことはないよ！」[r]
+#
+その瞬間、敬太は突然、何も言わず、自宅を飛び出して行った。[r]
+突然のことに、ポカンとする町長。[r]
 [p][r]
 [_tb_end_text]
 
-[chara_mod  name="keta"  storage="chara/4/fight2_keta.png"  ]
+[mask  effect="fadeIn"  color="0x000000"  ]
+[chara_hide  name="mayor"  wait="false"  pos_mode="false"  ]
+[chara_move  name="keta"  anim="false"  time="0"  effect="linear"  wait="false"  left="359"  top="328"  width="362"  height="656"  ]
+[bg  time="0"  method="crossfade"  storage="DSC03907.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=3 ]
-#敬太
-「本当！？[r]
+#町長
+「け、敬太くん！！！[r]
+なぜ、急に逃げ出すんだ・・・！！！？」[r]
 [p][r]
-もし、このお皿が売れたら、僕ができることなら、町長さんに何でも協力するよ！！」[r]
-
 [_tb_end_text]
 
-[chara_mod  name="keta"  storage="chara/4/lookup_keta.png"  ]
+[chara_hide  name="keta"  time=""  wait="false"  pos_mode="false"  ]
+[bg  time="500"  method="crossfade"  storage="DSC03401.jpg"  ]
+[chara_show  name="mayor"  storage="chara/1/mayor_back.png"  left="100"  top="308"  width="285"  height="507"  reflect="false"  ]
 [tb_start_text mode=3 ]
-#敬太
-「町長さんが僕に協力してほしいことってあるかな？」[r]
-
-[p][r]
-#町長
-「敬太くんに協力してもらいたいこと・・・」。[r]
+#
+逃げ出した敬太を追おうとし、町長も敬太の自宅を飛び出した。[r]
 [p][r]
 [_tb_end_text]
 
 [tb_chara_shake  name="mayor"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
-#町長
-「・・・！」[r]
+ドンッ！！！！！[r]
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03725.jpg"  ]
 [tb_start_text mode=3 ]
-
-#町長
-「・・・たとえばなんだけど、敬太くんのおじいちゃんの知り合いか誰かで、割れてしまった有田焼の器をキレイに修復できる人っていないかな？」[r]
-
-[_tb_end_text]
-
-[tb_image_show  time="1000"  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_343"  ]
-[tb_start_text mode=3 ]
-
-#敬太
-「割れてしまった器の修復・・・？」[r]
+#？？？
+「きゃっ！！！」[r]
 [p][r]
-#敬太
-「うーん・・・。[r]
-僕はあんまり詳しくないんだけど、うちのおばあちゃんなら知っているかも！」[r]
+
+#町長
+「！！！[r]
+す、すみません！！！」[r]
+[p][r]
+
+#？？？
+「ど、どなたですか・・・？[r]
+私の家から突然飛び出してくるなんて・・・」[r]
+[p][r]
+
+[_tb_end_text]
+
+[chara_show  name="ayako"  storage="chara/3/holdingbag_aya.png"  left="281"  top="239"  width="366"  height="652"  reflect="false"  ]
+[tb_start_text mode=3 ]
+#
+そのセリフの先には、右手に買い物袋を持った30代くらいの女性が立っていた。[r]
+[p][r]
+#町長
+「私の家・・・とは・・・？」[r]
+[p][r]
+
+#？？？
+「そこ、私の家です」[r]
+[p][r]
+
+#？？？
+「・・・もしかして、あなた、町長さんですか・・・？」[r]
+[p][r]
+
+#町長
+「は、はあ、そうですけれど・・・」[r]
+
+[p][r]
+#？？？
+「昨晩、敬太から聞きました。[r]
+敬太の相談に乗ってくださっていると」[r]
+[p][r]
+
+#？？？
+「あ、ご挨拶が遅れました。[r]
+私、敬太の母親です」[r]
+
+[p][r]
+#
+そう言うと、その女性は深々とお辞儀をした[r]
+[p][r]
+#町長
+「敬太くんのお母さん・・・！」[r]
+[p][r]
+
+#町長
+「こちらこそお会いできて光栄です・[r]
+町長の松江です」[r]
+[p][r]
+
+#彩子（敬太の母）
+「・・・町長さん、よかったら、少しだけお話できませんか？」[r]
+[p][r]
+
+#町長
+「は、はい。[r]
+え、ええと、お話しするのは構わないのですが・・・。[r]
+実は先ほど敬太くんが家を飛び出してしまいまして・・・」[r]
+[p][r]
+
+#彩子（敬太の母）
+「えっ・・・？[r]
+そういえばさっき、走っていく敬太とすれ違いました」[r]
+[p][r]
+[_tb_end_text]
+
+[tb_image_show  time="1000"  storage="default/DSC03446.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_128"  ]
+[tb_start_text mode=3 ]
+#町長
+「実は今、敬太くんから、おじいちゃんがつくられたお皿を売るための知恵を貸してほしいと言われていまして・・・。[r]
+[p][r]
+お宅の家の窓際に飾られているあの青いお皿なんですが・・・。[r]
+[p][r]
+あのお皿について質問をしたところ、敬太くんが突然飛び出して行ってしまったんです」[r]
+[p][r]
+
+#彩子（敬太の母）
+「・・・そうだったんですね」[r]
+[p][r]
+[_tb_end_text]
+
+[tb_image_hide  ]
+[tb_start_text mode=3 ]
+#彩子（敬太の母）
+「・・・町長さん、あの皿についてお話ししておきたいことがあります」[r]
+[p][r]
+
+#町長
+「話しておきたいこと・・・？」[r]
+[p][r]
+
+#彩子（敬太の母）
+「多分、敬太は大丈夫です。[r]
+私の話、お聞きいただけませんか？」[r]
+[p][r]
+
+#町長
+「・・・わかりました。[r]
+お話を伺えればと思います」[r]
+[p][r]
+
+#彩子（敬太の母）
+「ありがとうございます。[r]
+では、お茶をいれますから、どうぞお上がりください」[r]
+[p][r]
+[_tb_end_text]
+
+[chara_hide_all  wait="true"  ]
+[tb_hide_message_window  ]
+[bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
+[chara_show  name="mayor"  storage="chara/1/crossseat_mayor1.png"  left="341"  top="336"  width="262"  height="465"  reflect="false"  wait="false"  ]
+[chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="388"  height="689"  left="165"  top="345"  reflect="false"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=3 ]
+#
+敬太の家の中にある居間[r]
+#彩子（敬太の母）
+「町長さんは、お茶とコーヒーどちらがよろしいですか？」[r]
+[p][r]
+#町長
+「・・・じゃあ、コーヒーをいただけますか？[r]
+なんだかすいません、お気を遣わせてしまいまして」[r]
+[p][r]
+
+#彩子（敬太の母）
+「いえいえ、こちらこそ突然申し訳ございません」[r]
+[p][r]
+#
+敬太の母親は、そう言うと、コーヒーを乗せたトレイを持ってきた。[r]
+そして、町長にコーヒーを出しながら、話を切り出した。[r]
+[p][r]
+[_tb_end_text]
+
+[chara_move  name="ayako"  anim="false"  time="300"  effect="linear"  wait="true"  left="111"  top="589"  width="441"  height="784"  ]
+[camera  time="5000"  zoom="1.5"  wait="false"  x="50"  y="-150"  ]
+[tb_start_text mode=3 ]
+#彩子（敬太の母）
+「この度は敬太が無茶なことを言って申し訳ございません。[r]
+あの皿を売るのを手伝ってほしいなんて・・・あの子ったら・・・」[r]
+[p][r]
+#町長
+「はい・・・。[r]
+敬太くんの力になってあげたいのは山々なんですが、[r]
+[p][r]
+なにしろ、2300万円もする高価なお皿なもので、良いアイデアが出ずに困っておりまして・・・」[r]
+[p][r]
+
+#彩子（敬太の母）
+「町長さんはお優しい方ですね・・・。[r]
+あんな小さな子供の相談にも乗ってくださって・・・」[r]
+[p][r]
+
+#町長
+「いえいえ、町の人たちの困りごとを聞くのも、町長の大事な仕事ですから」[r]
+[p][r]
+
+#彩子（敬太の母）
+「町長さん、実はあの皿、売り物じゃないんです」[r]
+[p][r]
+
+#町長
+「・・・！[r]
+売り物じゃない・・・とは・・・？」[r]
+[p][r]
+
+#彩子（敬太の母）
+「話すと長くなってしまうんですが・・・。[r]
+あの皿は、私の父が、敬太が生まれたときにつくった皿なんです」[r]
+[p][r]
+
+#町長
+「敬太くんが生まれたときにつくられたお皿・・・？」[r]
+[p][r]
+
+#彩子（敬太の母）
+「はい。[r]
+敬太が生まれたとき、私の父はとてもとても喜んでくれて・・・。[r]
+[p][r]
+そのときの気持ちを形にしたいという思いで、つくられた皿なんです」[r]
+[p][r]
+
+#彩子（敬太の母）
+「あの皿は、私の実家であるこの家の居間にずっと飾られていました。[r]
+[p][r]
+敬太は父のつくった有田焼が大好きだったんですが、とくにあの皿が大好きで。[r]
+[p][r]
+あるとき、敬太は父に【あの皿はいくらするの？】と聞いたことがあり、そのとき、父が冗談めかして答えたのが【2300万円】という金額だったんです」[r]
+[p][r]
+
+#彩子（敬太の母）
+「【非売品】というふうに答えることもできたのかもしれません。[r]
+でも、父はあえて大きな金額で答えてしまった。[r]
+[p][r]
+元々、あの皿を売る気なんてなかったんですから」[r]
+[p][r]
+
+#町長
+「なぜ、2300万円という金額だったのでしょう・・・？」[r]
+[p][r]
+
+#彩子（敬太の母）
+「それは・・・。[r]
+
+実はあの2300という数字は、敬太の出生体重からきているんです」[r]
+[p][r]
+[_tb_end_text]
+
+[reset_camera  time="1000"  wait="true"  ]
+[bg  time="500"  method="crossfade"  storage="AdobeStock_97170979.jpg"  ]
+[tb_start_text mode=3 ]
+#町長
+「出生体重・・・？」[r]
+[p][r]
+[_tb_end_text]
+
+[bg  time="500"  method="crossfade"  storage="AdobeStock_123287189.jpg"  ]
+[tb_start_text mode=3 ]
+#彩子（敬太の母）
+「はい。[r]
+敬太は生まれたとき、2300gという低体重児でした。[r]
+[p][r]
+今では健やかに育ってくれましたが、敬太が頑張って生まれてきてくれたときの感動を忘れないようにと、父が2300という数字を用いたのだと思います」[r]
+[p][r]
+#町長
+「そのことを敬太くんは知っているのでしょうか・・・？」[r]
+[p][r]
+
+#彩子（敬太の母）
+「知らないと思います・・・」[r]
+[p][r]
+[_tb_end_text]
+
+[bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
+[tb_start_text mode=3 ]
+#彩子（敬太の母）
+「あと・・・。[r]
+実はあの皿、私が窓際に飾り始めたんです」[r]
+[p][r]
+
+#町長
+「なぜ、窓際に・・・？」[r]
+[p][r]
+[_tb_end_text]
+
+[tb_image_show  time="1000"  storage="default/DSC03446.jpg"  width="640"  height="960"  x=""  y=""  _clickable_img=""  name="img_149"  ]
+[tb_start_text mode=3 ]
+
+
+#彩子（敬太の母）
+「この町に引っ越してきた頃、敬太は元気がありませんでした。[r]
+[p][r]
+大好きなおじいちゃんがいないことと、慣れない町での暮らしが敬太を不安にさせていたんだと思います。[r]
+[p][r]
+だから私は、敬太を励ます意味で、父のあの皿を窓際に置くことにしたんです」[r]
+[p][r]
+[_tb_end_text]
+
+[tb_image_hide  ]
+[bg  time="500"  method="crossfade"  storage="kiyoshi2Low.jpg"  ]
+[tb_start_text mode=3 ]
+#彩子（敬太の母）
+「大好きなおじいちゃんのお皿が、敬太のことをいつも見守ってくれているよ、と思ってもらいたくて」[r]
+[p][r]
+[_tb_end_text]
+
+[bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
+[tb_start_text mode=3 ]
+
+
+#彩子（敬太の母）
+「おじいちゃんはいつも、学校に行く敬太を見送り、そして、家に帰ってきた敬太を迎えてくれているよ・・・と」[r]
+
+[p][r]
+#町長
+「そうだったんですね・・・」[r]
+[p][r]
+[_tb_end_text]
+
+[tb_image_show  time="0"  storage="default/Screen_Shot_2019-09-16_at_0.08.52.png"  width="640"  height="960"  name="img_156"  ]
+[tb_start_text mode=3 ]
+
+
+#彩子（敬太の母）
+「でも、昨日、敬太の話を聞いてビックリしました。[r]
+あの皿のことでクラスメイトと大喧嘩したと聞いて・・・」[r]
+[p][r]
+
+#彩子（敬太の母）
+「しかも、敬太はあの皿を誰かに買ってもらうことで、おじいちゃんのすごさを証明しようとしている・・・」[r]
 [p][r]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
+[camera  time="10000"  zoom="1.4"  wait="false"  x="50"  y="-100"  ]
 [tb_start_text mode=3 ]
-#町長
-「おばあちゃん！？」[r]
+#彩子（敬太の母）
+「本当は、敬太はあの皿を売りたくないはずです。[r]
+だって、大好きなおじいちゃんの形見なんですから」[r]
 [p][r]
+
 #町長
-「そうか！[r]
-おばあちゃんはおじいちゃんの奥さんだから、きっと陶芸家の知り合いも多そうだね！」[r]
+「・・・」[r]
 [p][r]
+
+#彩子（敬太の母）
 [_tb_end_text]
 
-[chara_mod  name="keta"  storage="chara/4/lookup_keta.png"  ]
-[bg  time="500"  method="crossfade"  storage="DSC03900.jpg"  ]
+[tb_chara_shake  name="ayako"  direction="x"  count="2"  swing="20"  time="50"  ]
 [tb_start_text mode=3 ]
-#敬太
-「じゃあ、決まり！[p][r]
-町長さんが僕のおじいちゃんのお皿を売ってくれたら、僕のおばあちゃんに、器を修復できる人がいないか聞いてあげるよ！」[r]
-
+#彩子（敬太の母）
+「私、あの子を救ってあげたいんですが、どうすればいいかわからなくて・・・」[r]
 [p][r]
-#町長
-（なんだか上手く誘導された感はあるけれど、修復できる人物が早急に見つかるに越したことはない）[r]
-[p][r]
-[_tb_end_text]
-
-[chara_mod  name="mayor"  storage="chara/1/mayor_back.png"  ]
-[tb_start_text mode=3 ]
-#町長
-「よし！[r]
-じゃあ、今晩、私がおじいちゃんのお皿を売るためのアイデアを捻り（ひねり）出すから、明日また敬太くんの自宅を訪ねることにしよう」[r]
-[p][r]
-
-#敬太
-「わかった！！[r]
-楽しみに待ってるね！」[r]
-[p][r]
-[_tb_end_text]
-
-[tb_start_text mode=3 ]
-
 #
-そうして、町長は敬太のおじいちゃんの皿を売るためのアイデアを考えることになった。[r]
+いつしか、敬太の母親の目には涙がにじんでいた。[r]
+敬太の母親は、慌ててハンカチで涙を拭った。[r]
+[p][r]
+[_tb_end_text]
 
+[reset_camera  time="1000"  wait="false"  ]
+[chara_show  name="mayor"  storage="chara/1/thinking_mayor.png"  left=""  top=""  width=""  height=""  reflect="false"  ]
+*A-2:知ってもらう
+
+[tb_start_text mode=3 ]
+
+#町長
+（なるほど・・・。[r]
+そういうことだとすると、あの皿を単に売ればいいという話ではなくなってきたな・・・）[r]
+[p][r]
+
+#町長
+（敬太くんが本当に求めていることは、あの皿を売ることではなく・・・）[r]
+[p][r]
+[_tb_end_text]
+
+[glink  color="white"  storage="scene03.ks"  size="20"  text="「おじいちゃんを知ってもらいたい」"  target="*A:おじいちゃんを知ってもらいたい"  x="90"  y="270"  width="360"  ]
+[glink  color="white"  storage="scene03.ks"  size="20"  target="*B:大人をからかおうとしている"  text="「大人をからかおうとしている」"  x="90"  y="320"  width="360"  ]
+[s  ]
+*A:おじいちゃんを知ってもらいたい
+
+[bg  time="500"  method="crossfade"  storage="DSC03416.jpg"  ]
+[tb_start_text mode=3 ]
+#町長
+
+（そう。[r]
+敬太くんは、クラスメイトにおじいちゃんのすごさを知ってもらいたいだけなんだ）[r]
+[p][r]
+[_tb_end_text]
+
+[jump  storage="scene03.ks"  target="*A-2:おじいちゃんを知ってもらう"  ]
+*B:大人をからかおうとしている
+
+[tb_start_text mode=3 ]
+#町長
+（そう。[r]
+敬太くんは、ただ我々をからかおうとしているだけなんだ）[r]
+[p][r]
+
+#町長
+（むむむ・・・！[r]
+そう思うと、なんだか腹が立ってきたぞ）[r]
+[p][r]
+
+#町長
+（グッ・・・！！！[r]
+しまった・・・！！！[r]
+感情が乱れてしまうと、地球人への擬態が解けてしまう・・・！！！）[r]
+[p][r]
+[_tb_end_text]
+
+[chara_mod  name="mayor"  storage="chara/1/surprise3_WAC.png"  ]
+[tb_start_text mode=3 ]
+#
+町長がそう思った瞬間、彼の姿はもとの異星人の姿に戻ってしまっていた。[r]
+[p][r]
+#彩子（敬太の母）
+「きゃー！！！！！！[r]
+な、なんなんですか、あなた！！！！！！[r]
+なんでそんな格好しているんですか！！！？」[r]
+
+#町長
+「なんでそんな格好と言われても、これが私の本当の姿・・・」[r]
+
+[_tb_end_text]
+
+[chara_mod  name="ayako"  storage="chara/3/call_aya.png"  ]
+[chara_move  name="ayako"  anim="false"  time="300"  effect="linear"  wait="true"  left="70"  top="272"  width="441"  height="784"  ]
+[tb_start_text mode=3 ]
+#彩子（敬太の母）
+「け、警察！！！！！」[r]
+[p][r]
+■ナレーション[r]
+呆然とする町長の耳に、パトカーのサイレンが聞こえてきた。[r]
+[p][r]
+
+The End[r]
+[p][r]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[jump  storage="scene03.ks"  target="*mayorsHome"  ]
-[reset_camera  time="1000"  wait="true"  ]
+[jump  storage="title_screen.ks"  target=""  ]
+[s  ]
+*A-2:おじいちゃんを知ってもらう
+
+[tb_start_text mode=3 ]
+#町長
+「敬太君のお母さん。[r]
+敬太くんは、あの皿を売りたいわけではなく、[p][r]
+クラスメイトにおじいちゃんのすごさを知ってもらいたいだけなんですね」[r]
+
+
+#彩子（敬太の母）
+「はい・・・。[r]
+私もそう思います・・・」[p][r]
+[_tb_end_text]
+
+[bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
+[tb_start_text mode=3 ]
+#彩子（敬太の母）
+「敬太が足を運びそうな場所・・・」[r]
+[p][r]
+
+#町長
+「敬太くんに会って、彼自身の口から本当の気持ちを聞き出そうと思います。[r]
+[p][r]
+そうすれば、きっと何かいい解決策が見つかるかも・・・」[r]
+
+[_tb_end_text]
+
+[tb_image_show  time="1000"  storage="default/DSC03632.jpg"  width="640"  height="960"  name="img_188"  ]
+[tb_start_text mode=3 ]
+#彩子（敬太の母）
+「敬太が足を運びそうな場所・・・。[r]
+ひとつ心当たりがあります。[r]
+あの子、陶山神社（すえやまじんじゃ）によく行くんです」[r]
+[p][r]
+#町長
+「陶山神社（すえやまじんじゃ）・・・」[r]
+[p][r]
+
+[_tb_end_text]
+
+[tb_image_show  time="1000"  storage="default/FAC25D91-42AB-4D97-BC08-AC10FDF25650_1_105_c.jpg"  width="640"  height="960"  ]
+[tb_start_text mode=3 ]
+#彩子（敬太の母）
+「はい。[r]
+敬太は昔からあの神社が大好きで・・・。[r]
+[p][r]
+磁器の鳥居を抜けた高台から、よくこの有田の町を眺めていました」[r]
+[p][r]
+[_tb_end_text]
+
+[tb_image_hide  time="1000"  ]
+[bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
+[bg  time="500"  method="crossfade"  storage="DSC03583.jpg"  ]
+[tb_start_text mode=3 ]
+#町長
+「敬太くんのお母さん、コーヒーありがとうございました。[r]
+私は今から陶山神社に足を運んでみます」[r]
+[p][r]
+
+#彩子（敬太の母）
+「ありがとうございます。[r]
+敬太がいればいいんですが・・・」[r]
+[p][r]
+
+#町長
+「私も会えることを願っています。[r]
+では失礼します」[r]
+[p][r]
+[_tb_end_text]
+
+[chara_hide_all  wait="false"  ]
+[tb_start_text mode=3 ]
+#
+町長はそう言うと、敬太の家を後にし、陶山神社を目指すことにした。[r]
+[p][r]
+[_tb_end_text]
+
+[bg  time="500"  method="crossfade"  storage="DSC03397.jpg"  ]
+[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  left="-101"  top="213"  width="476"  height="714"  reflect="false"  ]
+[tb_start_text mode=3 ]
+#町長
+（・・・さっきは思いもよらなかったが、敬太くんのお母さん、父の清彩氏と同じように陶芸家の道は志さなかったのだろうか？）[r]
+[p][r]
+
+#町長
+（もし仮に、彼女が陶芸家を目指していたとしたら・・・。[p][r]
+王子が地球で出会った女性というのは・・・彼女という可能性もあるのか・・・？）[r]
+[p][r]
+[_tb_end_text]
+
+[tb_chara_shake  name="mayor"  direction="x"  count="2"  swing="20"  time="100"  ]
+[tb_start_text mode=3 ]
+#町長
+（・・・！！）[r]
+[p][r]
+[_tb_end_text]
+
+[tb_start_text mode=3 ]
+#町長
+（なんということだ・・・！[r]
+もしそうなら、私の正体を明かせば、[r]
+[p][r]
+王子の器の修復を手伝ってもらえるかもしれない・・・！）[r]
+[p][r]
+[_tb_end_text]
+
+[chara_show  name="mayor"  storage="chara/1/stand_mayor.png"  ]
+[tb_start_text mode=3 ]
+#町長
+（・・・と待て待て、今はまずは敬太くんのことを解決するのが先決だ。[r]
+[p][r]
+焦らなくても、敬太くんの件が解決すればきっと、王子の器を修復するための道が開けるはず）[r]
+[p][r]
+[_tb_end_text]
+
+[jump  storage="scene04.ks"  target="*tozan"  ]
