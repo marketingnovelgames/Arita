@@ -1,6 +1,6 @@
 ;=========キャラクター事前定義情報 
 ;mayor
-[chara_new  name="mayor"  jname="mayor"  storage="chara/1/call_mayor.png"  ]
+[chara_new  name="mayor"  jname="mayor"  storage="chara/1/WACA11782.png"  ]
 ;50mita
 [chara_new  name="50mita"  jname="50mita"  storage="chara/2/dressed.png"  ]
 ;ayako
