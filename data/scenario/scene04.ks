@@ -909,7 +909,6 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="email.jpg"  ]
 [tb_start_text mode=3 ]
 #敬太
 「町長さん、ありがとう・・・！！[r]
@@ -982,7 +981,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg  time=""  method="crossfade"  storage="AdobeStock_285771747.jpg"  ]
+[bg  time=""  method="crossfade"  storage="04-001.jpg"  ]
 [tb_start_text mode=3 ]
 #
 いつしか、敬太の顔には満面の笑顔が浮かんでいた。[r]

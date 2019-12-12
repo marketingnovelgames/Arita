@@ -273,7 +273,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  method="crossfade"  storage="AdobeStock_81209471.jpg"  ]
+[bg  time="500"  method="crossfade"  storage="03-001.jpg"  ]
 [tb_start_text mode=3 ]
 #WACA11783
 「このブログなんかはすごいな。[r]
@@ -318,7 +318,7 @@
 
 [tb_eval  exp="f.Mscore-=1"  name="Mscore"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
 [chara_hide  name="mayor"  time="1000"  wait="true"  pos_mode="true"  ]
-[bg  time="500"  method="crossfade"  storage="AdobeStock_114113937.jpg"  ]
+[bg  time="500"  method="crossfade"  storage="03-002.jpg"  ]
 [tb_start_text mode=3 ]
 #WACA11783
 「ブログ主が紹介するのを忘れてしまっているのか・・・？」[r]
