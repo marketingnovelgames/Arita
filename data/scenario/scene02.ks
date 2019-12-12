@@ -37,7 +37,7 @@
 
 [resetfont  ]
 [bg  time="500"  method="crossfade"  storage="DSC03907.jpg"  ]
-[chara_show  name="ayako"  time="1000"  wait="false"  storage="chara/3/silhouette002.png"  width="471"  height="706"  left="260"  top="151"  reflect="false"  ]
+[chara_show  name="ayako"  time="1000"  wait="false"  storage="chara/3/silhouette002b.png"  width="471"  height="706"  left="318"  top="150"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #女性
 「ほら、お弁当！」[r]
@@ -46,7 +46,7 @@
 [_tb_end_text]
 
 [cm  ]
-[chara_show  name="keta"  time="1000"  wait="false"  storage="chara/4/silhouette001.png"  width="343"  height="518"  left="36"  top="321"  reflect="true"  ]
+[chara_show  name="keta"  time="1000"  wait="false"  storage="chara/4/silhouette001b.png"  width="343"  height="518"  left="36"  top="321"  reflect="true"  ]
 [tb_start_text mode=3 ]
 #敬太
 「わかったわかった。」[p][r]
