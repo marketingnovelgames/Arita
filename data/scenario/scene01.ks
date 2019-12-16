@@ -32,7 +32,7 @@
 
 [cm  ]
 [tb_start_text mode=3 ]
-いや、異星人だった・・・としたほうが正しいな。[l][r]
+いや、異星人だった・・・と言ったほうが正しいな。[l][r]
 なぜなら、私は今、この有田町の「町長」なる役職に就いているからだ。[l][r]
 [_tb_end_text]
 
@@ -63,7 +63,7 @@
 
 [bg  time="0"  method="crossfade"  storage="space_fes2.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
-惑星ペルソナはほとんど資源がないにもかかわらず、第７銀河系で最も発展した惑星で銀河系を統治している。[l][r][r]
+惑星ペルソナは第７銀河系で最も発展した惑星。[l][r][r]
 商業が盛んな豊かな星で、その経済力は高度なマーケティング力にある。[l][r][r]
 [_tb_end_text]
 
@@ -150,8 +150,8 @@
 *end
 
 [tb_start_text mode=3 ]
-話を進めよう。[r]
-町役場に行く時間だ。[r]
+よし、町役場に行く時間だ。[r]
+この道を進めば、有田町の役場へたどり着く。[p][r]
 [_tb_end_text]
 
 [bg  time="500"  method="crossfade"  storage="bicycle_keta2.png"  ]
@@ -159,36 +159,28 @@
 
 [tb_show_message_window  ]
 [delay  speed="30"  ]
-[tb_start_text mode=3 ]
-#
-有田町役場への通り道[p][r]
-[_tb_end_text]
-
 [chara_show  name="50mita"  time="1000"  wait="false"  storage="chara/2/stand_50lady.png"  width="287"  height="511"  left="313"  top="326"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #50代の女性
-「町長！おはよう！」[r]
-「今日も素敵なスーツですね。」[r]
+「町長！おはよう！[r]
+今日も素敵なスーツね」[r]
 [l][r]
 [_tb_end_text]
 
 [cm  ]
 [tb_start_text mode=3 ]
-#町長
-「うん？」[l][r]
-「ああ、ありがとう。」[l][r]
-[p][r]
 #
-私に声をかけてきたこの女性の名は『三田さん』。[r]
-この有田町で、旦那さんと一緒に農園を営んでいる。[r]
-[p][r]
+私に声をかけてきたこの女性の名は『三田さん』。[l][r][r]
+
+この有田町で、旦那さんと一緒に農園を営んでいる。[p][r]
 気さくな人で、町役場に野菜をちょくちょく差し入れしてくれる。[r]
+[p][r]
+（三田さんの野菜、美味いんだよなあ）[r]
 [p][r]
 [_tb_end_text]
 
 [cm  ]
 [tb_start_text mode=3 ]
-#三田
 #三田さん
 「たしか今日って予算会議の日よね？」[r]
 [p][r]
@@ -198,25 +190,22 @@
 [p][r]
 
 #三田さん
-「町長さん〜。[r]
-今度の予算、県外から若い人を集めることに使ってほしいな。[p][r]
+「今度の予算、県外から若い人を集めることに使ってね！[l][r]
 でないと、この町から若い人がどんどん減っていっちゃうから」[r]
 [p][r]
 
 #三田さん
-「私の若さと美貌でこの町を支えていきたいのは山々なんだけど、さすがに年には勝てないわ」[r]
+「私のパワーと美貌でこの町を支えていきたいのは山々なんだけど、さすがに年には勝てないわ・・・」[r]
 [p][r]
 #町長
-町長は応えた[r]
-
-
+（ここでのベストな返答は・・・）[r]
 
 [_tb_end_text]
 
-[glink  color="white"  storage="scene01.ks"  size="20"  text="「キレイなスタイルをほめる」"  x="110"  y="70"  target="*A:"  width="330"  ]
-[glink  color="white"  storage="scene01.ks"  size="20"  text="「若い人の話題に真面目に応える」"  x="110"  y="120"  target="*B:"  width="330"  ]
-[glink  color="white"  storage="scene01.ks"  size="20"  text="「おいしい野菜をほめる」"  x="110"  y="170"  target="*C:"  width="330"  ]
-[glink  color="white"  storage="scene01.ks"  size="20"  text="「素敵なシワをほめる」"  x="110"  y="220"  target="*D:"  width="330"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="「三田さんはキレイですよ」"  x="110"  y="70"  target="*A:"  width="330"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="「若い人の移住、大事ですね」"  x="110"  y="120"  target="*B:"  width="330"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="「三田さんの野菜は美味しい！」"  x="110"  y="170"  target="*C:"  width="330"  ]
+[glink  color="white"  storage="scene01.ks"  size="20"  text="「年をとるほど味は出ますよ！」"  x="110"  y="220"  target="*D:"  width="330"  ]
 [s  ]
 *A:
 
