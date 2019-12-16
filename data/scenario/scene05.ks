@@ -220,9 +220,11 @@
 そして、10日後。[r]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[chara_show  name="mayor"  storage="chara/1/speach.png"  width="78"  height="116"  left="190"  top="476"  reflect="false"  wait="false"  ]
 [bg  time="500"  storage="DSC03519.jpg"  ]
-[tb_image_show  storage="default/DSC03519item.png"  width="640"  height="960"  name="img_51"  ]
-[chara_show  name="mayor"  storage="chara/1/speach.png"  width="78"  height="116"  left="190"  top="476"  reflect="false"  ]
+[tb_image_show  storage="default/DSC03519item.png"  width="640"  height="960"  name="img_53"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #町長
 「・・・というわけで、大イチョウ1000年まつりの来訪者数は20万人を達成することができました。[p][r]
@@ -239,11 +241,12 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[chara_hide  name="mayor"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_image_hide  ]
-[chara_hide_all  wait="false"  ]
+[chara_show  name="mayor"  storage="chara/1/speach_mayor.png"  width="580"  height="861"  left="129"  top="374"  wait="false"  ]
 [bg  time="500"  storage="DSC03518.jpg"  ]
-[tb_image_show  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_59"  ]
-[chara_show  name="mayor"  storage="chara/1/speach_mayor.png"  width="580"  height="861"  left="129"  top="374"  ]
+[tb_image_show  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_61"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #町長
 「そして、今回の祭りをぜひ来年、再来年と続けていってもらいたいと思っています。[p][r]
@@ -274,7 +277,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="keta"  storage="chara/4/stand2_keta.png"  width="399"  height="701"  left="-75"  top="445"  ]
+[chara_show  name="keta"  storage="chara/4/stand2_keta.png"  width="399"  height="701"  left="-75"  top="445"  wait="false"  ]
 [tb_start_text mode=3 ]
 再び大きな拍手が会場を包んだ。[p][r]
 そして町長は、緊張する敬太の手をとり、彼を壇上へ導いた。[p][r]
