@@ -39,7 +39,6 @@
 *serect41
 [if exp="sf.system.autosave ==true"]
 自動的に保存されたデータが存在します。ロードしますか？[l][r]
-
 [link target=*select1]【１】はい[endlink][r]
 [link target=*select2]【２】いいえ[endlink][r]
 
