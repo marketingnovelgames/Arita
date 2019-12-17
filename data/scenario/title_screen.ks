@@ -48,6 +48,7 @@
 [autoload]
 
 * select2
+;ロードせず始めから
 [cm]
 ロードをやめました[l]
 @jump target=*noload
