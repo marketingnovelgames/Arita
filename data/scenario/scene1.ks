@@ -17,6 +17,7 @@
 ここは地球なる星の『有田』という町だ。[r]
 私は今、この町で人生最大の危機を迎えている・・・[l][r]
 [_tb_end_text]
+[autosave]
 
 [cm  ]
 [tb_start_text mode=2 ]
@@ -44,10 +45,11 @@
 町民からは[r]
 『松江町長』と呼ばれている。[l][r]
 [_tb_end_text]
+[autosave]
 
 [cm  ]
 *explain
-
+[autosave]
 [tb_start_text mode=3 ]
 すこし説明が必要かな?[r]
 [_tb_end_text]
@@ -57,8 +59,9 @@
 [glink  color="black"  storage="scene1.ks"  size="20"  text="町長ってどんな仕事？"  y="200"  x="250"  target="*mayor"  ]
 [glink  color="black"  storage="scene1.ks"  size="20"  text="説明は大丈夫。次に進む"  y="250"  x="250"  target="*end"  ]
 [s  ]
-*persona
 
+*persona
+[autosave]
 [bg  time="500"  method="crossfade"  storage="space_fes2.jpg"  ]
 [tb_start_text mode=3 ]
 惑星ペルソナはほとんど資源がないにもかかわらず、第７銀河系で最も発展した惑星で銀河系を統治している。[l][r][r]
