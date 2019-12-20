@@ -372,8 +372,8 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
-[layermode  mode="darken"  color="0x555555"  wait="true"  graphic=""  storage=""  ]
-[bg  time="500"  storage="DSC03570.jpg"  ]
+[tb_image_show  time="1000"  storage="default/06-001.jpg"  width="640"  height="960"  name="img_74"  ]
+[bg  time="500"  storage="06-001.jpg"  ]
 [chara_show  name="mayor"  storage="chara/1/mayor_back.png"  width="385"  height="685"  left="33"  top="528"  reflect="false"  wait="false"  ]
 [chara_show  name="grandoma_keta"  storage="chara/7/stand2_grandma.png"  width="496"  height="743"  left="-205"  top="571"  reflect="false"  wait="false"  ]
 [chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="489"  height="874"  left="132"  top="502"  reflect="false"  wait="false"  ]
@@ -414,7 +414,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time=""  method="crossfade"  storage="DSC03570.jpg"  ]
+[bg  time=""  method="crossfade"  storage="06-001.jpg"  ]
 [chara_show  name="keta"  storage="chara/4/stand2_keta.png"  left="141"  top="249"  width="638"  height="1126"  reflect="false"  wait="false"  ]
 [tb_start_text mode=3 ]
 #敬太
@@ -423,7 +423,9 @@
 [_tb_end_text]
 
 [chara_hide_all  wait="false"  ]
-[bg  time="500"  storage="DSC03571.jpg"  ]
+[tb_image_hide  time="1000"  ]
+[tb_image_show  time="1000"  storage="default/06-002.jpg"  width="640"  height="960"  name="img_92"  ]
+[bg  time="500"  storage="06-002.jpg"  ]
 [chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  wait="false"  left="9"  top="378"  width="864"  height="1534"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
@@ -432,7 +434,8 @@
 [_tb_end_text]
 
 [chara_hide_all  wait="false"  ]
-[bg  time="500"  storage="DSC03572.jpg"  ]
+[tb_image_hide  time="1000"  ]
+[bg  time="500"  storage="06-003.jpg"  ]
 [chara_show  name="grandoma_keta"  storage="chara/7/stand2_grandma.png"  wait="false"  left="-565"  top="316"  width="1241"  height="1866"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
@@ -441,7 +444,7 @@
 [_tb_end_text]
 
 [chara_hide_all  wait="false"  ]
-[bg  time="500"  storage="mizu.jpg"  ]
+[bg  time="500"  storage="06-004.jpg"  ]
 [chara_show  name="mayor"  storage="chara/1/WACA11782.png"  wait="false"  left="-123"  top="280"  width="1067"  height="1605"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #WACA11783
@@ -476,7 +479,7 @@
 
 [_tb_end_text]
 
-[bg  time="500"  storage="DSC03570.jpg"  ]
+[bg  time="500"  storage="06-001.jpg"  ]
 [tb_start_text mode=3 ]
 #敬太
 「・・・お母さん、僕たち何時間くらい探しているかな・・・」[r]
@@ -569,7 +572,6 @@
 
 [_tb_end_text]
 
-[bg  time="500"  storage="laydown.png"  ]
 [tb_start_text mode=3 ]
 #WACA11783
 「・・・！[r]
@@ -609,7 +611,7 @@ WACA11783は、青白く光る破片を回収した。[p][r]
 
 [tb_hide_message_window  ]
 [chara_hide_all  wait="false"  ]
-[bg  time="500"  storage="myspaceship2.jpg"  ]
+[bg  time="500"  storage="06-005.jpg"  ]
 [chara_show  name="mayor"  storage="chara/1/WACA11782.png"  width="243"  height="366"  left="-4"  top="256"  reflect="false"  wait="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
@@ -627,13 +629,12 @@ WACA11783、美代子、彩子、敬太の4人は、WACA11783が乗ってきた�
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="AdobeStock_72373616.jpg"  ]
 [tb_start_text mode=3 ]
 #
 そして、彩子のそばには、簡易ベッドで横たわる本物の町長が眠っていた。[r]
 [_tb_end_text]
 
-[bg  time="500"  storage="myspaceship2.jpg"  ]
+[bg  time="500"  storage="06-005.jpg"  ]
 [tb_start_text mode=3 ]
 #WACA11783
 「私は今から惑星ペルソナへ帰ります。[r]
@@ -693,8 +694,7 @@ WACA11783さん、もしリンク王子に今回の件を話せるときが来�
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[bg  time="500"  storage="myspaceship2.jpg"  ]
-[chara_show  name="grandoma_keta"  storage="chara/7/stand2_grandma.png"  width="529"  height="798"  left="242"  top="523"  reflect="false"  ]
+[bg  time="500"  storage="06-005.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 その表情は、彼女が自分の心に仕舞い込んでいた思いをグッとガマンしているように見えた。[r]
@@ -704,7 +704,6 @@ WACA11783さん、もしリンク王子に今回の件を話せるときが来�
 
 [_tb_end_text]
 
-[chara_show  name="mayor"  time="1000"  wait="true"  storage="chara/1/WACA11782.png"  width="298"  height="438"  left="-30"  top="181"  reflect="false"  ]
 [tb_start_text mode=3 ]
 WACA11783は昇りかけたロケットの階段を降り、美代子の前に戻ってきた。[r]
 そして・・・。[r]
@@ -772,7 +771,6 @@ WACA11783はそう言うと、リンク王子の姿になり、ニッコリと�
 
 [chara_mod  name="mayor"  time=""  cross="false"  storage="chara/1/stand2_link.png"  ]
 [chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="true"  left="204"  top="535"  width="461"  height="681"  ]
-[camera  time="1000"  zoom="2"  wait="false"  y="-200"  x="100"  ]
 [tb_start_text mode=3 ]
 
 #美代子（敬太の祖母）
@@ -809,8 +807,7 @@ WACA11783はそう言うと、リンク王子の姿になり、ニッコリと�
 
 [chara_hide_all  time="0"  wait="false"  ]
 [reset_camera  time="1000"  wait="false"  ]
-[bg  time="500"  storage="UNADJUSTEDNONRAW_thumb_dc9e.jpg"  ]
-[tb_image_show  time="1000"  storage="default/spaceship3.png"  width="537"  height="807"  x="57"  y="-18"  _clickable_img=""  name="img_178"  ]
+[bg  time="500"  storage="06-006.jpg"  ]
 [tb_start_text mode=3 ]
 地響きのようなエンジン音が鳴り、WACA11783の乗った宇宙船は空へ向かって上がっていった。[r]
 [p][r]
@@ -818,7 +815,6 @@ WACA11783はそう言うと、リンク王子の姿になり、ニッコリと�
 [p][r]
 [_tb_end_text]
 
-[tb_image_hide  time="1000"  ]
 [bg  time=""  method="crossfade"  storage="AdobeStock_253362712.jpg"  ]
 [tb_start_text mode=3 ]
 そして、地球時間にして20日ほどの時が過ぎた[r]
@@ -888,7 +884,7 @@ WACA11783は大きく深呼吸をし、背伸びをした。[r]
 [_tb_end_text]
 
 [chara_hide  name="link"  time="1000"  wait="true"  pos_mode="true"  ]
-[bg  time=""  method="crossfade"  storage="AdobeStock_231276425_001E.jpg"  ]
+[bg  time=""  method="crossfade"  storage="06-007.jpg"  ]
 [tb_start_text mode=3 ]
 「・・・んっ？？」[r]
 [_tb_end_text]
@@ -910,7 +906,6 @@ WACA11783は大きく深呼吸をし、背伸びをした。[r]
 [p][r]
 [_tb_end_text]
 
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  left="-329"  top="294"  width="1075"  height="1606"  reflect="false"  ]
 [tb_chara_shake  name="mayor"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
 #
@@ -946,7 +941,7 @@ WACA11783よ、気の利いたバースデープレゼントを贈ってくれ�
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg  time=""  method="crossfade"  storage="DSC03880_001E.jpg"  ]
+[bg  time=""  method="crossfade"  storage="06-007.jpg"  ]
 [tb_start_text mode=3 ]
 そう言いながら器の裏面を見つめたリンク王子。[r]
 そこにはメッセージが彫られていた。[r]
