@@ -11,7 +11,7 @@
 [_tb_end_text]
 
 [tb_image_hide  ]
-[bg  time="500"  storage="UNADJUSTEDNONRAW_thumb_dc1a2.jpg"  ]
+[bg  time="500"  storage="05-001.jpg"  ]
 [chara_show  name="stationstaff"  storage="chara/9/elderman.png"  width="352"  height="626"  left="-23"  top="485"  reflect="false"  ]
 [chara_show  name="mayor"  storage="chara/1/stand_mayor.png"  left="229"  top="446"  width="459"  height="819"  reflect="false"  ]
 [tb_start_text mode=3 ]
@@ -171,7 +171,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="AdobeStock_81209471.jpg"  ]
+[bg  time="500"  storage="03-001.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
 「まあ、今回の展覧会は大イチョウ1000年まつりのイベントでもあるからね。[r]
@@ -245,7 +245,6 @@
 [tb_image_hide  ]
 [chara_show  name="mayor"  storage="chara/1/speach_mayor.png"  width="580"  height="861"  left="129"  top="374"  wait="false"  ]
 [bg  time="500"  storage="DSC03518.jpg"  ]
-[tb_image_show  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_61"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #町長
@@ -737,7 +736,7 @@
 そうして、私は作品をつくることを辞めました」[r]
 [_tb_end_text]
 
-[bg  time=""  method="crossfade"  storage="complexSmall.jpg"  ]
+[bg  time=""  method="crossfade"  storage="02-003.jpg"  ]
 [chara_mod  name="mayor"  storage="chara/1/thinking_mayor.png"  ]
 [tb_start_text mode=3 ]
 #町長
