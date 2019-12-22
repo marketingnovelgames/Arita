@@ -303,7 +303,7 @@
 
 [tb_hide_message_window  ]
 [bg  time="500"  method="crossfade"  storage="DSC03907.jpg"  ]
-[chara_show  name="grandoma_keta"  time="1000"  wait="true"  storage="chara/7/walk_grandma.png"  width="1259"  height="2237"  left="-419"  top="263"  reflect="false"  ]
+[chara_show  name="grandoma_keta"  time="1000"  wait="true"  storage="chara/7/silhouette003.png"  width="640"  height="960"  left="-186"  top="385"  reflect="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #祖母 美代子
@@ -408,7 +408,7 @@
 [_tb_end_text]
 
 [camera  time="1000"  zoom="2"  wait="false"  y="-50"  x="-150"  ]
-[chara_show  name="grandoma_keta"  time="1000"  wait="true"  storage="chara/7/walk_grandma.png"  width="750"  height="1334"  left="-213"  top="503"  reflect="false"  ]
+[chara_show  name="grandoma_keta"  time="1000"  wait="true"  storage="chara/7/silhouette003.png"  width="640"  height="960"  left="-213"  top="503"  reflect="true"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「？？[r]

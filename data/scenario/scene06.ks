@@ -16,7 +16,7 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="500"  storage="DSC03900.jpg"  ]
 [chara_show  name="mayor"  time=""  storage="chara/1/crossseat_mayor1.png"  width="330"  height="589"  left="12"  top="242"  reflect="false"  wait="false"  ]
-[chara_show  name="grandoma_keta"  time="0"  storage="chara/7/stand2_grandma.png"  width="640"  height="960"  left="96"  top="442"  reflect="false"  ]
+[chara_show  name="grandoma_keta"  time="0"  storage="chara/7/silhouette003.png"  width="357"  height="536"  left="237"  top="355"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「町長さん、朝早くから来ていただき、ありがとうございます」[r]
@@ -52,7 +52,7 @@
 [p][r]
 [_tb_end_text]
 
-[reset_camera  time="1000"  wait="false"  ]
+[reset_camera  time="10000"  wait="false"  ]
 [chara_mod  name="mayor"  storage="chara/1/mayor_ask_children.png"  ]
 [bg  time=""  method="crossfade"  storage="AdobeStock_267910685.jpg"  ]
 [tb_start_text mode=3 ]
@@ -150,15 +150,17 @@
 
 [chara_hide_all  wait="false"  ]
 [bg  time="500"  storage="DSC03900.jpg"  ]
-[chara_show  name="mayor"  time=""  storage="chara/1/crossseat_mayor1.png"  width="330"  height="589"  left="12"  top="242"  reflect="false"  wait="false"  ]
-[chara_show  name="grandoma_keta"  time=""  storage="chara/7/stand2_grandma.png"  width="640"  height="960"  left="96"  top="442"  reflect="false"  wait="false"  ]
-[chara_show  name="keta"  time=""  storage="chara/4/stand2_keta.png"  width="621"  height="1105"  left="-220"  top="433"  reflect="false"  wait="false"  ]
+[chara_show  name="mayor"  time=""  storage="chara/1/crossseat_mayor1.png"  width="229"  height="408"  left="156"  top="261"  reflect="false"  wait="false"  ]
+[chara_show  name="grandoma_keta"  time=""  storage="chara/7/silhouette003.png"  width="256"  height="384"  left="295"  top="331"  reflect="false"  wait="false"  ]
 [tb_start_text mode=3 ]
 #敬太
 「町長さん！[r]
 今日もうちに来てくれているんだね！」[r]
 [p][r]
+[_tb_end_text]
 
+[chara_show  name="keta"  time=""  storage="chara/4/stand2_keta.png"  width="621"  height="1105"  left="-209"  top="428"  reflect="false"  wait="false"  ]
+[tb_start_text mode=3 ]
 #町長
 「おっ！敬太くん、クラスメイトと仲良くなったみたいだな」[r]
 [p][r]
@@ -226,15 +228,14 @@
 [p][r]
 [_tb_end_text]
 
-[reset_camera  time="1000"  wait="false"  ]
 [tb_start_text mode=3 ]
-[bg time="500" storage="DSC03850.jpg"  ][r]
 #町長
 「なるほど・・・！[r]
 たしかに有田の川には破片がたくさん落ちていますね・・・」[r]
 [p][r]
 [_tb_end_text]
 
+[reset_camera  time="1000"  wait="false"  ]
 [bg  time="500"  storage="DSC03900.jpg"  ]
 [chara_show  name="mayor"  time=""  storage="chara/1/crossseat_mayor1.png"  width="330"  height="589"  left="12"  top="242"  reflect="false"  wait="false"  ]
 [chara_show  name="grandoma_keta"  time=""  storage="chara/7/silhouette003.png"  width="379"  height="568"  left="302"  top="390"  reflect="false"  wait="false"  ]
@@ -371,7 +372,7 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/06-001.jpg"  width="640"  height="960"  name="img_72"  ]
+[tb_image_show  time="1000"  storage="default/06-001.jpg"  width="640"  height="960"  name="img_73"  ]
 [bg  time="500"  storage="06-001.jpg"  ]
 [l  ]
 [tb_show_message_window  ]
@@ -415,7 +416,7 @@
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/06-002.jpg"  width="640"  height="960"  name="img_82"  ]
+[tb_image_show  time="1000"  storage="default/06-002.jpg"  width="640"  height="960"  name="img_83"  ]
 [bg  time="500"  storage="06-002.jpg"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
@@ -571,28 +572,38 @@ WACA11783は、青白く光る破片を回収した。[p][r]
 
 [chara_hide_all  wait="false"  ]
 [bg  time="500"  storage="DSC03725.jpg"  ]
-[chara_show  name="grandoma_keta"  storage="chara/7/sitting_grandma.png"  width="1062"  height="1579"  left="-218"  top="187"  reflect="false"  wait="false"  ]
+[chara_show  name="grandoma_keta"  storage="chara/7/silhouette003.png"  width="549"  height="824"  left="220"  top="419"  reflect="false"  wait="false"  ]
 [tb_show_message_window  ]
+[tb_start_text mode=3 ]
 #美代子（敬太の祖母）
-「では、今から器の修復を始めます」[lr]
+「では、今から器の修復を始めます」[r]
+[p][r]
 #WACA11783
-「よろしくお願いします・・・！」[lr]
+「よろしくお願いします・・・！」[r]
+[p][r]
 #
-美代子はそう言うと、川で拾った破片を砕き、陶土を精製する過程に入った。[lr]
+美代子はそう言うと、川で拾った破片を砕き、陶土を精製する過程に入った。[r]
+[p][r]
 #敬太
-「・・・お母さん」[lr]
+「・・・お母さん」[r]
+[p][r]
 #彩子（敬太の母）
-「どうしたの？敬太？」[lr]
+「どうしたの？敬太？」[r]
+[p][r]
 #敬太
-「おばあちゃんの横顔、おじいちゃんにそっくりだね」[lr]
+「おばあちゃんの横顔、おじいちゃんにそっくりだね」[r]
+[p][r]
 #彩子（敬太の母）
-「そうね」[lr]
+「そうね」[r]
+[p][r]
 #
-敬太は祖父を懐かしむような目で、美代子の姿を見ていた。[lr]
-そんな敬太を見て、彩子は優しく微笑んだ。[lr]
+敬太は祖父を懐かしむような目で、美代子の姿を見ていた。[r]
+そんな敬太を見て、彩子は優しく微笑んだ。[r]
+[p][r]
 #
-そして、8日が過ぎた。[lr]
-
+そして、8日が過ぎた。[r]
+[p][r]
+[_tb_end_text]
 
 [tb_hide_message_window  ]
 [chara_hide_all  wait="false"  ]
@@ -953,6 +964,9 @@ For my dear[r]
 from miyoko[r]
 [_tb_end_text]
 
+[camera  time="10000"  zoom="1.5"  wait="true"  y="200"  x="0"  ]
+[tb_image_show  time="1000"  storage="default/DSC03880_001E.jpg"  width="640"  height="960"  ]
+[l  ]
 [jump  storage="NewBackup_Career1_programmerVer191003.ks"  target="*initialization"  ]
 [tb_start_text mode=undefined ]
 [_tb_end_text]
