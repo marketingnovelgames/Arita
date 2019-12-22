@@ -131,7 +131,7 @@
 [tb_start_text mode=3 ]
 #敬太
 「あっ、お母さん。[r]
-大輔と蓮の3人で白川川（しらかわがわ）に【水切り】しに行ってくるー」[r]
+大輔と蓮の3人で[ruby text="しら"]白[ruby text="かわ"]川[ruby text="がわ"]川に【水切り】しに行ってくるー」[r]
 [p][r]
 #彩子（敬太の母）
 「夕飯までには戻るのよ。[r]
@@ -237,7 +237,7 @@
 
 [bg  time="500"  storage="DSC03900.jpg"  ]
 [chara_show  name="mayor"  time=""  storage="chara/1/crossseat_mayor1.png"  width="330"  height="589"  left="12"  top="242"  reflect="false"  wait="false"  ]
-[chara_show  name="grandoma_keta"  time=""  storage="chara/7/stand2_grandma.png"  width="640"  height="960"  left="96"  top="442"  reflect="false"  wait="false"  ]
+[chara_show  name="grandoma_keta"  time=""  storage="chara/7/silhouette003.png"  width="379"  height="568"  left="302"  top="390"  reflect="false"  wait="false"  ]
 [tb_chara_shake  name="grandoma_keta"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
 
@@ -265,14 +265,12 @@
 [p][r]
 [_tb_end_text]
 
-[chara_mod  name="grandoma_keta"  storage="chara/7/stand_grandma.png"  ]
 [tb_start_text mode=3 ]
 #
 そう言うと、美代子は小さくガッツポーズをした。[r]
 [p][r]
 [_tb_end_text]
 
-[chara_mod  name="grandoma_keta"  storage="chara/7/walk_grandma.png"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「町長さん、破片です！[r]
@@ -299,7 +297,7 @@
 [p][r]
 [_tb_end_text]
 
-[chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="786"  height="1394"  left="151"  top="355"  reflect="false"  ]
+[chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="569"  height="1010"  left="47"  top="262"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #
 美代子の横で、スマホで天気予報をチェックした彩子がニッコリ笑った。[r]
@@ -324,6 +322,7 @@
 #彩子（敬太の母）
 「お母さんが昔ちょっとだけ話してくれた、違う星の人との出会い。[r]
 そこにいる町長さんが違う星の人なんでしょ？[r]
+[p][r]
 ふたりの会話を盗み聞きしちゃった」[r]
 [p][r]
 
@@ -372,12 +371,8 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/06-001.jpg"  width="640"  height="960"  name="img_74"  ]
+[tb_image_show  time="1000"  storage="default/06-001.jpg"  width="640"  height="960"  name="img_72"  ]
 [bg  time="500"  storage="06-001.jpg"  ]
-[chara_show  name="mayor"  storage="chara/1/mayor_back.png"  width="385"  height="685"  left="33"  top="528"  reflect="false"  wait="false"  ]
-[chara_show  name="grandoma_keta"  storage="chara/7/stand2_grandma.png"  width="496"  height="743"  left="-205"  top="571"  reflect="false"  wait="false"  ]
-[chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="489"  height="874"  left="132"  top="502"  reflect="false"  wait="false"  ]
-[chara_show  name="keta"  storage="chara/4/stand2_keta.png"  width="301"  height="536"  left="386"  top="511"  reflect="false"  wait="false"  ]
 [l  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
@@ -387,7 +382,6 @@
 [p][r]
 [_tb_end_text]
 
-[tb_chara_shake  name="keta"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=3 ]
 #敬太
 「うう〜、夜の河原は冷えるね」[r]
@@ -407,7 +401,6 @@
 [p][r]
 [_tb_end_text]
 
-[chara_hide_all  wait="false"  ]
 [tb_start_text mode=3 ]
 #
 そうして4人は、美代子の言っていた青白く光る破片を探し始めた。[r]
@@ -415,44 +408,36 @@
 [_tb_end_text]
 
 [bg  time=""  method="crossfade"  storage="06-001.jpg"  ]
-[chara_show  name="keta"  storage="chara/4/stand2_keta.png"  left="141"  top="249"  width="638"  height="1126"  reflect="false"  wait="false"  ]
 [tb_start_text mode=3 ]
 #敬太
 「なかなか見つからないね・・・」[r]
 [p][r]
 [_tb_end_text]
 
-[chara_hide_all  wait="false"  ]
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/06-002.jpg"  width="640"  height="960"  name="img_92"  ]
+[tb_image_show  time="1000"  storage="default/06-002.jpg"  width="640"  height="960"  name="img_82"  ]
 [bg  time="500"  storage="06-002.jpg"  ]
-[chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  wait="false"  left="9"  top="378"  width="864"  height="1534"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
 「50年前の破片だしね・・・」[r]
 [p][r]
 [_tb_end_text]
 
-[chara_hide_all  wait="false"  ]
 [tb_image_hide  time="1000"  ]
 [bg  time="500"  storage="06-003.jpg"  ]
-[chara_show  name="grandoma_keta"  storage="chara/7/stand2_grandma.png"  wait="false"  left="-565"  top="316"  width="1241"  height="1866"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「このあたりに捨てていたのは間違いないのだけれど・・・」[r]
 [p][r]
 [_tb_end_text]
 
-[chara_hide_all  wait="false"  ]
 [bg  time="500"  storage="06-004.jpg"  ]
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  wait="false"  left="-123"  top="280"  width="1067"  height="1605"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #WACA11783
 「みなさん、恩に着ます・・・！」[r]
 [p][r]
 [_tb_end_text]
 
-[chara_hide_all  wait="false"  ]
 [tb_start_text mode=3 ]
 #敬太
 「それにしても、おばあちゃんから話を聞いてビックリしちゃった。[r]
@@ -612,7 +597,7 @@ WACA11783は、青白く光る破片を回収した。[p][r]
 [tb_hide_message_window  ]
 [chara_hide_all  wait="false"  ]
 [bg  time="500"  storage="06-005.jpg"  ]
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  width="243"  height="366"  left="-4"  top="256"  reflect="false"  wait="false"  ]
+[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  width="243"  height="366"  left="3"  top="187"  reflect="false"  wait="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #WACA11783
@@ -622,7 +607,7 @@ WACA11783は、青白く光る破片を回収した。[p][r]
 
 [chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="418"  height="745"  left="50"  top="496"  reflect="false"  wait="false"  ]
 [chara_show  name="keta"  storage="chara/4/stand2_keta.png"  width="270"  height="473"  left="259"  top="616"  reflect="false"  wait="false"  ]
-[chara_show  name="grandoma_keta"  storage="chara/7/stand2_grandma.png"  width="529"  height="798"  left="242"  top="523"  reflect="false"  wait="false"  ]
+[chara_show  name="grandoma_keta"  storage="chara/7/silhouette003.png"  width="346"  height="519"  left="344"  top="478"  reflect="false"  wait="false"  ]
 [tb_start_text mode=3 ]
 #
 WACA11783、美代子、彩子、敬太の4人は、WACA11783が乗ってきたロケットの前に立っていた。[r]
@@ -663,22 +648,28 @@ WACA11783さん、もしリンク王子に今回の件を話せるときが来�
 #WACA11783
 「それは多分大丈夫です。[r]
 [p][r]
-私がこの町の町長になったとき、彼（町長）の有能ぶりをたくさんの人から聞いていたので。[p][r]
+私がこの町の町長になったとき、彼（町長）の有能ぶりをたくさんの人から聞いていたので。[r]
+[p][r]
 彼が目を覚まし、敬太くんから話を聞いたあとは、町の人々を混乱させないようにうまく振る舞ってくれることでしょう。[r]
 [p]それにしても、有能な町長の役を演じ続けるのはなかなかに大変でした。[r]
 [p]この経験を活かして、リンク王子ともうまくやっていこうと思います（笑）」[r]
+[p][r]
 #美代子（敬太の祖母）
 「あなたは本当に素晴らしい町長さんでした」[r]
 [p][r]
 #彩子（敬太の母）
 「敬太を救ってくださったこと、いつまでも忘れません」[r]
+[p][r]
 #敬太
 「町長・・・WACA11783・・・さん、本当にありがとう！」[r]
+[p][r]
 #WACA11783
 「敬太くん。[r]
 この町を支える素敵な大人になるんだよ」[r]
+[p][r]
 #敬太
 「うん！！」[r]
+[p][r]
 #WACA11783
 「では、私はそろそろ発ちます。[r]
 皆さま、またいつかお会いするときまで」[r]
@@ -690,11 +681,14 @@ WACA11783さん、もしリンク王子に今回の件を話せるときが来�
 [tb_start_text mode=3 ]
 #
 そう言いながらロケットに乗ろうとしたWACA11783は、ふと思い立って、美代子たちを振り返った。[r]
+[p][r]
 美代子が、何か言いたそうな表情をしていたからだ。[r]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
 [bg  time="500"  storage="06-005.jpg"  ]
+[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  width="243"  height="366"  left="3"  top="187"  reflect="false"  wait="false"  ]
+[chara_show  name="grandoma_keta"  storage="chara/7/silhouette003.png"  width="346"  height="519"  left="344"  top="478"  reflect="false"  wait="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 その表情は、彼女が自分の心に仕舞い込んでいた思いをグッとガマンしているように見えた。[r]
@@ -717,15 +711,17 @@ WACA11783は昇りかけたロケットの階段を降り、美代子の前に�
 
 [tb_eval  exp="f.A_empathy+=1"  name="A_empathy"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [tb_eval  exp="f.Mscore+=1"  name="Mscore"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
-[chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="false"  left="175"  top="461"  width="572"  height="845"  ]
-[camera  time="1000"  zoom="2"  wait="false"  y="-200"  x="100"  ]
+[chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="false"  left="95"  top="440"  width="444"  height="658"  ]
+[camera  time="1000"  zoom="1.4"  wait="false"  y="-200"  x="50"  ]
 [tb_start_text mode=3 ]
 #WACA11783
 「美代子さん、私のことをリンク王子だと思って、しばらくの間、体を委ねていただいてもいいですよ」[r]
+[p][r]
 #美代子（敬太の祖母）
 「は・・・はあ・・・」[r]
 #
 美代子はWACA11783の言う意味がよくわからなかったが、とりあえず、WACA11783と軽くハグをした。[r]
+[p][r]
 [_tb_end_text]
 
 [jump  storage="scene06.ks"  target="*エンディング"  ]
@@ -735,16 +731,22 @@ WACA11783は昇りかけたロケットの階段を降り、美代子の前に�
 [tb_eval  exp="f.Mscore+=0"  name="Mscore"  cmd="+="  op="t"  val="0"  val_2="undefined"  ]
 [tb_start_text mode=3 ]
 #WACA11783
-「美代子さん、あなたは本物の陶芸家だった。[r]
-その素晴らしい技術に敬意を払います」[r]
+「美代子さん、あなたは本物の陶芸家だった。」[r]
 [p][r]
-[chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="true"  left="0"  top="521"  width="407"  height="601"  ][r]
-[chara_mod  name="mayor"  time="600"  cross="true"  storage="chara/1/ojigi_mayor.png"  ][r]
-[jump  storage="scene06.ks"  target="*エンディング"  ][r]
 [_tb_end_text]
 
-[chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="false"  left="-206"  top="453"  width="572"  height="845"  ]
-[chara_mod  name="mayor"  time=""  cross="false"  storage="chara/1/ojigi_mayor.png"  ]
+[camera  time="1000"  zoom="1.6"  wait="false"  y="-200"  x="100"  ]
+[chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="true"  left="0"  top="521"  width="407"  height="601"  ]
+[chara_mod  name="mayor"  time="600"  cross="true"  storage="chara/1/ojigi_mayor.png"  ]
+[tb_start_text mode=3 ]
+#WACA11783
+「その素晴らしい技術に敬意を払います」[r]
+
+WACA11783は深々と頭を下げた。[r]
+[p][r]
+[_tb_end_text]
+
+[jump  storage="scene06.ks"  target="*エンディング"  ]
 *▼Cを選択した場合（+3）
 
 [tb_eval  exp="f.C_planning+=1"  name="C_planning"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
@@ -752,6 +754,7 @@ WACA11783は昇りかけたロケットの階段を降り、美代子の前に�
 [tb_start_text mode=3 ]
 #WACA11783
 「美代子さん、このたびは本当にありがとうございました」[r]
+[p][r]
 [_tb_end_text]
 
 [chara_mod  name="mayor"  storage="chara/1/stand_link.png"  ]
@@ -770,7 +773,7 @@ WACA11783はそう言うと、リンク王子の姿になり、ニッコリと�
 [_tb_end_text]
 
 [chara_mod  name="mayor"  time=""  cross="false"  storage="chara/1/stand2_link.png"  ]
-[chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="true"  left="204"  top="535"  width="461"  height="681"  ]
+[chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="true"  left="61"  top="389"  width="415"  height="614"  ]
 [tb_start_text mode=3 ]
 
 #美代子（敬太の祖母）
@@ -829,7 +832,7 @@ WACA11783は無事に惑星ペルソナに戻ってきていた。[r]
 [_tb_end_text]
 
 [bg  time="500"  storage="DSC03308s.jpg"  ]
-[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  ]
+[chara_show  name="mayor"  storage="chara/1/WACA11782.png"  width="640"  height="960"  left="20"  top="51"  reflect="false"  wait="false"  ]
 [tb_start_text mode=3 ]
 #WACA11783
 「ふうっ・・・。[r]

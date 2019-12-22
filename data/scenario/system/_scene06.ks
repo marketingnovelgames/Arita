@@ -6,8 +6,6 @@
 [preload  storage="./data/bgimage/AdobeStock_59212565.jpg"  ]
 [preload  storage="./data/bgimage/DSC03916.jpg"  ]
 [preload  storage="./data/bgimage/DSC03853.jpg"  ]
-[preload  storage="./data/fgimage/chara/7/stand_grandma.png"  ]
-[preload  storage="./data/fgimage/chara/7/walk_grandma.png"  ]
 [preload  storage="./data/bgimage/AdobeStock_118773283.jpg"  ]
 [preload  storage="./data/fgimage/chara/1/surprise2_mayor.png"  ]
 [preload  storage="./data/fgimage/default/06-001.jpg"  ]
