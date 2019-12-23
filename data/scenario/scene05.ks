@@ -62,7 +62,7 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="AdobeStock_293850022.jpg"  ]
+[bg  time="500"  storage="04-005.jpg"  ]
 [tb_start_text mode=3 ]
 #
 三田さんはそう言うと、自分のお店のチラシを渡してきた。[r]

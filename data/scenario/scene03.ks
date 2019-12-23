@@ -402,7 +402,7 @@ WACA11783はそう言いながら、その日は眠りにつくことにした�
 [p][r]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/AdobeStock_144278057.jpg"  width="640"  height="960"  name="img_100"  ]
+[tb_image_show  time="1000"  storage="default/05-002.jpg"  width="640"  height="960"  name="img_100"  ]
 [tb_start_text mode=3 ]
 #町長
 「敬太くんのおじいちゃんのファンがどれくらいいるか、検索を使って調べてみたんだ。[r]

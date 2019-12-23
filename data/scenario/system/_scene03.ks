@@ -16,7 +16,7 @@
 [preload  storage="./data/bgimage/03-002.jpg"  ]
 [preload  storage="./data/bgimage/AdobeStock_28156644.jpg"  ]
 [preload  storage="./data/bgimage/DSC03900.jpg"  ]
-[preload  storage="./data/fgimage/default/AdobeStock_144278057.jpg"  ]
+[preload  storage="./data/fgimage/default/05-002.jpg"  ]
 [preload  storage="./data/fgimage/chara/4/lookup_keta.png"  ]
 [preload  storage="./data/fgimage/chara/4/run_keta.png"  ]
 [preload  storage="./data/bgimage/DSC03907.jpg"  ]
