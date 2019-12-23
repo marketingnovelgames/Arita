@@ -294,7 +294,7 @@
 [chara_mod  name="mayor"  time=""  cross="false"  storage="chara/1/mayor_back.png"  ]
 [chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="false"  left="-89"  top="392"  width="580"  height="861"  ]
 [tb_image_hide  time=""  ]
-[tb_image_show  time=""  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_69"  ]
+[tb_image_show  time=""  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_71"  ]
 [chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/mayor_back.png"  ]
 [mask_off  time="0"  effect="fadeOut"  ]
 [tb_start_text mode=3 ]
@@ -382,8 +382,8 @@
 お母さんとおばあちゃんを連れてきたよ！」[p][r]
 [_tb_end_text]
 
-[chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="612"  height="1089"  left="47"  top="552"  reflect="false"  ]
-[chara_show  name="grandoma_keta"  storage="chara/7/dancing_grandma.png"  width="1020"  height="1530"  left="-415"  top="544"  reflect="false"  ]
+[chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="612"  height="1089"  left="47"  top="552"  reflect="false"  wait="false"  ]
+[chara_show  name="grandoma_keta"  storage="chara/7/silhouette003.png"  width="470"  height="707"  left="-131"  top="586"  reflect="true"  wait="false"  ]
 [tb_start_text mode=3 ]
 #
 敬太が町長のもとに戻ってきた。[r]
@@ -423,7 +423,6 @@
 （褒められすぎて、なんだかおかしくなりそうだ・・・）[r]
 [_tb_end_text]
 
-[chara_mod  name="mayor"  storage="chara/1/sprise_mayor.png"  ]
 [tb_start_text mode=3 ]
 #町長
 「え、えっとですね・・・！[r]
@@ -431,7 +430,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="mayor"  time=""  cross="false"  storage="chara/1/depress2_mayor.png"  ]
+[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/mayor_back.png"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
 「相談・・・？」[r]
@@ -506,7 +505,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_117"  ]
+[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_119"  ]
 [tb_start_text mode=3 ]
 #彩子（敬太の母）
 「えっ・・・？[r]
@@ -552,7 +551,7 @@
 お越しくださりありがとうございます」[p][r]
 [_tb_end_text]
 
-[chara_show  name="grandoma_keta"  storage="chara/7/sitting_grandma.png"  width="640"  height="960"  left="196"  top="429"  reflect="false"  ]
+[chara_show  name="grandoma_keta"  storage="chara/7/silhouette003.png"  width="607"  height="911"  left="253"  top="487"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「おや・・・？[r]
@@ -566,7 +565,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_123"  ]
+[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_125"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
 「・・・」[p][r]
@@ -627,7 +626,7 @@
 [tb_hide_message_window  ]
 [chara_hide_all  time=""  wait="true"  ]
 [bg  time="500"  storage="DSC03885.jpg"  ]
-[chara_show  name="grandoma_keta"  storage="chara/7/walk_grandma.png"  left="-157"  top="531"  width=""  height=""  reflect="false"  wait="false"  ]
+[chara_show  name="grandoma_keta"  storage="chara/7/silhouette003.png"  left="-157"  top="531"  width="640"  height="960"  reflect="true"  wait="false"  ]
 [chara_show  name="mayor"  storage="chara/1/crossseat_mayor1.png"  left="298"  top="233"  width="340"  height="605"  reflect="false"  wait="false"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
@@ -825,7 +824,7 @@
 [_tb_end_text]
 
 [bg  time=""  method="crossfade"  storage="DSC03885.jpg"  ]
-[chara_show  name="grandoma_keta"  storage="chara/7/walk_grandma.png"  left="-157"  top="531"  width=""  height=""  reflect="false"  wait="false"  ]
+[chara_show  name="grandoma_keta"  storage="chara/7/silhouette003.png"  left="-81"  top="386"  width="513"  height="770"  reflect="true"  wait="false"  ]
 [chara_show  name="mayor"  storage="chara/1/crossseat_WAC.png"  left="298"  top="233"  width="340"  height="605"  reflect="false"  wait="false"  ]
 [tb_start_text mode=3 ]
 #美代子（敬太の祖母）
