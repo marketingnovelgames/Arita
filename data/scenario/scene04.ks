@@ -496,20 +496,20 @@
 [_tb_end_text]
 
 [chara_hide_all  wait="false"  ]
-[bg  time="500"  storage="AdobeStock_256052213.jpg"  ]
+[bg  time="500"  storage="04-002.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
 「【[ruby text="そう"]荘[ruby text="ごん"]厳】・・・[r]
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="longlife.jpg"  ]
+[bg  time="500"  storage="04-003.jpg"  ]
 [tb_start_text mode=3 ]
 【[ruby text="ちょう"]長[ruby text="じゅ"]寿】・・・[r]
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="AdobeStock_109746082.jpg"  ]
+[bg  time="500"  storage="04-004.jpg"  ]
 [tb_start_text mode=3 ]
 【[ruby text="ちん"]鎮[ruby text="こん"]魂】・・・」[r]
 [p][r]
@@ -830,14 +830,14 @@
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="longlife.jpg"  ]
+[bg  time="500"  storage="04-003.jpg"  ]
 [tb_start_text mode=3 ]
 【長寿】[r]
 であり[r]
 [p][r]
 [_tb_end_text]
 
-[bg  time="500"  storage="AdobeStock_109746082.jpg"  ]
+[bg  time="500"  storage="04-004.jpg"  ]
 [tb_start_text mode=3 ]
 【鎮魂】でもある。[p][r]
 この世を去った陶芸家たちの素晴らしい作品が、これからもたくさんの人に愛されるよう、その方たちの作品を並べた展覧会を開催しようと思う」[r]

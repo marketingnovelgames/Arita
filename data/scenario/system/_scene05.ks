@@ -2,7 +2,7 @@
 [preload  storage="./data/fgimage/default/DSC03822.png"  ]
 [preload  storage="./data/bgimage/05-001.jpg"  ]
 [preload  storage="./data/fgimage/chara/1/mayor_ask_children.png"  ]
-[preload  storage="./data/bgimage/AdobeStock_293850022.jpg"  ]
+[preload  storage="./data/bgimage/04-005.jpg"  ]
 [preload  storage="./data/fgimage/chara/1/stand_mayor.png"  ]
 [preload  storage="./data/bgimage/UNADJUSTEDNONRAW_thumb_dc1a2.jpg"  ]
 [preload  storage="./data/bgimage/DSC03453.jpg"  ]
