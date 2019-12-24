@@ -1,6 +1,3 @@
-;191204update
-;plugin  オートセーブ追加
-
 [_tb_system_call storage=system/_title_screen.ks]
 
 [hidemenubutton]
@@ -23,6 +20,7 @@
 [glink  color="black"  storage="interviewVer191014.ks"  size="12"  text="アイデア・意見を投稿する"  target="*epilogue"  x="10"  y="900"  width=""  height=""  _clickable_img=""  ]
 [glink  color="black"  storage="engagementVer191003.ks"  size="12"  text="作者のあとがき"  target="*epilogue"  x="10"  y="930"  width=""  height=""  _clickable_img=""  ]
 [s  ]
+
 *start
 
 [cm  ]
@@ -37,21 +35,22 @@
 [s  ]
 
 *serect41
-[if exp="sf.system.autosave ==true"]
-自動的に保存されたデータが存在します。ロードしますか？[l][r]
-[link target=*select1]【１】はい[endlink][r]
-[link target=*select2]【２】いいえ[endlink][r]
+[tb_start_text mode=3 ]
+前回のセーブデータがあります。[r]
+ロードしますか？[r]
+[_tb_end_text]
 
+[glink  color="black"  target="*select1"  text="はい"  size="14"  x="140"  y="150"  width="330"  height="10"  _clickable_img=""  ]
+[glink  color="black"  target="*select2"  text="いいえ"  size="14"  x="140"  y="400"  width="330"  height="10"  ]
 [s]
-* select1
-;ロードを実行します
-[autoload]
 
-* select2
-;ロードせず始めから
-[cm]
-ロードをやめました[l]
-@jump target=*noload
-[else]
-自動的に保存されたデータはありません。[l][r]
-[endif]
+*select1
+[autoload]
+[s  ]
+
+*select2
+[cm  ]
+ロードをやめました[lr]
+[l  ]
+[jump  target="*noload"  storage=""  ]
+[s  ]

@@ -59,8 +59,8 @@
 [glink  color="white"  storage="scene01.ks"  size="20"  text="町長ってどんな仕事？"  y="170"  x="130"  target="*mayor"  width="300"  ]
 [glink  color="white"  storage="scene01.ks"  size="20"  text="説明は大丈夫。次に進む"  y="220"  x="130"  target="*end"  width="300"  ]
 [s  ]
-*persona
 
+*persona
 [bg  time="0"  method="crossfade"  storage="space_fes2.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 惑星ペルソナはほとんど資源がないにもかかわらず、第７銀河系で最も発展した惑星で銀河系を統治している。[l][r][r]
