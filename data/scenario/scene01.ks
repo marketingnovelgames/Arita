@@ -20,7 +20,7 @@
 
 [cm  ]
 [tb_start_text mode=3 ]
-おっと、自己紹介が遅れてしまった。[l][r]
+おっと、自己紹介が遅れてしまった。。[l][r]
 私の名前は『WACA11782』。[l][r]
 [_tb_end_text]
 
@@ -59,8 +59,8 @@
 [glink  color="white"  storage="scene01.ks"  size="20"  text="町長ってどんな仕事？"  y="170"  x="130"  target="*mayor"  width="300"  ]
 [glink  color="white"  storage="scene01.ks"  size="20"  text="説明は大丈夫。次に進む"  y="220"  x="130"  target="*end"  width="300"  ]
 [s  ]
-
 *persona
+
 [bg  time="0"  method="crossfade"  storage="space_fes2.jpg"  cross="true"  ]
 [tb_start_text mode=3 ]
 惑星ペルソナは第７銀河系で最も発展した惑星。[l][r][r]
