@@ -9,6 +9,8 @@
 [cm  ]
 [tb_ptext_hide  time="1000"  ]
 [bg  time="500"  method="crossfade"  storage="DSC03401.jpg"  ]
+[autosave]
+
 [tb_ptext_show  x="90"  y="400"  size="30"  color="0xffffff"  time="1000"  text="第二章　敬太とおじいちゃんの皿"  anim="true"  face="undefined"  edge=""  shadow="undefined"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
 *yamaguchi1ver190914
 
@@ -395,7 +397,7 @@
 [tb_start_text mode=3 ]
 #敬太
 「わかった！」[p][r]
-#　
+#
 そう言うと、敬太は自転車に飛び乗った。[p][r]
 [_tb_end_text]
 
@@ -417,6 +419,8 @@
 [_tb_end_text]
 
 [bg  time="500"  method="crossfade"  storage="100coinsSmall.jpg"  ]
+[autosave]
+
 [tb_start_text mode=3 ]
 #敬太
 「おじいちゃんのあのお皿は2300万円・・・」[p][r]
@@ -1056,6 +1060,8 @@
 「敬太くん、ちょっと教えてほしいのだけど・・・[l][r]
 おじいちゃんは・・・」[p][r]
 [_tb_end_text]
+
+[autosave]
 
 [glink  color="white"  storage="scene02.ks"  size="20"  target="*恋に落ちた？"  text="誰かと恋に落ちた？"  x="70"  y="70"  width="420"  ]
 [glink  color="white"  storage="scene02.ks"  size="20"  text="弟子はいたのかな？"  target="*お弟子"  x="70"  y="120"  width="420"  ]

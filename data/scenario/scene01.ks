@@ -186,6 +186,8 @@
 
 [_tb_end_text]
 
+[autosave]
+
 [glink  color="white"  storage="scene01.ks"  size="20"  text="「三田さんの美貌はさすがです」"  x="110"  y="70"  target="*A:"  width="330"  ]
 [glink  color="white"  storage="scene01.ks"  size="20"  text="「若い人の移住、大事ですね」"  x="110"  y="120"  target="*B:"  width="330"  ]
 [glink  color="white"  storage="scene01.ks"  size="20"  text="「三田さんの野菜は美味しい！」"  x="110"  y="170"  target="*C:"  width="330"  ]
@@ -699,6 +701,8 @@
 私の決断が、きっと、この町の未来を変えるのだろう。[p][r]
 ・・・さて、予算をどこに使おうかな。[p][r]
 [_tb_end_text]
+
+[autosave]
 
 [glink  color="white"  storage="scene01.ks"  size="20"  text="高齢者に多く使う"  x="130"  y="170"  target="*A:高齢化"  width="300"  ]
 [glink  color="white"  storage="scene01.ks"  size="20"  text="若者に多く使う"  target="*B:若者"  x="130"  y="220"  width="300"  ]
