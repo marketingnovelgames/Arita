@@ -6,7 +6,7 @@
 ;scene99_endorollVer191011.ksを置換interviewVer191014.ks
 [dialog type="confirm" text="お問い合わせフォームに飛びます"  target="*url1" ]
 
-[jump  storage="interviewVer191014.ks"  target=""  ]
+[jump  storage="interviewVer191014.ks"  target="epilogue"  ]
 [s  ]
 *url1
 
@@ -16,7 +16,7 @@
 
 [dialog type="confirm" text="掲示板に飛びます"  target="*url2" ]
 
-[jump  storage="interviewVer191014.ks"  target=""  ]
+[jump  storage="interviewVer191014.ks"  target="epilogue"  ]
 [s  ]
 *url2
 
@@ -26,7 +26,7 @@
 
 [dialog type="confirm" text="Discardに飛びます"  target="*url3" ]
 
-[jump  storage="interviewVer191014.ks"  target=""  ]
+[jump  storage="interviewVer191014.ks"  target="epilogue"  ]
 [s  ]
 *url3
 
@@ -36,7 +36,7 @@
 
 [dialog type="confirm" text="ブログに飛びます"  target="*url4" ]
 
-[jump  storage="interviewVer191014.ks"  target=""  ]
+[jump  storage="interviewVer191014.ks"  target="epilogue"  ]
 [s  ]
 *url4
 

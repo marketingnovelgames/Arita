@@ -1,6 +1,2 @@
-[preload  storage="./data/bgimage/white.jpg"  ]
-[preload  storage="./data/bgimage/programmer.jpg"  ]
-[preload  storage="./data/bgimage/creator.jpg"  ]
-[preload  storage="./data/bgimage/promoter.jpg"  ]
-[preload  storage="./data/bgimage/wac.jpg"  ]
+[preload  storage="./data/bgimage/AI200113.jpg"  ]
 [return]

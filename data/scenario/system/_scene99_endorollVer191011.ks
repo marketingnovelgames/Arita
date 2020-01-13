@@ -1,4 +1,5 @@
 [preload  storage="./data/bgimage/galaxy.png"  ]
+[preload  storage="./data/bgimage/AI200113.jpg"  ]
 [preload  storage="./data/bgimage/DSC03468.jpg"  ]
 [preload  storage="./data/bgimage/DSC03538.jpg"  ]
 [preload  storage="./data/bgimage/DSC03497.jpg"  ]
@@ -14,5 +15,5 @@
 [preload  storage="./data/bgimage/DSC03308s.jpg"  ]
 [preload  storage="./data/bgimage/DSC03459.jpg"  ]
 [preload  storage="./data/bgimage/AIbrain.png"  ]
-[preload  storage="./data/bgimage/target.jpg"  ]
+[preload  storage="./data/bgimage/DSC03777.jpg"  ]
 [return]
