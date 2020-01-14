@@ -72,7 +72,7 @@
 「この神社は本当に美しい」[p][r]
 「あの鳥居の透き通るような染色は、君のおじいちゃんの作品と通じるところがあるね」[p][r]
 #
-そう言うと、町長は磁器でつくられた神社を指さした。[l][r]
+そう言うと、町長は神社を指さした。[l][r]
 そして話を続けた。[p][r]
 [_tb_end_text]
 
@@ -333,7 +333,9 @@
 
 [chara_mod  name="mayor"  storage="chara/1/call_mayor.png"  ]
 [tb_start_text mode=3 ]
-#町長「もしもし」[p]
+#町長
+「もしもし」[p][r]
+
 [_tb_end_text]
 
 [chara_hide_all  wait="false"  ]
@@ -765,10 +767,8 @@
 
 [tb_start_text mode=3 ]
 #敬太
-「町長さん、ありがとう・・・！！」[p][r]
+「町長さん、ありがとう・・・！」[p][r]
 「僕、ファンの人たちを見つけたら、一生懸命メールを書いて、お願いすることにする！」[p][r]
-
-
 [_tb_end_text]
 
 [bg  time="500"  storage="AdobeStock_123287189.jpg"  ]
