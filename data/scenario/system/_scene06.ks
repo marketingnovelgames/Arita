@@ -28,5 +28,5 @@
 [preload  storage="./data/bgimage/DSC03308s.jpg"  ]
 [preload  storage="./data/bgimage/AdobeStock_119012103.jpg"  ]
 [preload  storage="./data/bgimage/AdobeStock_204108985_.jpg"  ]
-[preload  storage="./data/fgimage/default/DSC03880_001E.jpg"  ]
+[preload  storage="./data/fgimage/default/DSC03880.jpg"  ]
 [return]
