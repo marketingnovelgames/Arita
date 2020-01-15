@@ -325,8 +325,7 @@
 [chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/depress_mayor.png"  ]
 [tb_start_text mode=3 ]
 #敬太
-「僕よりも、お母さんやおばあちゃんのほうが詳しいと思うから、[l][r]
-ここに連れてくるね！」[p][r]
+「僕よりも、お母さんやおばあちゃんのほうが詳しいと思うから、ここに連れてくるね！」[p][r]
 
 #町長
 「ありがとう・・・！[l][r]
