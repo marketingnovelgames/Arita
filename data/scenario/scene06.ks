@@ -882,7 +882,7 @@ CVR007は大きく深呼吸をし、背伸びをした。[p][r]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[tb_image_show  time="1000"  storage="default/DSC03880_001E.jpg"  width="640"  height="960"  ]
+[tb_image_show  time="1000"  storage="default/DSC03880.jpg"  width="640"  height="960"  ]
 [tb_start_text mode=3 ]
 #
 For my dear[r]
