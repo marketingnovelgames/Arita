@@ -849,6 +849,7 @@ CVR007は、ふいに名前を呼ばれてビクッとした。[p][r]
 
 [bg  time="500"  storage="ownedsmall.png"  ]
 [chara_mod  name="mayor"  storage="chara/1/sprise_mayor.png"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #CVR007
 （そうだ、よくよく考えれば、これはゲームなんだ）[p][r]
@@ -906,6 +907,7 @@ CVR007はそう独り言を言うと、異星人の姿に戻り、そそくさ�
 
 [chara_mod  name="mayor"  storage="chara/1/thinking_WAC.png"  ]
 [bg  time="500"  storage="complexSmall.jpg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #CVR007
 （・・・そうだ、アインシュタインの相対性理論だ）[p][r]

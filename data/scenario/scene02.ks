@@ -207,7 +207,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="shu"  time="1000"  wait="true"  storage="chara/6/stand_mate2.png"  width="398"  height="697"  left="-81"  top="409"  reflect="false"  ]
+[chara_show  name="shu"  time="1000"  wait="false"  storage="chara/6/stand_mate2.png"  width="398"  height="697"  left="-81"  top="409"  reflect="false"  ]
 [tb_start_text mode=3 ]
 #蓮（クラスメイト）
 「ほんとほんと、値段の付け方間違えてるんじゃねーの？」[p][r]
