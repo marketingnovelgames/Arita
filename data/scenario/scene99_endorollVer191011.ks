@@ -7,7 +7,7 @@
 [chara_hide  name="mayor"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_hide_message_window  ]
 [bg  time="500"  method="crossfade"  storage="galaxy.png"  ]
-[tb_ptext_show  x="150"  y="480"  size="30"  color="0xffffff"  time="2000"  text="原作・音楽　松尾　茂樹"  anim="true"  face="fantasy"  edge="undefined"  shadow="undefined"  fadeout="false"  wait="true"  in_effect="fadeIn"  out_effect="fadeOut"  ]
+[tb_ptext_show  x="150"  y="480"  size="30"  color="0xffffff"  time="2000"  text="原作・音楽　松尾　茂起"  anim="true"  face="fantasy"  edge="undefined"  shadow="undefined"  fadeout="false"  wait="true"  in_effect="fadeIn"  out_effect="fadeOut"  ]
 [tb_ptext_hide  time="1000"  ]
 [bg  storage="AI200113.jpg"  cross="true"  ]
 [tb_ptext_show  x="150"  y="480"  size="30"  color="0xffffff"  time="2000"  text="デザイン・ゲーム制作　中山　大輔"  anim="true"  face="fantasy"  edge="undefined"  shadow="undefined"  fadeout="false"  wait="true"  in_effect="fadeIn"  out_effect="fadeOut"  ]
