@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_scene06.ks]
 
 [mask  effect="fadeIn"  color="0x000000"  ]
+[autosave]
+
 *町長は再び敬太の自宅を訪ねていた。
 
 [tb_ptext_show  x="100"  y="480"  size="30"  color="0xffffff"  time="3501"  text="最終章　バック・トゥ・ザ・ペルソナ"  face="undefined"  edge="0x000000"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
@@ -343,6 +345,8 @@ CVR007は再び敬太の自宅を訪ねていた。[p][r]
 [mask  effect="fadeIn"  color="0x000000"  ]
 [tb_image_show  time="1000"  storage="default/06-001.jpg"  width="640"  height="960"  name="img_74"  ]
 [bg  time="500"  storage="06-001.jpg"  ]
+[autosave]
+
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
@@ -581,6 +585,8 @@ CVR007、美代子、彩子、敬太の4人は、CVR007が乗ってきたロケ�
 [_tb_end_text]
 
 [bg  time="500"  storage="06-005.jpg"  ]
+[autosave]
+
 [tb_start_text mode=3 ]
 #CVR007
 「私は今から惑星ペルソナへ帰ります」[p][r]
@@ -773,6 +779,8 @@ CVR007の乗った宇宙船は空へ向かって上がっていった。[p][r]
 
 [mask  effect="fadeIn"  color="0x000000"  ]
 [bg  time="500"  storage="space_fes2.jpg"  ]
+[autosave]
+
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=3 ]
 ― 20日後[l][r]

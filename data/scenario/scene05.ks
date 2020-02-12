@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_scene05.ks]
 
 [bg  time="500"  storage="DSC03822.jpg"  ]
+[autosave]
+
 [tb_ptext_show  x="100"  y="480"  size="30"  color="0xffffff"  time="1000"  text="第五章　失われた陶土"  face="undefined"  edge="0x000000"  shadow="undefined"  anim="true"  fadeout="true"  wait="true"  in_effect="fadeIn"  out_effect="fadeOut"  ]
 [tb_image_show  storage="default/DSC03822.png"  name="img_2"  ]
 [tb_show_message_window  ]
@@ -191,6 +193,8 @@
 
 [mask  effect="fadeIn"  color="0x000000"  ]
 [bg  time="500"  storage="DSC03519.jpg"  ]
+[autosave]
+
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=3 ]
 ― そして、10日後。[p][r]
@@ -266,6 +270,8 @@
 [tb_image_show  time=""  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_75"  ]
 [chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/mayor_back.png"  ]
 [mask_off  time="0"  effect="fadeOut"  ]
+[autosave]
+
 [tb_start_text mode=3 ]
 報告会が終わり、敬太が町長のもとに駆け寄ってきた。[p][r]
 
@@ -784,6 +790,8 @@ CVR007は、ふいに名前を呼ばれてビクッとした。[p][r]
 [_tb_end_text]
 
 [bg  time=""  method="crossfade"  storage="DSC03885.jpg"  ]
+[autosave]
+
 [chara_show  name="grandoma_keta"  storage="chara/7/silhouette003.png"  left="-81"  top="386"  width="513"  height="770"  reflect="true"  wait="false"  ]
 [chara_show  name="mayor"  storage="chara/1/crossseat_WAC.png"  left="298"  top="233"  width="340"  height="605"  reflect="false"  wait="false"  ]
 [tb_start_text mode=3 ]
