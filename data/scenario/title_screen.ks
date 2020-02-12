@@ -11,6 +11,7 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [resetfont  ]
 [reset_camera  time="1000"  wait="true"  ]
+[tb_ptext_hide  time="1000"  ]
 [tb_hide_message_window  ]
 [tb_image_hide  time="1000"  ]
 [bg  time="500"  method="crossfade"  storage="top001.jpg"  ]
