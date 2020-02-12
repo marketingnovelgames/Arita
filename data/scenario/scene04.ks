@@ -12,6 +12,8 @@
 [tb_hide_message_window  ]
 [bg  time=""  method="crossfade"  storage="DSC03632.jpg"  ]
 [tb_ptext_show  x="185"  y="418"  size="30"  color="0xffffff"  time="1000"  text="第四章　銀杏の花言葉"  face="undefined"  edge="0x000000"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
+[autosave]
+
 *tozan-2
 
 [tb_show_message_window  ]
@@ -115,6 +117,8 @@
 #町長
 「敬太くんの気持ちはとてもよく分かるよ」[p][r]
 [_tb_end_text]
+
+[autosave]
 
 [chara_mod  name="mayor"  time="600"  cross="true"  storage="chara/1/sitting_mayor.png"  ]
 [tb_start_text mode=3 ]
@@ -475,6 +479,8 @@
 
 [chara_hide_all  wait="false"  ]
 [bg  time="500"  storage="DSC03586.jpg"  ]
+[autosave]
+
 [chara_show  name="mayor"  storage="chara/1/call_mayor.png"  left="387"  top="348"  width="198"  height="298"  reflect="false"  wait="false"  ]
 [chara_show  name="keta"  storage="chara/4/sitting.png"  width="162"  height="244"  left="202"  top="397"  reflect="false"  ]
 [tb_start_text mode=3 ]
@@ -585,6 +591,8 @@
 [_tb_end_text]
 
 [bg  time="500"  storage="DSC03586.jpg"  ]
+[autosave]
+
 [tb_start_text mode=3 ]
 #町長
 「全国にいる山口清彩のファンの人たちに声をかけて・・・[l][r]
@@ -689,6 +697,8 @@
 [_tb_end_text]
 
 [bg  time="500"  storage="ginkgo.jpg"  ]
+[autosave]
+
 [tb_image_hide  time="1000"  ]
 [tb_start_text mode=3 ]
 #町長

@@ -2,6 +2,8 @@
 
 *mayorsHome
 
+[autosave]
+
 [tb_ptext_hide  time="1000"  ]
 [chara_hide  name="mayor"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_image_hide  time="1000"  ]
@@ -13,6 +15,8 @@
 [bg  time="500"  method="crossfade"  storage="DSC03573.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_ptext_show  x="100"  y="480"  size="30"  color="0xffffff"  time="1000"  text="第三章　皿に隠された秘密"  face="undefined"  edge=""  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
+[autosave]
+
 [tb_start_text mode=3 ]
 #
 ― 町長の自宅[p][r]
@@ -80,6 +84,8 @@
 まずは、そもそも論で今回の問題を分解してみよう」[p][r]
 「そもそも、あの皿はなぜ売れていないのだろう・・・？」[p][r]
 [_tb_end_text]
+
+[autosave]
 
 [glink  color="white"  storage="scene03.ks"  size="20"  target="*A:「2300万円もの価値はないから」"  text="2300万円もの価値はないから"  x="110"  y="170"  width="330"  ]
 [glink  color="white"  storage="scene03.ks"  size="20"  target="*B:「あの皿は使い道がないから」"  text="あの皿は使い道がないから"  x="110"  y="220"  width="330"  ]
@@ -229,6 +235,8 @@
 
 [_tb_end_text]
 
+[autosave]
+
 [glink  color="white"  storage="scene03.ks"  size="20"  target="*A:紹介するのを忘れてしまった？"  text="紹介するのを忘れてしまった？"  x="130"  y="270"  width="300"  ]
 [glink  color="white"  storage="scene03.ks"  size="20"  target="*B:あの皿は隠されていた？"  text="あの皿は世に公表されていない？"  x="130"  y="320"  width="300"  ]
 [s  ]
@@ -250,6 +258,8 @@
 「しかし・・・。[l][r]
 その皿がなぜ今、店の窓に飾られているのだろうか・・・」[p][r]
 [_tb_end_text]
+
+[autosave]
 
 [jump  storage="scene03.ks"  target="*B-2:隠された皿"  ]
 [s  ]
@@ -277,6 +287,8 @@ CVR007はそう思いながら、その日は眠りについた。[p][r]
 [mask  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 *敬太の家の中にある敬太くんの部屋
+
+[autosave]
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="500"  method="crossfade"  storage="DSC03900.jpg"  ]
@@ -653,6 +665,8 @@ CVR007はそう思いながら、その日は眠りについた。[p][r]
 [reset_camera  time="1000"  wait="false"  ]
 [chara_show  name="mayor"  storage="chara/1/thinking_mayor.png"  left=""  top=""  width=""  height=""  reflect="false"  ]
 *A-2:知ってもらう
+
+[autosave]
 
 [tb_start_text mode=3 ]
 #町長
