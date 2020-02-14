@@ -1,10 +1,11 @@
 [_tb_system_call storage=system/_scene06.ks]
 
-[mask  effect="fadeIn"  color="0x000000"  ]
-[autosave]
-
 *町長は再び敬太の自宅を訪ねていた。
 
+[autosave]
+
+[mask  effect="fadeIn"  color="0x000000"  ]
+[tb_hide_message_window  ]
 [tb_ptext_show  x="100"  y="480"  size="30"  color="0xffffff"  time="3501"  text="最終章　バック・トゥ・ザ・ペルソナ"  face="undefined"  edge="0x000000"  shadow="undefined"  anim="true"  fadeout="true"  wait="false"  in_effect="fadeIn"  out_effect="fadeOut"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [bg  time="500"  storage="DSC03401.jpg"  ]
@@ -343,7 +344,7 @@ CVR007は再び敬太の自宅を訪ねていた。[p][r]
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
 [mask  effect="fadeIn"  color="0x000000"  ]
-[tb_image_show  time="1000"  storage="default/06-001.jpg"  width="640"  height="960"  name="img_74"  ]
+[tb_image_show  time="1000"  storage="default/06-001.jpg"  width="640"  height="960"  name="img_76"  ]
 [bg  time="500"  storage="06-001.jpg"  ]
 [autosave]
 
@@ -384,7 +385,7 @@ CVR007と美代子、そして彩子と敬太の4人がいた。[p][r]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/06-002.jpg"  width="640"  height="960"  name="img_84"  ]
+[tb_image_show  time="1000"  storage="default/06-002.jpg"  width="640"  height="960"  name="img_87"  ]
 [bg  time="500"  storage="06-002.jpg"  ]
 [tb_start_text mode=3 ]
 #彩子
@@ -663,6 +664,7 @@ CVR007は、別れ際の美代子の表情が気になっていた。[p][r]
 そして・・・。[p][r]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [glink  color="white"  storage="scene06.ks"  size="20"  target="*▼Aを選択した場合（+1）"  text="美代子を優しく抱きしめた。"  x="130"  y="170"  width="300"  height="20"  _clickable_img=""  ]
 [glink  color="white"  storage="scene06.ks"  size="20"  text="美代子に深々と礼をした。"  target="*▼Bを選択した場合（0）"  y="220"  x="130"  width="300"  height="20"  ]
 [glink  color="white"  storage="scene06.ks"  size="20"  text="リンク王子の姿に擬態した。"  target="*▼Cを選択した場合（+3）"  y="270"  x="130"  width="300"  height="20"  ]
@@ -673,6 +675,7 @@ CVR007は、別れ際の美代子の表情が気になっていた。[p][r]
 [tb_eval  exp="f.Mscore+=1"  name="Mscore"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="false"  left="95"  top="440"  width="444"  height="658"  ]
 [camera  time="1000"  zoom="1.4"  wait="false"  y="-200"  x="50"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #CVR007
 「美代子さん・・・」[p][r]
@@ -692,6 +695,7 @@ CVR007は、別れ際の美代子の表情が気になっていた。[p][r]
 
 [tb_eval  exp="f.B_analysis+=1"  name="B_analysis"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [tb_eval  exp="f.Mscore+=0"  name="Mscore"  cmd="+="  op="t"  val="0"  val_2="undefined"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #CVR007
 （・・・美代子さん、[l][r]
@@ -710,6 +714,7 @@ CVR007は深々と頭を下げた。[p][r]
 [jump  storage="scene06.ks"  target="*エンディング"  ]
 *▼Cを選択した場合（+3）
 
+[tb_show_message_window  ]
 [tb_eval  exp="f.C_planning+=1"  name="C_planning"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [tb_eval  exp="f.Mscore+=3"  name="Mscore"  cmd="+="  op="t"  val="3"  val_2="undefined"  ]
 [tb_start_text mode=3 ]

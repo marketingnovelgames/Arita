@@ -4,7 +4,7 @@
 [autosave]
 
 [tb_ptext_show  x="100"  y="480"  size="30"  color="0xffffff"  time="1000"  text="第五章　失われた陶土"  face="undefined"  edge="0x000000"  shadow="undefined"  anim="true"  fadeout="true"  wait="true"  in_effect="fadeIn"  out_effect="fadeOut"  ]
-[tb_image_show  storage="default/DSC03822.png"  name="img_2"  ]
+[tb_image_show  storage="default/DSC03822.png"  name="img_3"  ]
 [tb_show_message_window  ]
 [delay  speed="50"  ]
 [tb_start_text mode=3 ]
@@ -201,7 +201,7 @@
 [_tb_end_text]
 
 [chara_show  name="mayor"  storage="chara/1/speach.png"  width="78"  height="116"  left="190"  top="476"  reflect="false"  wait="false"  ]
-[tb_image_show  storage="default/DSC03519item.png"  width="640"  height="960"  name="img_55"  ]
+[tb_image_show  storage="default/DSC03519item.png"  width="640"  height="960"  name="img_57"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #町長
@@ -223,6 +223,7 @@
 [tb_image_hide  ]
 [chara_show  name="mayor"  storage="chara/1/speach_mayor.png"  width="580"  height="861"  left="129"  top="374"  wait="false"  ]
 [bg  time="500"  storage="DSC03518.jpg"  ]
+[tb_image_show  time="1000"  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_66"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #町長
@@ -231,7 +232,6 @@
 「そのきっかけとなったのが、こちらの記事です」[p][r]
 [_tb_end_text]
 
-[chara_hide  name="mayor"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=3 ]
 #
 町長がそう言うと、[r]
@@ -267,7 +267,7 @@
 [chara_mod  name="mayor"  time=""  cross="false"  storage="chara/1/mayor_back.png"  ]
 [chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="false"  left="-89"  top="392"  width="580"  height="861"  ]
 [tb_image_hide  time=""  ]
-[tb_image_show  time=""  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_75"  ]
+[tb_image_show  time=""  storage="default/DSC03518item2.png"  width="640"  height="960"  name="img_77"  ]
 [chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/mayor_back.png"  ]
 [mask_off  time="0"  effect="fadeOut"  ]
 [autosave]
@@ -340,7 +340,7 @@
 
 [chara_hide_all  ]
 [tb_image_hide  ]
-[camera  time="1000"  zoom="1"  wait="true"  ]
+[reset_camera  time="1000"  wait="false"  ]
 [bg  time="500"  storage="space_fes2.jpg"  ]
 [tb_start_text mode=3 ]
 #町長
@@ -358,8 +358,10 @@
 お母さんとおばあちゃんを連れてきたよ！」[p][r]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="612"  height="1089"  left="47"  top="552"  reflect="false"  wait="false"  ]
-[chara_show  name="grandoma_keta"  storage="chara/7/silhouette003.png"  width="470"  height="707"  left="-131"  top="586"  reflect="true"  wait="false"  ]
+[chara_show  name="grandoma_keta"  storage="chara/7/silhouette003.png"  width="470"  height="707"  left="-131"  top="586"  reflect="true"  wait="true"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=3 ]
 #
 敬太が町長のもとに戻ってきた。[l][r]
@@ -447,9 +449,9 @@
 [_tb_end_text]
 
 [mask  effect="fadeIn"  color="0x000000"  ]
+[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/mayor_back.png"  ]
 [bg  time=""  method="crossfade"  storage="DSC03401.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/mayor_back.png"  ]
 [chara_show  name="ayako"  storage="chara/3/stand3_aya.png"  width="317"  height="562"  left="80"  top="286"  reflect="false"  wait="false"  ]
 [tb_start_text mode=3 ]
 #
@@ -482,7 +484,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_124"  ]
+[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_129"  ]
 [tb_start_text mode=3 ]
 #彩子
 「えっ・・・？[l][r]
@@ -534,7 +536,7 @@
 「この器、お父さんがつくった陶器に似ていないかしら？」[p][r]
 [_tb_end_text]
 
-[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_130"  ]
+[tb_image_show  storage="default/bdish2.jpg"  width="640"  height="960"  name="img_135"  ]
 [tb_start_text mode=3 ]
 #美代子
 「・・・」[p][r]
@@ -766,7 +768,6 @@ CVR007は、ふいに名前を呼ばれてビクッとした。[p][r]
 「なぜ、あなたは地球へ来られたのですか？」[p][r]
 [_tb_end_text]
 
-[chara_mod  name="mayor"  storage="chara/1/WACA11782.png"  ]
 [tb_start_text mode=3 ]
 #CVR007
 「よくぞ聞いてくれました・・・！！！[l][r]
@@ -812,7 +813,6 @@ CVR007は、ふいに名前を呼ばれてビクッとした。[p][r]
 そう言ってくださると、私も心が救われます・・・」[p][r]
 [_tb_end_text]
 
-[chara_mod  name="mayor"  storage="chara/1/WACA11782.png"  ]
 [tb_start_text mode=3 ]
 #CVR007
 （・・・しかし、王子は本当にこの方と恋に落ちたのだろうか・・・）[p][r]
@@ -830,7 +830,6 @@ CVR007は、ふいに名前を呼ばれてビクッとした。[p][r]
 （なぜ、そのような時間のズレが起きてしまうのか・・・？）[p][r]
 [_tb_end_text]
 
-[chara_mod  name="mayor"  storage="chara/1/surprise2_WAC.png"  ]
 [font  size="62"  color="0xffffff"  bold="true"  ]
 [tb_start_text mode=3 ]
 #CVR007
@@ -865,7 +864,7 @@ CVR007は、ふいに名前を呼ばれてビクッとした。[p][r]
 だから、物語の整合性を真剣に考えてもムダなんだ）[p][r]
 [_tb_end_text]
 
-[tb_image_show  storage="default/gameinTheGame2T.png"  width="640"  height="960"  name="img_211"  ]
+[tb_image_show  storage="default/gameinTheGame2T.png"  width="640"  height="960"  name="img_215"  ]
 [tb_start_text mode=3 ]
 #町長
 （もしかしたら、このゲーム自体が、王子が仕掛けた壮大なドッキリなのかもな）[p][r]
@@ -913,7 +912,7 @@ CVR007はそう独り言を言うと、異星人の姿に戻り、そそくさ�
 [s  ]
 *B:Relativity
 
-[chara_mod  name="mayor"  storage="chara/1/thinking_WAC.png"  ]
+[chara_show  name="mayor"  storage="chara/1/thinking_WAC.png"  left="298"  top="233"  width="500"  height="944"  reflect="false"  wait="false"  ]
 [bg  time="500"  storage="complexSmall.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
@@ -935,6 +934,7 @@ CVR007はそう独り言を言うと、異星人の姿に戻り、そそくさ�
 [_tb_end_text]
 
 [bg  time="500"  storage="DSC03885.jpg"  ]
+[chara_show  name="grandoma_keta"  storage="chara/7/silhouette003.png"  left="-81"  top="386"  width="513"  height="770"  reflect="true"  wait="false"  ]
 [tb_start_text mode=3 ]
 #美代子
 「・・・町長さん、[l][r]
@@ -954,7 +954,6 @@ CVR007はそう独り言を言うと、異星人の姿に戻り、そそくさ�
 「す、すみません、一瞬考え事をしていました」[p][r]
 [_tb_end_text]
 
-[chara_mod  name="mayor"  storage="chara/1/surprise2_WAC.png"  ]
 [tb_start_text mode=3 ]
 #CVR007
 「先ほどの話の続きをさせてください。[l][r]
@@ -970,7 +969,6 @@ CVR007はそう独り言を言うと、異星人の姿に戻り、そそくさ�
 「第七銀河全体を救う・・・？」[p]
 [_tb_end_text]
 
-[chara_mod  name="mayor"  storage="chara/1/surprise3_WAC.png"  ]
 [tb_start_text mode=3 ]
 #CVR007
 「私が・・・[l][r]
@@ -981,7 +979,7 @@ CVR007はそう独り言を言うと、異星人の姿に戻り、そそくさ�
 「・・・！」[p][r]
 [_tb_end_text]
 
-[chara_mod  name="mayor"  storage="chara/1/depress2_WAC.png"  ]
+[chara_move  name="mayor"  anim="false"  time="300"  effect="linear"  wait="true"  left="176"  top="231"  width="500"  height="944"  ]
 [tb_start_text mode=3 ]
 #
 CVR007はそう叫ぶと、敬太の祖母のほうへ身を乗り出した。[p][r]
@@ -1002,7 +1000,7 @@ CVR007は宇宙を救う覚悟で、祖母に懇願した。[p][r]
 取り乱してしまいまして・・・」[p][r]
 [_tb_end_text]
 
-[chara_mod  name="mayor"  time=""  cross="false"  storage="chara/1/crossseat_WAC.png"  ]
+[chara_mod  name="mayor"  time=""  cross="true"  storage="chara/1/crossseat_WAC.png"  ]
 [tb_start_text mode=3 ]
 #CVR007
 「なにとぞ・・・！！[r]
@@ -1113,7 +1111,6 @@ CVR007は宇宙を救う覚悟で、祖母に懇願した。[p][r]
 （森なんかに着陸しなければよかった・・・）[p][r]
 [_tb_end_text]
 
-[chara_mod  name="mayor"  storage="chara/1/depress2_WAC.png"  ]
 [tb_start_text mode=3 ]
 #美代子
 「でも、このままあきらめることはできません」[p][r]
