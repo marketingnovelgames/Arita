@@ -75,6 +75,8 @@
 [_tb_end_text]
 
 [bg  storage="DSC03609.jpg"  cross="true"  ]
+[autosave]
+
 [tb_start_text mode=3 ]
 彩子は35年前、この有田町に生まれた。[p][r]
 高校までを有田町で過ごした彩子は、大学への進学を機に上京。[p][r]
@@ -263,6 +265,8 @@
 *yamaguchi0201ver190915
 
 [bg  time="500"  method="crossfade"  storage="DSC03916.jpg"  ]
+[autosave]
+
 [chara_show  name="keta"  time="1000"  wait="false"  storage="chara/4/stand_keta.png"  width="335"  height="593"  left="287"  top="383"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
@@ -507,6 +511,8 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
+[autosave]
+
 [bg  time="500"  method="crossfade"  storage="DSC03315.jpg"  ]
 [chara_show  name="keta"  time="1000"  storage="chara/4/stand_keta_refrect.png"  width="333"  height="592"  left="26"  top="536"  reflect="false"  ]
 [chara_show  name="stationstaff"  time="1000"  storage="chara/9/stationstaff4.png"  width="517"  height="776"  left="223"  top="397"  reflect="true"  ]
@@ -754,6 +760,8 @@
 [_tb_end_text]
 
 [bg  time="500"  method="crossfade"  storage="ginkgo.jpg"  ]
+[autosave]
+
 [tb_start_text mode=3 ]
 「この有田町のシンボルでもある、樹齢1000年の大イチョウの樹」[p][r]
 「国の天然記念物に指定されているくらいに立派な樹だけれども、他府県にはあまり知られていない」[p][r]
@@ -860,6 +868,8 @@
 
 [mask  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[autosave]
+
 [tb_start_text mode=3 ]
 #店のおじさん（田中さん）
 「・・・というわけなんだ」[p][r]
@@ -986,6 +996,8 @@
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [bg  time="500"  method="crossfade"  storage="DSC03401.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[autosave]
+
 [tb_start_text mode=3 ]
 #
 そうして、町長は敬太の家にやって来た。[p][r]
